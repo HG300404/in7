@@ -50,7 +50,16 @@ namespace IN7.Module.BusinessObjects.ChungTu
         public Products Product
         {
             get { return _Product; }
-            set { SetPropertyValue<Products>(nameof(Product), ref _Product, value); }
+            set 
+            { 
+                if (SetPropertyValue<Products>(nameof(Product), ref _Product, value)
+                    && !IsLoading && !IsDeleted && value != null)
+                {
+                    Quantity = 1;
+                    UnitPrice = value.Price;
+                    Unit = value.Unit;
+                }
+            }
         }
 
 

@@ -243,3 +243,4 @@ E:\cnpm\IN7\IN7.Blazor.Server\obj\Release\net8.0\refint\IN7.Blazor.Server.dll
 E:\cnpm\IN7\IN7.Blazor.Server\obj\Release\net8.0\IN7.Blazor.Server.pdb
 E:\cnpm\IN7\IN7.Blazor.Server\obj\Release\net8.0\IN7.Blazor.Server.genruntimeconfig.cache
 E:\cnpm\IN7\IN7.Blazor.Server\obj\Release\net8.0\ref\IN7.Blazor.Server.dll
+E:\cnpm\IN7\IN7.Blazor.Server\obj\Release\net8.0\IN7.Blazor.Server.sourcelink.json

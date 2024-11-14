@@ -10,3 +10,4 @@ E:\cnpm\IN7\IN7.Module\obj\Release\net8.0\IN7.Module.dll
 E:\cnpm\IN7\IN7.Module\obj\Release\net8.0\refint\IN7.Module.dll
 E:\cnpm\IN7\IN7.Module\obj\Release\net8.0\IN7.Module.pdb
 E:\cnpm\IN7\IN7.Module\obj\Release\net8.0\ref\IN7.Module.dll
+E:\cnpm\IN7\IN7.Module\obj\Release\net8.0\IN7.Module.sourcelink.json

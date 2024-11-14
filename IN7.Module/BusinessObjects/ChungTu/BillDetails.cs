@@ -42,8 +42,6 @@ namespace IN7.Module.BusinessObjects.ChungTu
         }
 
 
-
-
         private Products _Product;
         [Association]
         public Products Product
@@ -54,6 +52,7 @@ namespace IN7.Module.BusinessObjects.ChungTu
                 if (SetPropertyValue<Products>(nameof(Product), ref _Product, value)
                     && !IsLoading && !IsDeleted && value != null)
                 {
+                    Quantity = 1;
                     UnitPrice = value.Price;
                     Unit = value.Unit;
                 }

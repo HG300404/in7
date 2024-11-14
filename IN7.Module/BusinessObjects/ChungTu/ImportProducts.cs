@@ -6,6 +6,7 @@ using DevExpress.Persistent.Base;
 using DevExpress.Persistent.BaseImpl;
 using DevExpress.Persistent.Validation;
 using DevExpress.Xpo;
+using DevExpress.XtraRichEdit.Import.Html;
 using IN7.Module.BusinessObjects.DanhMuc;
 using System;
 using System.Collections.Generic;
@@ -29,6 +30,10 @@ namespace IN7.Module.BusinessObjects.ChungTu
         {
             base.AfterConstruction();
             // Place your initialization code here (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument112834.aspx).
+            if (Session.IsNewObject(this))
+            {
+                CreatedAt = DateTime.Now;
+            }
         }
 
 
@@ -49,7 +54,15 @@ namespace IN7.Module.BusinessObjects.ChungTu
         public Suppliers Supplier
         {
             get { return _Supplier; }
-            set { SetPropertyValue<Suppliers>(nameof(Supplier), ref _Supplier, value); }
+            set {
+                if (SetPropertyValue<Suppliers>(nameof(Supplier), ref _Supplier, value)
+                    && !IsLoading && !IsDeleted && value != null)
+                {
+                    ContactName = value.ContactName;
+                    ContactEmail = value.ContactEmail;
+                    Phone = value.Phone;
+                }
+            }
         }
 
 
@@ -91,60 +104,101 @@ namespace IN7.Module.BusinessObjects.ChungTu
 
 
         private decimal _Total;
-        [XafDisplayName("Tong")]
+        [XafDisplayName("Tổng tiền")]
         [ModelDefault("DisplayFormat", "{0:### ### ###}")]
         [ModelDefault("EditMask", "{0:### ### ###}")]
         public decimal Total
         {
-            get { return _Total; }
-            set { SetPropertyValue<decimal>(nameof(Total), ref _Total, value); }
+            get
+            {
+                if (!IsLoading && !IsSaving && !Session.IsObjectsLoading)
+                {
+                    _Total = CalculateTotal(); // Lưu giá trị vào trường
+                }
+                return _Total;
+            }
+            set
+            {
+                SetPropertyValue(nameof(Total), ref _Total, value); // Lưu giá trị khi được gán
+            }
         }
 
-        private int _Type;
+        // Phương thức tính toán giá trị Total
+        private decimal CalculateTotal()
+        {
+            decimal price = 0;
+            if (ImportProductDetails != null)
+            {
+                foreach (ImportProductDetails item in ImportProductDetails)
+                {
+                    price += item.Price;
+                }
+            }
+            // Tính toán giá trị sau khi thêm thuế
+            return price;
+        }
+
+        public enum PaymentType
+        {
+            [XafDisplayName("Trả hết")]
+            OneTime,
+            [XafDisplayName("Trả góp")]
+            Installment
+        }
+
+        private PaymentType _Type;
         [XafDisplayName("Loại hình trả")]
-        public int Type
+        public PaymentType Type
         {
             get { return _Type; }
-            set { SetPropertyValue<int>(nameof(Type), ref _Type, value); }
+            set { SetPropertyValue(nameof(Type), ref _Type, value); }
         }
 
-        private int _Tax;
-        [XafDisplayName("Thuế")]
-        public int Tax
+
+        public enum Method
         {
-            get { return _Tax; }
-            set { SetPropertyValue<int>(nameof(Tax), ref _Tax, value); }
+            [XafDisplayName("Tiền mặt")]
+            Cash,
+            [XafDisplayName("Chuyển khoản")]
+            BankTransfer
         }
 
-        private decimal _ShippingPrice;
-        [XafDisplayName("Tiền Ship ")]
-        [ModelDefault("DisplayFormat", "{0:# ### ###}")]
-        [ModelDefault("EditMask", "{0:# ### ###}")]
-        public decimal ShippingPrice
-        {
-            get { return _ShippingPrice; }
-            set { SetPropertyValue<decimal>(nameof(ShippingPrice), ref _ShippingPrice, value); }
-        }
 
-        private string _PaymentMethod;
-        [XafDisplayName("Phương thức TT"), Size(20)]
-        public string PaymentMethod
+        private Method _PaymentMethod;
+        [XafDisplayName("Phương thức TT")]
+        public Method PaymentMethod
         {
             get { return _PaymentMethod; }
-            set { SetPropertyValue<string>(nameof(PaymentMethod), ref _PaymentMethod, value); }
+            set { SetPropertyValue(nameof(PaymentMethod), ref _PaymentMethod, value); }
         }
 
-        private decimal _Interest;
-        [XafDisplayName("Lãi")]
-        [ModelDefault("DisplayFormat", "{0:C2}")]
-        [ModelDefault("EditMask", "{0:C2}")]
 
-        public decimal Interest
+        private decimal _MoneyMonth;
+        [XafDisplayName("Tiền tháng")]
+        [ModelDefault("DisplayFormat", "{0:### ### ###}")]
+        [ModelDefault("EditMask", "{0:### ### ###}")]
+        public decimal MoneyMonth
         {
-            get { return _Interest; }
-            set { SetPropertyValue<decimal>(nameof(Interest), ref _Interest, value); }
+            get { return _MoneyMonth; }
+            set { SetPropertyValue<decimal>(nameof(MoneyMonth), ref _MoneyMonth, value); }
         }
 
+        private decimal _Deposit;
+        [XafDisplayName("Tiền Cọc")]
+        [ModelDefault("DisplayFormat", "{0:### ### ###}")]
+        [ModelDefault("EditMask", "{0:### ### ###}")]
+        public decimal Deposit
+        {
+            get { return _Deposit; }
+            set
+            {
+                if (SetPropertyValue<decimal>(nameof(Deposit), ref _Deposit, value)
+                   && Total != 0)
+                {
+                    MoneyMonth = Math.Round((Total - value) * 0.1m / 6, 1, MidpointRounding.AwayFromZero);
+                }
+            }
+        }
 
         private string _Time;
         [XafDisplayName("Thời hạn trả")]
@@ -152,6 +206,17 @@ namespace IN7.Module.BusinessObjects.ChungTu
         {
             get { return _Time; }
             set { SetPropertyValue<string>(nameof(Time), ref _Time, value); }
+        }
+
+
+        private DateTime _CreatedAt;
+        [XafDisplayName("Ngày Đặt")]
+        [ModelDefault("DisplayFormat", "{0:dd/MM/yyyy HH:mm}")]
+        [ModelDefault("EditMask", "{0:dd/MM/yyyy HH:mm}")]
+        public DateTime CreatedAt
+        {
+            get { return _CreatedAt; }
+            set { SetPropertyValue<DateTime>(nameof(CreatedAt), ref _CreatedAt, value); }
         }
     }
 }
