@@ -1,5 +1,6 @@
 ﻿using DevExpress.Data.Filtering;
 using DevExpress.ExpressApp;
+using DevExpress.ExpressApp.ConditionalAppearance;
 using DevExpress.ExpressApp.DC;
 using DevExpress.ExpressApp.Model;
 using DevExpress.Persistent.Base;
@@ -10,6 +11,7 @@ using IN7.Module.BusinessObjects.DanhMuc;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 
@@ -37,7 +39,7 @@ namespace IN7.Module.BusinessObjects.ChungTu
 
 
 
-        [DevExpress.Xpo.Aggregated, Association]
+        [DevExpress.Xpo.Aggregated, DevExpress.Xpo.Association]
         public XPCollection<BillDetails> BillDetails
         {
             get { return GetCollection<BillDetails>(nameof(BillDetails)); }
@@ -48,7 +50,7 @@ namespace IN7.Module.BusinessObjects.ChungTu
 
         private Customers _Customer;
         [XafDisplayName("Khách Hàng")]
-        [Association]
+        [DevExpress.Xpo.Association]
         public Customers Customer
         {
             get { return _Customer; }
@@ -58,15 +60,30 @@ namespace IN7.Module.BusinessObjects.ChungTu
 
         private Employees _Employee;
         [XafDisplayName("Nhân Viên")]
-        [Association]
+        [DevExpress.Xpo.Association]
         public Employees Employee
         {
             get { return _Employee; }
             set { SetPropertyValue(nameof(Employee), ref _Employee, value); }
         }
 
+        private decimal _Tax = 0.1m; // Gán giá trị mặc định là 10%
+
+        [XafDisplayName("Thuế")]
+        [ModelDefault("DisplayFormat", "{0:P0}")] // Hiển thị dạng phần trăm
+        public decimal Tax
+        {
+            get { return _Tax; }
+            set
+            {
+                // Không cho phép thay đổi giá trị của Tax
+                _Tax = 0.1m;
+            }
+        }
 
 
+
+        private decimal _ProductPrice;
         [XafDisplayName("Giá SP")]
         [ModelDefault("DisplayFormat", "{0:### ### ###}")]
         [ModelDefault("EditMask", "{0:### ### ###}")]
@@ -74,28 +91,38 @@ namespace IN7.Module.BusinessObjects.ChungTu
         {
             get
             {
-                decimal price = 0;
+                return _ProductPrice;
+            }
+            set
+            {
+                if (SetPropertyValue(nameof(ProductPrice), ref _ProductPrice, value)
+                    && !IsLoading && !IsSaving && !Session.IsObjectsLoading){
+                    _ProductPrice = CalculateProductPrice();
+                }
+            }
+        }
+
+
+        // Phương thức riêng biệt để tính toán giá trị ProductPrice
+        private decimal CalculateProductPrice()
+        {
+            decimal price = 0;
+            if (BillDetails != null)
+            {
                 foreach (BillDetails item in BillDetails)
                 {
                     price += item.Price;
                 }
-                return price;
             }
-
+            // Tính toán giá trị sau khi thêm thuế
+            return price * (1 + Tax);
         }
 
 
 
-        private decimal _ShippingPrice;
-        [XafDisplayName("Tiền Ship ")]
-        [ModelDefault("DisplayFormat", "{0:# ### ###}")]
-        [ModelDefault("EditMask", "{0:# ### ###}")]
-        public decimal ShippingPrice
-        {
-            get { return _ShippingPrice; }
-            set { SetPropertyValue<decimal>(nameof(ShippingPrice), ref _ShippingPrice, value); }
-        }
 
+
+        private decimal _TotalAmount;
 
         [XafDisplayName("Tổng Tiền")]
         [ModelDefault("DisplayFormat", "{0:### ### ###}")]
@@ -104,71 +131,160 @@ namespace IN7.Module.BusinessObjects.ChungTu
         {
             get
             {
-                if (Tax != 0)
-                {
-                    decimal price = ProductPrice * Tax + ShippingPrice;
-                    return price;
-                }
-                else
-                {
-                    decimal price = ProductPrice + ShippingPrice;
-                    return price;
-                }
+                return _TotalAmount;
             }
-
+            set
+            {
+                SetPropertyValue(nameof(TotalAmount), ref _TotalAmount, value);
+                
+            }
         }
 
+        public enum OptionType
+        {
+            [XafDisplayName("3 tháng - 30%")]
+            Three = 3,
+            [XafDisplayName("6 tháng - 20%")]
+            Six = 6,
+            [XafDisplayName("9 tháng - 15%")]
+            Nine = 9,
+            [XafDisplayName("12 tháng - 10%")]
+            Twelve = 12
+        }
+
+        private OptionType _Option;
+        [XafDisplayName("Kỳ hạn trả góp")]
+        public OptionType Option
+        {
+            get { return _Option; }
+            set
+            {
+                if (SetPropertyValue(nameof(Option), ref _Option, value))
+                {
+                    decimal minimumPercentage = 0m;
+                    switch (value)
+                    {
+                        case OptionType.Three:
+                            minimumPercentage = 30m;
+                            break;
+                        case OptionType.Six:
+                            minimumPercentage = 20m;
+                            break;
+                        case OptionType.Nine:
+                            minimumPercentage = 15m;
+                            break;
+                        case OptionType.Twelve:
+                            minimumPercentage = 10m;
+                            break;
+                    }
+
+                    // Tính toán Minimum theo công thức mới
+                    Minimum = ProductPrice * (minimumPercentage / 100);
+
+                    // Cập nhật Time khi chọn Option
+                    Time = DateTime.Now.AddMonths((int)value).ToString("dd/MM/yyyy HH:mm");
+                }
+            }
+        }
+
+        private decimal _Minimum;
+        [XafDisplayName("Cọc tối thiểu")]
+        [ModelDefault("DisplayFormat", "{0:### ### ###}")]
+        [ReadOnly(true)]
+        public decimal Minimum
+        {
+            get { return _Minimum; }
+            set { SetPropertyValue(nameof(Minimum), ref _Minimum, value); }
+        }
 
         private decimal _Deposit;
         [XafDisplayName("Tiền Cọc")]
         [ModelDefault("DisplayFormat", "{0:### ### ###}")]
         [ModelDefault("EditMask", "{0:### ### ###}")]
+        //[RuleValueComparison(DefaultContexts.Save, ValueComparisonType.GreaterThanOrEqual, "Minimum",
+        //CustomMessageTemplate = "Tiền Cọc phải lớn hơn hoặc bằng Cọc tối thiểu")]
         public decimal Deposit
         {
             get { return _Deposit; }
-            set { SetPropertyValue<decimal>(nameof(Deposit), ref _Deposit, value); }
+            set
+            {
+                if (SetPropertyValue<decimal>(nameof(Deposit), ref _Deposit, value))
+                {
+                    decimal minimumPercentage = 0m;
+                    if (Option != 0 && (int)Option != 0)
+                    {
+                        switch (Option)
+                        {
+                            case OptionType.Three:
+                                minimumPercentage = 30m;
+                                break;
+                            case OptionType.Six:
+                                minimumPercentage = 20m;
+                                break;
+                            case OptionType.Nine:
+                                minimumPercentage = 15m;
+                                break;
+                            case OptionType.Twelve:
+                                minimumPercentage = 10m;
+                                break;
+                        }
+
+                        // Đảm bảo rằng Option không bằng 0 trước khi thực hiện phép chia
+                        if ((int)Option != 0)
+                        {
+                            MoneyMonth = ((ProductPrice - Deposit) * (1 + minimumPercentage / 100)) / (int)Option;
+                        }
+                        else
+                        {
+                            MoneyMonth = 0; // Hoặc giá trị mặc định khác nếu cần
+                        }
+                    }
+                    else
+                    {
+                        MoneyMonth = 0; // Hoặc giá trị mặc định khác nếu cần
+                    }
+
+
+                }
+            }
+        }
+
+        private decimal _MoneyMonth;
+        [XafDisplayName("Tiền tháng")]
+        [ModelDefault("DisplayFormat", "{0:### ### ###}")]
+        [ModelDefault("EditMask", "{0:### ### ###}")]
+        public decimal MoneyMonth
+        {
+            get { return _MoneyMonth; }
+            set { SetPropertyValue<decimal>(nameof(MoneyMonth), ref _MoneyMonth, value); }
         }
 
 
-        private string _PaymentMethod;
-        [XafDisplayName("Phương thức TT"), Size(20)]
-        public string PaymentMethod
+
+        public enum Method
+        {
+            [XafDisplayName("Tiền mặt")]
+            Cash,
+            [XafDisplayName("Chuyển khoản")]
+            BankTransfer
+        }
+
+
+        private Method _PaymentMethod;
+        [XafDisplayName("Phương thức TT")]
+        public Method PaymentMethod
         {
             get { return _PaymentMethod; }
-            set { SetPropertyValue<string>(nameof(PaymentMethod), ref _PaymentMethod, value); }
+            set { SetPropertyValue(nameof(PaymentMethod), ref _PaymentMethod, value); }
         }
 
 
-
-        private int _Tax;
-        [XafDisplayName("Thuế")]
-        [ModelDefault("DisplayFormat", "{0:C2}")]
-        [ModelDefault("EditMask", "{0:C2}")]
-        public int Tax
+        public enum PaymentType
         {
-            get { return _Tax; }
-            set { SetPropertyValue<int>(nameof(Tax), ref _Tax, value); }
-        }
-
-
-        private int _Type;
-        [XafDisplayName("Loại hình trả")]
-        public int Type
-        {
-            get { return _Type; }
-            set { SetPropertyValue<int>(nameof(Type), ref _Type, value); }
-        }
-
-
-
-        private decimal _Interest;
-        [XafDisplayName("Lãi")]
-        [ModelDefault("DisplayFormat", "{0:C2}")]
-        [ModelDefault("EditMask", "{0:C2}")]
-        public decimal Interest
-        {
-            get { return _Interest; }
-            set { SetPropertyValue<decimal>(nameof(Interest), ref _Interest, value); }
+            [XafDisplayName("Trả hết")]
+            OneTime,
+            [XafDisplayName("Trả góp")]
+            Installment
         }
 
 
@@ -178,6 +294,48 @@ namespace IN7.Module.BusinessObjects.ChungTu
         {
             get { return _Time; }
             set { SetPropertyValue<string>(nameof(Time), ref _Time, value); }
+        }
+
+        private PaymentType _Type;
+        [XafDisplayName("Loại hình trả")]
+        public PaymentType Type
+        {
+            get { return _Type; }
+            set
+            {
+                if (SetPropertyValue(nameof(Type), ref _Type, value)
+                       && !IsLoading && !IsSaving && !Session.IsObjectsLoading)
+                {
+                    if (value == PaymentType.OneTime)
+                    {
+                        // Nếu loại hình trả là "Trả hết"
+                        _TotalAmount = ProductPrice;
+                    }
+                    else
+                    {
+                        // Nếu loại hình trả là "Trả góp"
+                        _TotalAmount = Deposit + (MoneyMonth * (int)Option);
+                    }
+                }
+            }
+        }
+
+
+        public enum StatusOption
+        {
+            [XafDisplayName("Đã đặt")]
+            Ordered,
+            [XafDisplayName("Giao hàng")]
+            Delivering,
+            [XafDisplayName("Hoàn thành")]
+            Completed
+        }
+
+        private StatusOption _Status = StatusOption.Ordered;
+        public StatusOption Status
+        {
+            get { return _Status; }
+            set { SetPropertyValue(nameof(Status), ref _Status, value); }
         }
 
 
@@ -193,15 +351,16 @@ namespace IN7.Module.BusinessObjects.ChungTu
         }
 
 
-
-        //private int _NBill;
-        //[XafDisplayName("Số HĐ")]
-        //[RuleUniqueValue]
-        //public int NBill
+        //private DateTime _UpdatedAt;
+        //[XafDisplayName("Ngày Sửa")]
+        //[ModelDefault("DisplayFormat", "{0:dd/MM/yyyy HH:mm}")]
+        //[ModelDefault("EditMask", "{0:dd/MM/yyyy HH:mm}")]
+        //public DateTime UpdatedAt
         //{
-        //    get { return _NBill; }
-        //    set { SetPropertyValue<int>(nameof(NBill), ref _NBill, value); }
+        //    get { return _UpdatedAt; }
+        //    set { SetPropertyValue<DateTime>(nameof(UpdatedAt), ref _UpdatedAt, value); }
         //}
+
 
     }
 }
