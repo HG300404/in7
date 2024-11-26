@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "E:\\cnpm\\IN7\\IN7.Module\\IN7.Module.csproj": {}
+    "C:\\CNPM\\in7\\IN7.Module\\IN7.Module.csproj": {}
   },
   "projects": {
-    "E:\\cnpm\\IN7\\IN7.Module\\IN7.Module.csproj": {
+    "C:\\CNPM\\in7\\IN7.Module\\IN7.Module.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\cnpm\\IN7\\IN7.Module\\IN7.Module.csproj",
+        "projectUniqueName": "C:\\CNPM\\in7\\IN7.Module\\IN7.Module.csproj",
         "projectName": "IN7.Module",
-        "projectPath": "E:\\cnpm\\IN7\\IN7.Module\\IN7.Module.csproj",
-        "packagesPath": "C:\\Users\\MaiHuong\\.nuget\\packages\\",
-        "outputPath": "E:\\cnpm\\IN7\\IN7.Module\\obj\\",
+        "projectPath": "C:\\CNPM\\in7\\IN7.Module\\IN7.Module.csproj",
+        "packagesPath": "C:\\Users\\DIEM\\.nuget\\packages\\",
+        "outputPath": "C:\\CNPM\\in7\\IN7.Module\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
+          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\MaiHuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DIEM\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,67 +59,67 @@
             },
             "DevExpress.ExpressApp": {
               "target": "Package",
-              "version": "[24.1.7, )"
+              "version": "[24.1.5, )"
             },
             "DevExpress.ExpressApp.CloneObject.Xpo": {
               "target": "Package",
-              "version": "[24.1.7, )"
+              "version": "[24.1.5, )"
             },
             "DevExpress.ExpressApp.CodeAnalysis": {
               "target": "Package",
-              "version": "[24.1.7, )"
+              "version": "[24.1.5, )"
             },
             "DevExpress.ExpressApp.ConditionalAppearance": {
               "target": "Package",
-              "version": "[24.1.7, )"
+              "version": "[24.1.5, )"
             },
             "DevExpress.ExpressApp.Dashboards": {
               "target": "Package",
-              "version": "[24.1.7, )"
+              "version": "[24.1.5, )"
             },
             "DevExpress.ExpressApp.Notifications": {
               "target": "Package",
-              "version": "[24.1.7, )"
+              "version": "[24.1.5, )"
             },
             "DevExpress.ExpressApp.Objects": {
               "target": "Package",
-              "version": "[24.1.7, )"
+              "version": "[24.1.5, )"
             },
             "DevExpress.ExpressApp.Office": {
               "target": "Package",
-              "version": "[24.1.7, )"
+              "version": "[24.1.5, )"
             },
             "DevExpress.ExpressApp.ReportsV2": {
               "target": "Package",
-              "version": "[24.1.7, )"
+              "version": "[24.1.5, )"
             },
             "DevExpress.ExpressApp.Scheduler": {
               "target": "Package",
-              "version": "[24.1.7, )"
+              "version": "[24.1.5, )"
             },
             "DevExpress.ExpressApp.Security": {
               "target": "Package",
-              "version": "[24.1.7, )"
+              "version": "[24.1.5, )"
             },
             "DevExpress.ExpressApp.Security.Xpo": {
               "target": "Package",
-              "version": "[24.1.7, )"
+              "version": "[24.1.5, )"
             },
             "DevExpress.ExpressApp.Validation": {
               "target": "Package",
-              "version": "[24.1.7, )"
+              "version": "[24.1.5, )"
             },
             "DevExpress.ExpressApp.Xpo": {
               "target": "Package",
-              "version": "[24.1.7, )"
+              "version": "[24.1.5, )"
             },
             "DevExpress.Persistent.Base": {
               "target": "Package",
-              "version": "[24.1.7, )"
+              "version": "[24.1.5, )"
             },
             "DevExpress.Persistent.BaseImpl.Xpo": {
               "target": "Package",
-              "version": "[24.1.7, )"
+              "version": "[24.1.5, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
