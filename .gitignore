@@ -1,5 +1,10 @@
-.cr
-.git
-.github
-.vs
-IN7.sln
+.cr/
+.git/
+.github/
+.vs/
+*.user
+*.suo
+bin/
+obj/
+*.tmp
+*.log

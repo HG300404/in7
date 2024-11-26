@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|solutionrelative:in7.module\\businessobjects\\chungtu\\bills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0524114B-AF75-45A6-9060-5334618BF4E5}|IN7.Blazor.Server\\IN7.Blazor.Server.csproj|e:\\cnpm\\in7\\in7.blazor.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0524114B-AF75-45A6-9060-5334618BF4E5}|IN7.Blazor.Server\\IN7.Blazor.Server.csproj|solutionrelative:in7.blazor.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|e:\\cnpm\\in7\\in7.module\\businessobjects\\chungtu\\importproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|solutionrelative:in7.module\\businessobjects\\chungtu\\importproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,23 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\cnpm\\IN7\\IN7.Blazor.Server\\appsettings.json",
-              "RelativeDocumentMoniker": "IN7.Blazor.Server\\appsettings.json",
-              "ToolTip": "E:\\cnpm\\IN7\\IN7.Blazor.Server\\appsettings.json",
-              "RelativeToolTip": "IN7.Blazor.Server\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-12T10:13:04.719Z"
             },
             {
               "$type": "Document",
@@ -56,26 +40,25 @@
               "RelativeDocumentMoniker": "IN7.Module\\BusinessObjects\\ChungTu\\Bills.cs",
               "ToolTip": "E:\\cnpm\\IN7\\IN7.Module\\BusinessObjects\\ChungTu\\Bills.cs",
               "RelativeToolTip": "IN7.Module\\BusinessObjects\\ChungTu\\Bills.cs",
-              "ViewState": "AgIAACwBAAAAAAAAAAAvwEEBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAM4AAAAAmpmZmZkgwOoAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T14:58:55.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T14:58:55.693Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ImportProducts.cs",
               "DocumentMoniker": "E:\\cnpm\\IN7\\IN7.Module\\BusinessObjects\\ChungTu\\ImportProducts.cs",
               "RelativeDocumentMoniker": "IN7.Module\\BusinessObjects\\ChungTu\\ImportProducts.cs",
               "ToolTip": "E:\\cnpm\\IN7\\IN7.Module\\BusinessObjects\\ChungTu\\ImportProducts.cs",
               "RelativeToolTip": "IN7.Module\\BusinessObjects\\ChungTu\\ImportProducts.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAIA0wGYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAuwHgAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T14:54:04.301Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ImportProductDetails.cs",
               "DocumentMoniker": "E:\\cnpm\\IN7\\IN7.Module\\BusinessObjects\\ChungTu\\ImportProductDetails.cs",
               "RelativeDocumentMoniker": "IN7.Module\\BusinessObjects\\ChungTu\\ImportProductDetails.cs",
@@ -87,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "BillDetails.cs",
               "DocumentMoniker": "E:\\cnpm\\IN7\\IN7.Module\\BusinessObjects\\ChungTu\\BillDetails.cs",
               "RelativeDocumentMoniker": "IN7.Module\\BusinessObjects\\ChungTu\\BillDetails.cs",
