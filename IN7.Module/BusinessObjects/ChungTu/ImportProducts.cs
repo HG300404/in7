@@ -39,6 +39,7 @@ namespace IN7.Module.BusinessObjects.ChungTu
 
 
         private Employees _Employee;
+        [XafDisplayName("Nhân Viên")]
         [Association]
         public Employees Employee
         {
@@ -50,6 +51,7 @@ namespace IN7.Module.BusinessObjects.ChungTu
 
 
         private Suppliers _Supplier;
+        [XafDisplayName("Nhà Cung Cấp")]
         [Association]
         public Suppliers Supplier
         {
@@ -77,7 +79,7 @@ namespace IN7.Module.BusinessObjects.ChungTu
 
 
         private string _ContactName;
-        [XafDisplayName("Tên Nguoi LHe"), Size(100)]
+        [XafDisplayName("Tên Người LHe"), Size(100)]
         public string ContactName
         {
             get { return _ContactName; }
@@ -86,7 +88,7 @@ namespace IN7.Module.BusinessObjects.ChungTu
 
 
         private string _ContactEmail;
-        [XafDisplayName("Mail Nguoi LHe"), Size(100)]
+        [XafDisplayName("Mail Người LHe"), Size(100)]
         public string ContactEmail
         {
             get { return _ContactEmail; }
@@ -111,15 +113,15 @@ namespace IN7.Module.BusinessObjects.ChungTu
         {
             get
             {
-                if (!IsLoading && !IsSaving && !Session.IsObjectsLoading)
-                {
-                    _Total = CalculateTotal(); // Lưu giá trị vào trường
-                }
                 return _Total;
             }
             set
             {
-                SetPropertyValue(nameof(Total), ref _Total, value); // Lưu giá trị khi được gán
+                if (SetPropertyValue(nameof(Total), ref _Total, value)
+                    && !IsLoading && !IsSaving && !IsDeleted && ImportProductDetails != null)
+                {
+                    value = CalculateTotal();
+                }
             }
         }
 
@@ -200,12 +202,12 @@ namespace IN7.Module.BusinessObjects.ChungTu
             }
         }
 
-        private string _Time;
+        private DateTime _Time;
         [XafDisplayName("Thời hạn trả")]
-        public string Time
+        public DateTime Time
         {
             get { return _Time; }
-            set { SetPropertyValue<string>(nameof(Time), ref _Time, value); }
+            set { SetPropertyValue<DateTime>(nameof(Time), ref _Time, value); }
         }
 
 
