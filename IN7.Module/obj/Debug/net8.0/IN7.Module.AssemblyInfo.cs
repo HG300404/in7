@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IN7.Module")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90d287c740b0af9f13800b1ebf6f8994dec69050")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a758d9e217527f311d35d0e85a0f9c23c5abe24")]
 [assembly: System.Reflection.AssemblyProductAttribute("IN7.Module")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IN7.Module")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.*")]
