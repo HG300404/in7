@@ -361,6 +361,5 @@ namespace IN7.Module.BusinessObjects.ChungTu
         //    set { SetPropertyValue<DateTime>(nameof(UpdatedAt), ref _UpdatedAt, value); }
         //}
 
-
     }
 }
