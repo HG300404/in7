@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -37,6 +37,7 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Bills.cs",
@@ -46,8 +47,7 @@
               "RelativeToolTip": "IN7.Module\\BusinessObjects\\ChungTu\\Bills.cs",
               "ViewState": "AgIAAGQAAAAAAAAAAAAowGkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T14:58:55.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T14:58:55.693Z"
             },
             {
               "$type": "Document",
