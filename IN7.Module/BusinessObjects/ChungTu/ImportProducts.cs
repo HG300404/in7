@@ -25,15 +25,17 @@ namespace IN7.Module.BusinessObjects.ChungTu
     //[Persistent("DatabaseTableName")]
     // Specify more UI options using a declarative approach (https://documentation.devexpress.com/#eXpressAppFramework/CustomDocument112701).
     public class ImportProducts(Session session) : BaseObject(session)
-    { // Inherit from a different class to provide a custom primary key, concurrency and deletion behavior, etc. (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument113146.aspx).
+    {
         public override void AfterConstruction()
         {
             base.AfterConstruction();
+            // Khởi tạo giá trị mặc định
+            TrangThai = TrangThaiNhapHang.DaDatHang;
             // Place your initialization code here (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument112834.aspx).
             if (Session.IsNewObject(this))
             {
                 CreatedAt = DateTime.Now;
-            }
+        }
         }
 
 
@@ -63,7 +65,7 @@ namespace IN7.Module.BusinessObjects.ChungTu
                     ContactName = value.ContactName;
                     ContactEmail = value.ContactEmail;
                     Phone = value.Phone;
-                }
+        }
             }
         }
 
@@ -76,8 +78,6 @@ namespace IN7.Module.BusinessObjects.ChungTu
             get { return GetCollection<ImportProductDetails>(nameof(ImportProductDetails)); }
         }
 
-
-
         private string _ContactName;
         [XafDisplayName("Tên Người LHe"), Size(100)]
         public string ContactName
@@ -86,7 +86,6 @@ namespace IN7.Module.BusinessObjects.ChungTu
             set { SetPropertyValue<string>(nameof(ContactName), ref _ContactName, value); }
         }
 
-
         private string _ContactEmail;
         [XafDisplayName("Mail Người LHe"), Size(100)]
         public string ContactEmail
@@ -94,7 +93,6 @@ namespace IN7.Module.BusinessObjects.ChungTu
             get { return _ContactEmail; }
             set { SetPropertyValue<string>(nameof(ContactEmail), ref _ContactEmail, value); }
         }
-
 
         private string _Phone;
         [XafDisplayName("SĐT"), Size(20)]
@@ -106,7 +104,7 @@ namespace IN7.Module.BusinessObjects.ChungTu
 
 
         private decimal _Total;
-        [XafDisplayName("Tổng tiền")]
+        [XafDisplayName("Tổng Tiền")]
         [ModelDefault("DisplayFormat", "{0:### ### ###}")]
         [ModelDefault("EditMask", "{0:### ### ###}")]
         public decimal Total
@@ -185,6 +183,7 @@ namespace IN7.Module.BusinessObjects.ChungTu
             set { SetPropertyValue<decimal>(nameof(MoneyMonth), ref _MoneyMonth, value); }
         }
 
+
         private decimal _Deposit;
         [XafDisplayName("Tiền Cọc")]
         [ModelDefault("DisplayFormat", "{0:### ### ###}")]
@@ -195,8 +194,8 @@ namespace IN7.Module.BusinessObjects.ChungTu
             set
             {
                 if (SetPropertyValue<decimal>(nameof(Deposit), ref _Deposit, value)
-                   && Total != 0)
-                {
+                   && Total != 0) 
+                { 
                     MoneyMonth = Math.Round((Total - value) * 0.1m / 6, 1, MidpointRounding.AwayFromZero);
                 }
             }
@@ -209,7 +208,7 @@ namespace IN7.Module.BusinessObjects.ChungTu
             get { return _Time; }
             set { SetPropertyValue<DateTime>(nameof(Time), ref _Time, value); }
         }
-
+ 
 
         private DateTime _CreatedAt;
         [XafDisplayName("Ngày Đặt")]
@@ -218,7 +217,10 @@ namespace IN7.Module.BusinessObjects.ChungTu
         public DateTime CreatedAt
         {
             get { return _CreatedAt; }
-            set { SetPropertyValue<DateTime>(nameof(CreatedAt), ref _CreatedAt, value); }
+            set
+            {
+                SetPropertyValue<DateTime>(nameof(CreatedAt), ref _CreatedAt, value);
+            }
         }
     }
 }

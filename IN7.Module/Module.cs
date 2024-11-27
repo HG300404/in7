@@ -13,6 +13,11 @@ using DevExpress.ExpressApp.Model.DomainLogics;
 using DevExpress.ExpressApp.Model.NodeGenerators;
 using DevExpress.Xpo;
 using DevExpress.ExpressApp.Xpo;
+using IN7.Module.BusinessObjects;
+using IN7.Module.BusinessObjects.HoTro;
+using DevExpress.XtraExport.Xls;
+using QLKD.Module;
+using DevExpress.ExpressApp.Security.ClientServer;
 
 namespace IN7.Module;
 
@@ -48,6 +53,58 @@ public sealed class IN7Module : ModuleBase {
     public override void Setup(XafApplication application) {
         base.Setup(application);
         // Manage various aspects of the application UI and behavior at the module level.
+        ApplicationHelper.Instance.Initialize(application);
+        application.LoggedOn += Application_LoggedOn;
+        application.SetupComplete += Application_SetupComplete;
+    }
+    private void Application_SetupComplete(object sender, EventArgs e)
+    {
+        Application.ObjectSpaceCreated += Application_ObjectSpaceCreated;
+    }
+    private void Application_ObjectSpaceCreated(object sender, ObjectSpaceCreatedEventArgs e)
+    {
+        if (e.ObjectSpace is NonPersistentObjectSpace space)
+        {
+            IObjectSpace additionalObjectSpace = Application.CreateObjectSpace(typeof(ApplicationUser));
+            space.AdditionalObjectSpaces.Add(additionalObjectSpace);
+
+            space.ObjectGetting += ObjectSpace_ObjectGetting;
+            e.ObjectSpace.Disposed += (s, args) =>
+            {
+                ((NonPersistentObjectSpace)s).ObjectGetting -= ObjectSpace_ObjectGetting;
+                additionalObjectSpace.Dispose();
+            };
+        }
+        if (e.ObjectSpace is NonPersistentObjectSpace nonPersistentObjectSpace)
+        {
+            nonPersistentObjectSpace.ObjectsGetting += NonPersistentObjectSpace_ObjectsGetting;
+        }
+    }
+    private void NonPersistentObjectSpace_ObjectsGetting(object sender, ObjectsGettingEventArgs e)
+    {
+        NonPersistentObjectSpace obs = (NonPersistentObjectSpace)sender;
+        XPObjectSpace objectSpace = (XPObjectSpace)obs.AdditionalObjectSpaces[0];
+        if (e.ObjectType == typeof(RptTonKhoDinhKy))
+        {
+            e.Objects = GetBaocao.GetDoanhthu(objectSpace);
+        }
+    }
+
+    private void ObjectSpace_ObjectGetting(object sender, ObjectGettingEventArgs e)
+    {
+        if (e.SourceObject is IObjectSpaceLink)
+        {
+            e.TargetObject = e.SourceObject;
+            ((IObjectSpaceLink)e.TargetObject).ObjectSpace = (IObjectSpace)sender;
+        }
+    }
+
+    private void Application_LoggedOn(object sender, LogonEventArgs e)
+    {
+        XafApplication app = (XafApplication)sender;
+
+        IObjectSpaceProvider objectSpaceProvider = app.ObjectSpaceProviders[0];
+        ((SecuredObjectSpaceProvider)objectSpaceProvider).AllowICommandChannelDoWithSecurityContext = true;
     }
     public override void CustomizeTypesInfo(ITypesInfo typesInfo) {
         base.CustomizeTypesInfo(typesInfo);

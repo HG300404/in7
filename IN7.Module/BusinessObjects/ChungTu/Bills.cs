@@ -1,4 +1,5 @@
-﻿using DevExpress.Data.Filtering;
+﻿using DevExpress.CodeParser;
+using DevExpress.Data.Filtering;
 using DevExpress.ExpressApp;
 using DevExpress.ExpressApp.ConditionalAppearance;
 using DevExpress.ExpressApp.DC;
@@ -36,7 +37,6 @@ namespace IN7.Module.BusinessObjects.ChungTu
                 CreatedAt = DateTime.Now;
             }
         }
-
 
 
         [DevExpress.Xpo.Aggregated, DevExpress.Xpo.Association]
@@ -81,7 +81,7 @@ namespace IN7.Module.BusinessObjects.ChungTu
             }
         }
 
-
+        
 
         private decimal _ProductPrice;
         [XafDisplayName("Giá SP")]
@@ -91,14 +91,15 @@ namespace IN7.Module.BusinessObjects.ChungTu
         {
             get
             {
+                if (!IsSaving && !IsLoading)
+                {
+                    ProductPrice = CalculateProductPrice();
+                }
                 return _ProductPrice;
             }
             set
             {
-                if (SetPropertyValue(nameof(ProductPrice), ref _ProductPrice, value)
-                    && !IsLoading && !IsSaving && !Session.IsObjectsLoading){
-                    _ProductPrice = CalculateProductPrice();
-                }
+                SetPropertyValue(nameof(ProductPrice), ref _ProductPrice, value);  
             }
         }
 
@@ -114,6 +115,7 @@ namespace IN7.Module.BusinessObjects.ChungTu
                     price += item.Price;
                 }
             }
+            else return 0;
             // Tính toán giá trị sau khi thêm thuế
             return price * (1 + Tax);
         }
@@ -131,6 +133,19 @@ namespace IN7.Module.BusinessObjects.ChungTu
         {
             get
             {
+                if (!IsLoading && !IsSaving && Type != null){
+                    if (Type == PaymentType.OneTime)
+                    {
+                        TotalAmount = ProductPrice;
+                    } else if (Type == PaymentType.Installment)
+                    {
+                        if (Deposit != null)
+                        {
+                            TotalAmount = Deposit + (MoneyMonth * (int)Option);
+                        }
+                        
+                    }
+                }
                 return _TotalAmount;
             }
             set
@@ -303,20 +318,21 @@ namespace IN7.Module.BusinessObjects.ChungTu
             get { return _Type; }
             set
             {
-                if (SetPropertyValue(nameof(Type), ref _Type, value)
-                       && !IsLoading && !IsSaving && !Session.IsObjectsLoading)
-                {
-                    if (value == PaymentType.OneTime)
-                    {
-                        // Nếu loại hình trả là "Trả hết"
-                        _TotalAmount = ProductPrice;
-                    }
-                    else
-                    {
-                        // Nếu loại hình trả là "Trả góp"
-                        _TotalAmount = Deposit + (MoneyMonth * (int)Option);
-                    }
-                }
+                SetPropertyValue(nameof(Type), ref _Type, value);
+                //if (SetPropertyValue(nameof(Type), ref _Type, value)
+                //       && !IsLoading && !IsSaving && !Session.IsObjectsLoading)
+                //{
+                //    if (value == PaymentType.OneTime)
+                //    {
+                //        // Nếu loại hình trả là "Trả hết"
+                //        _TotalAmount = ProductPrice;
+                //    }
+                //    else
+                //    {
+                //        // Nếu loại hình trả là "Trả góp"
+                //        _TotalAmount = Deposit + (MoneyMonth * (int)Option);
+                //    }
+                //}
             }
         }
 
@@ -360,7 +376,6 @@ namespace IN7.Module.BusinessObjects.ChungTu
         //    get { return _UpdatedAt; }
         //    set { SetPropertyValue<DateTime>(nameof(UpdatedAt), ref _UpdatedAt, value); }
         //}
-
 
     }
 }

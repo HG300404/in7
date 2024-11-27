@@ -4880,5 +4880,167 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Module depends on DevExpress.ExpressApp (>= 24.1.5) but DevExpress.ExpressApp 24.1.5 was not found. An approximate best match of DevExpress.ExpressApp 24.1.7 was resolved.",
+      "libraryId": "DevExpress.ExpressApp",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Module depends on DevExpress.ExpressApp.CloneObject.Xpo (>= 24.1.5) but DevExpress.ExpressApp.CloneObject.Xpo 24.1.5 was not found. An approximate best match of DevExpress.ExpressApp.CloneObject.Xpo 24.1.7 was resolved.",
+      "libraryId": "DevExpress.ExpressApp.CloneObject.Xpo",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Module depends on DevExpress.ExpressApp.CodeAnalysis (>= 24.1.5) but DevExpress.ExpressApp.CodeAnalysis 24.1.5 was not found. An approximate best match of DevExpress.ExpressApp.CodeAnalysis 24.1.7 was resolved.",
+      "libraryId": "DevExpress.ExpressApp.CodeAnalysis",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Module depends on DevExpress.ExpressApp.ConditionalAppearance (>= 24.1.5) but DevExpress.ExpressApp.ConditionalAppearance 24.1.5 was not found. An approximate best match of DevExpress.ExpressApp.ConditionalAppearance 24.1.7 was resolved.",
+      "libraryId": "DevExpress.ExpressApp.ConditionalAppearance",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Module depends on DevExpress.ExpressApp.Dashboards (>= 24.1.5) but DevExpress.ExpressApp.Dashboards 24.1.5 was not found. An approximate best match of DevExpress.ExpressApp.Dashboards 24.1.7 was resolved.",
+      "libraryId": "DevExpress.ExpressApp.Dashboards",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Module depends on DevExpress.ExpressApp.Notifications (>= 24.1.5) but DevExpress.ExpressApp.Notifications 24.1.5 was not found. An approximate best match of DevExpress.ExpressApp.Notifications 24.1.7 was resolved.",
+      "libraryId": "DevExpress.ExpressApp.Notifications",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Module depends on DevExpress.ExpressApp.Objects (>= 24.1.5) but DevExpress.ExpressApp.Objects 24.1.5 was not found. An approximate best match of DevExpress.ExpressApp.Objects 24.1.7 was resolved.",
+      "libraryId": "DevExpress.ExpressApp.Objects",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Module depends on DevExpress.ExpressApp.Office (>= 24.1.5) but DevExpress.ExpressApp.Office 24.1.5 was not found. An approximate best match of DevExpress.ExpressApp.Office 24.1.7 was resolved.",
+      "libraryId": "DevExpress.ExpressApp.Office",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Module depends on DevExpress.ExpressApp.ReportsV2 (>= 24.1.5) but DevExpress.ExpressApp.ReportsV2 24.1.5 was not found. An approximate best match of DevExpress.ExpressApp.ReportsV2 24.1.7 was resolved.",
+      "libraryId": "DevExpress.ExpressApp.ReportsV2",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Module depends on DevExpress.ExpressApp.Scheduler (>= 24.1.5) but DevExpress.ExpressApp.Scheduler 24.1.5 was not found. An approximate best match of DevExpress.ExpressApp.Scheduler 24.1.7 was resolved.",
+      "libraryId": "DevExpress.ExpressApp.Scheduler",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Module depends on DevExpress.ExpressApp.Security (>= 24.1.5) but DevExpress.ExpressApp.Security 24.1.5 was not found. An approximate best match of DevExpress.ExpressApp.Security 24.1.7 was resolved.",
+      "libraryId": "DevExpress.ExpressApp.Security",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Module depends on DevExpress.ExpressApp.Security.Xpo (>= 24.1.5) but DevExpress.ExpressApp.Security.Xpo 24.1.5 was not found. An approximate best match of DevExpress.ExpressApp.Security.Xpo 24.1.7 was resolved.",
+      "libraryId": "DevExpress.ExpressApp.Security.Xpo",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Module depends on DevExpress.ExpressApp.Validation (>= 24.1.5) but DevExpress.ExpressApp.Validation 24.1.5 was not found. An approximate best match of DevExpress.ExpressApp.Validation 24.1.7 was resolved.",
+      "libraryId": "DevExpress.ExpressApp.Validation",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Module depends on DevExpress.ExpressApp.Xpo (>= 24.1.5) but DevExpress.ExpressApp.Xpo 24.1.5 was not found. An approximate best match of DevExpress.ExpressApp.Xpo 24.1.7 was resolved.",
+      "libraryId": "DevExpress.ExpressApp.Xpo",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Module depends on DevExpress.Persistent.Base (>= 24.1.5) but DevExpress.Persistent.Base 24.1.5 was not found. An approximate best match of DevExpress.Persistent.Base 24.1.7 was resolved.",
+      "libraryId": "DevExpress.Persistent.Base",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Module depends on DevExpress.Persistent.BaseImpl.Xpo (>= 24.1.5) but DevExpress.Persistent.BaseImpl.Xpo 24.1.5 was not found. An approximate best match of DevExpress.Persistent.BaseImpl.Xpo 24.1.7 was resolved.",
+      "libraryId": "DevExpress.Persistent.BaseImpl.Xpo",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
