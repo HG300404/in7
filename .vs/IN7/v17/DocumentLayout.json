@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -37,7 +37,6 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Bills.cs",
@@ -45,9 +44,10 @@
               "RelativeDocumentMoniker": "IN7.Module\\BusinessObjects\\ChungTu\\Bills.cs",
               "ToolTip": "E:\\cnpm\\IN7\\IN7.Module\\BusinessObjects\\ChungTu\\Bills.cs",
               "RelativeToolTip": "IN7.Module\\BusinessObjects\\ChungTu\\Bills.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAowGkAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAGQBAAAAAAAAAAAiwGoBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T14:58:55.693Z"
+              "WhenOpened": "2024-11-04T14:58:55.693Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -57,7 +57,7 @@
               "RelativeDocumentMoniker": "IN7.Module\\BusinessObjects\\ChungTu\\ImportProducts.cs",
               "ToolTip": "E:\\cnpm\\IN7\\IN7.Module\\BusinessObjects\\ChungTu\\ImportProducts.cs",
               "RelativeToolTip": "IN7.Module\\BusinessObjects\\ChungTu\\ImportProducts.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAuwHgAAABcAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAUwBYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T14:54:04.301Z"
             },
