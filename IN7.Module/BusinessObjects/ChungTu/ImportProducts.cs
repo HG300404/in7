@@ -183,10 +183,7 @@ namespace IN7.Module.BusinessObjects.ChungTu
             set { SetPropertyValue<decimal>(nameof(MoneyMonth), ref _MoneyMonth, value); }
         }
 
-        // Thêm Trường Trạng Thái
-        private TrangThaiNhapHang _TrangThai;
-        [XafDisplayName("Trạng Thái Nhập Hàng")]
-        public TrangThaiNhapHang TrangThai
+
         private decimal _Deposit;
         [XafDisplayName("Tiền Cọc")]
         [ModelDefault("DisplayFormat", "{0:### ### ###}")]
@@ -197,43 +194,33 @@ namespace IN7.Module.BusinessObjects.ChungTu
             set
             {
                 if (SetPropertyValue<decimal>(nameof(Deposit), ref _Deposit, value)
-                   && Total != 0)
-        {
-            get { return _TrangThai; }
-            set { SetPropertyValue<TrangThaiNhapHang>(nameof(TrangThai), ref _TrangThai, value); }
+                   && Total != 0) 
+                { 
                     MoneyMonth = Math.Round((Total - value) * 0.1m / 6, 1, MidpointRounding.AwayFromZero);
                 }
             }
         }
 
-        // Enum cho Trạng Thái Nhập Hàng
-        public enum TrangThaiNhapHang
         private DateTime _Time;
         [XafDisplayName("Thời hạn trả")]
         public DateTime Time
         {
-            [XafDisplayName("Đã đặt hàng")]
-            DaDatHang,
             get { return _Time; }
             set { SetPropertyValue<DateTime>(nameof(Time), ref _Time, value); }
         }
+ 
 
-            [XafDisplayName("Đã giao hàng")]
-            DaGiaoHang,
-        }
-
-        // Phương thức Cập Nhật Trạng Thái Đơn Hàng
-        public void CapNhatTrangThai(TrangThaiNhapHang trangThaiMoi)
         private DateTime _CreatedAt;
         [XafDisplayName("Ngày Đặt")]
         [ModelDefault("DisplayFormat", "{0:dd/MM/yyyy HH:mm}")]
         [ModelDefault("EditMask", "{0:dd/MM/yyyy HH:mm}")]
         public DateTime CreatedAt
         {
-            TrangThai = trangThaiMoi;
-            Save();
             get { return _CreatedAt; }
-            set { SetPropertyValue<DateTime>(nameof(CreatedAt), ref _CreatedAt, value); }
+            set
+            {
+                SetPropertyValue<DateTime>(nameof(CreatedAt), ref _CreatedAt, value);
+            }
         }
     }
 }
