@@ -46,11 +46,11 @@
           }
         }
       },
-      "DevExpress.AspNetCore.Common/24.1.5": {
+      "DevExpress.AspNetCore.Common/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.AspNetCore.Core": "[24.1.5]",
-          "DevExpress.Data": "[24.1.5]"
+          "DevExpress.AspNetCore.Core": "[24.1.7]",
+          "DevExpress.Data": "[24.1.7]"
         },
         "compile": {
           "lib/net6.0/DevExpress.AspNetCore.Common.v24.1.dll": {
@@ -63,12 +63,12 @@
           }
         }
       },
-      "DevExpress.AspNetCore.Core/24.1.5": {
+      "DevExpress.AspNetCore.Core/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.Office.Core": "[24.1.5]",
-          "Microsoft.Extensions.DependencyModel": "6.0.0"
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.Office.Core": "[24.1.7]",
+          "Microsoft.Extensions.DependencyModel": "6.0.1"
         },
         "compile": {
           "lib/net6.0/DevExpress.AspNetCore.Core.v24.1.dll": {
@@ -81,16 +81,16 @@
           }
         }
       },
-      "DevExpress.AspNetCore.Dashboard/24.1.5": {
+      "DevExpress.AspNetCore.Dashboard/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.AspNetCore.Common": "[24.1.5]",
-          "DevExpress.AspNetCore.Core": "[24.1.5]",
-          "DevExpress.Dashboard.Core": "[24.1.5]",
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.DataAccess": "[24.1.5]",
-          "DevExpress.Web.Dashboard.Common": "[24.1.5]",
-          "DevExpress.Web.Resources": "[24.1.5]"
+          "DevExpress.AspNetCore.Common": "[24.1.7]",
+          "DevExpress.AspNetCore.Core": "[24.1.7]",
+          "DevExpress.Dashboard.Core": "[24.1.7]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.DataAccess": "[24.1.7]",
+          "DevExpress.Web.Dashboard.Common": "[24.1.7]",
+          "DevExpress.Web.Resources": "[24.1.7]"
         },
         "compile": {
           "lib/net6.0/DevExpress.Dashboard.v24.1.AspNetCore.dll": {
@@ -103,18 +103,18 @@
           }
         }
       },
-      "DevExpress.AspNetCore.Reporting/24.1.5": {
+      "DevExpress.AspNetCore.Reporting/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.AspNetCore.Common": "[24.1.5]",
-          "DevExpress.AspNetCore.Core": "[24.1.5]",
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.DataAccess": "[24.1.5]",
-          "DevExpress.Printing.Core": "[24.1.5]",
-          "DevExpress.Reporting.Core": "[24.1.5]",
-          "DevExpress.Web.Reporting.Common": "[24.1.5]",
-          "DevExpress.Web.Reporting.Common.Services": "[24.1.5]",
-          "DevExpress.Web.Resources": "[24.1.5]"
+          "DevExpress.AspNetCore.Common": "[24.1.7]",
+          "DevExpress.AspNetCore.Core": "[24.1.7]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.DataAccess": "[24.1.7]",
+          "DevExpress.Printing.Core": "[24.1.7]",
+          "DevExpress.Reporting.Core": "[24.1.7]",
+          "DevExpress.Web.Reporting.Common": "[24.1.7]",
+          "DevExpress.Web.Reporting.Common.Services": "[24.1.7]",
+          "DevExpress.Web.Resources": "[24.1.7]"
         },
         "compile": {
           "lib/net6.0/DevExpress.AspNetCore.Reporting.v24.1.dll": {
@@ -127,12 +127,12 @@
           }
         }
       },
-      "DevExpress.Blazor/24.1.5": {
+      "DevExpress.Blazor/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Blazor.Themes": "[24.1.5]",
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.Printing.Core": "[24.1.5]",
+          "DevExpress.Blazor.Themes": "[24.1.7]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.Printing.Core": "[24.1.7]",
           "DevExtreme.AspNet.Data": "4.0.0",
           "System.Drawing.Common": "4.7.2",
           "System.Reactive": "5.0.0"
@@ -155,11 +155,11 @@
           "buildMultiTargeting/DevExpress.Blazor.props": {}
         }
       },
-      "DevExpress.Blazor.Dashboard/24.1.5": {
+      "DevExpress.Blazor.Dashboard/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.Drawing": "[24.1.5]"
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.Drawing": "[24.1.7]"
         },
         "compile": {
           "lib/net6.0/DevExpress.Dashboard.v24.1.Blazor.dll": {
@@ -178,16 +178,16 @@
           "buildMultiTargeting/DevExpress.Blazor.Dashboard.props": {}
         }
       },
-      "DevExpress.Blazor.Reporting.JSBasedControls/24.1.5": {
+      "DevExpress.Blazor.Reporting.JSBasedControls/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Blazor.Reporting.JSBasedControls.Common": "[24.1.5]",
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.DataAccess": "[24.1.5]",
-          "DevExpress.Printing.Core": "[24.1.5]",
-          "DevExpress.Reporting.Core": "[24.1.5]",
-          "DevExpress.Web.Reporting.Common": "[24.1.5]",
-          "DevExpress.Web.Reporting.Common.Services": "[24.1.5]"
+          "DevExpress.Blazor.Reporting.JSBasedControls.Common": "[24.1.7]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.DataAccess": "[24.1.7]",
+          "DevExpress.Printing.Core": "[24.1.7]",
+          "DevExpress.Reporting.Core": "[24.1.7]",
+          "DevExpress.Web.Reporting.Common": "[24.1.7]",
+          "DevExpress.Web.Reporting.Common.Services": "[24.1.7]"
         },
         "compile": {
           "lib/net6.0/DevExpress.Blazor.Reporting.v24.1.JSBasedControls.dll": {
@@ -206,10 +206,10 @@
           "buildMultiTargeting/DevExpress.Blazor.Reporting.JSBasedControls.props": {}
         }
       },
-      "DevExpress.Blazor.Reporting.JSBasedControls.Common/24.1.5": {
+      "DevExpress.Blazor.Reporting.JSBasedControls.Common/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]"
+          "DevExpress.Data": "[24.1.7]"
         },
         "compile": {
           "lib/net6.0/DevExpress.Blazor.Reporting.v24.1.JSBasedControls.Common.dll": {
@@ -228,15 +228,15 @@
           "buildMultiTargeting/DevExpress.Blazor.Reporting.JSBasedControls.Common.props": {}
         }
       },
-      "DevExpress.Blazor.Reporting.Viewer/24.1.5": {
+      "DevExpress.Blazor.Reporting.Viewer/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Blazor": "[24.1.5]",
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.DataAccess": "[24.1.5]",
-          "DevExpress.Drawing": "[24.1.5]",
-          "DevExpress.Printing.Core": "[24.1.5]",
-          "DevExpress.Reporting.Core": "[24.1.5]",
+          "DevExpress.Blazor": "[24.1.7]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.DataAccess": "[24.1.7]",
+          "DevExpress.Drawing": "[24.1.7]",
+          "DevExpress.Printing.Core": "[24.1.7]",
+          "DevExpress.Reporting.Core": "[24.1.7]",
           "System.Reactive": "5.0.0"
         },
         "compile": {
@@ -256,13 +256,13 @@
           "buildMultiTargeting/DevExpress.Blazor.Reporting.Viewer.props": {}
         }
       },
-      "DevExpress.Blazor.RichEdit/24.1.5": {
+      "DevExpress.Blazor.RichEdit/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Blazor": "[24.1.5]",
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.Drawing": "[24.1.5]",
-          "DevExpress.SpellChecker.Core": "[24.1.5]",
+          "DevExpress.Blazor": "[24.1.7]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.Drawing": "[24.1.7]",
+          "DevExpress.SpellChecker.Core": "[24.1.7]",
           "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0"
         },
         "compile": {
@@ -282,7 +282,7 @@
           "buildMultiTargeting/DevExpress.Blazor.RichEdit.props": {}
         }
       },
-      "DevExpress.Blazor.Themes/24.1.5": {
+      "DevExpress.Blazor.Themes/24.1.7": {
         "type": "package",
         "build": {
           "buildTransitive/DevExpress.Blazor.Themes.props": {}
@@ -291,14 +291,14 @@
           "buildMultiTargeting/DevExpress.Blazor.Themes.props": {}
         }
       },
-      "DevExpress.Charts/24.1.5": {
+      "DevExpress.Charts/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Charts.Core": "[24.1.5]",
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.DataVisualization.Core": "[24.1.5]",
-          "DevExpress.Drawing": "[24.1.5]",
-          "DevExpress.Printing.Core": "[24.1.5]",
+          "DevExpress.Charts.Core": "[24.1.7]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.DataVisualization.Core": "[24.1.7]",
+          "DevExpress.Drawing": "[24.1.7]",
+          "DevExpress.Printing.Core": "[24.1.7]",
           "System.Drawing.Common": "4.7.2"
         },
         "compile": {
@@ -312,10 +312,10 @@
           }
         }
       },
-      "DevExpress.Charts.Core/24.1.5": {
+      "DevExpress.Charts.Core/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]"
+          "DevExpress.Data": "[24.1.7]"
         },
         "compile": {
           "lib/net6.0/DevExpress.Charts.v24.1.Core.dll": {
@@ -328,10 +328,10 @@
           }
         }
       },
-      "DevExpress.CodeParser/24.1.5": {
+      "DevExpress.CodeParser/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
+          "DevExpress.Data": "[24.1.7]",
           "System.CodeDom": "4.4.0"
         },
         "compile": {
@@ -341,25 +341,25 @@
           "lib/net6.0/DevExpress.CodeParser.v24.1.dll": {}
         }
       },
-      "DevExpress.Dashboard.Core/24.1.5": {
+      "DevExpress.Dashboard.Core/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Charts": "[24.1.5]",
-          "DevExpress.Charts.Core": "[24.1.5]",
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.DataAccess": "[24.1.5]",
-          "DevExpress.Drawing": "[24.1.5]",
-          "DevExpress.Gauges.Core": "[24.1.5]",
-          "DevExpress.Map.Core": "[24.1.5]",
-          "DevExpress.Office.Core": "[24.1.5]",
-          "DevExpress.PivotGrid.Core": "[24.1.5]",
-          "DevExpress.Printing.Core": "[24.1.5]",
-          "DevExpress.Reporting.Core": "[24.1.5]",
-          "DevExpress.RichEdit.Core": "[24.1.5]",
-          "DevExpress.Sparkline.Core": "[24.1.5]",
-          "DevExpress.TreeMap": "[24.1.5]",
-          "DevExpress.TreeMap.Core": "[24.1.5]",
-          "DevExpress.Xpo": "[24.1.5]",
+          "DevExpress.Charts": "[24.1.7]",
+          "DevExpress.Charts.Core": "[24.1.7]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.DataAccess": "[24.1.7]",
+          "DevExpress.Drawing": "[24.1.7]",
+          "DevExpress.Gauges.Core": "[24.1.7]",
+          "DevExpress.Map.Core": "[24.1.7]",
+          "DevExpress.Office.Core": "[24.1.7]",
+          "DevExpress.PivotGrid.Core": "[24.1.7]",
+          "DevExpress.Printing.Core": "[24.1.7]",
+          "DevExpress.Reporting.Core": "[24.1.7]",
+          "DevExpress.RichEdit.Core": "[24.1.7]",
+          "DevExpress.Sparkline.Core": "[24.1.7]",
+          "DevExpress.TreeMap": "[24.1.7]",
+          "DevExpress.TreeMap.Core": "[24.1.7]",
+          "DevExpress.Xpo": "[24.1.7]",
           "System.Drawing.Common": "4.7.2"
         },
         "compile": {
@@ -373,7 +373,7 @@
           }
         }
       },
-      "DevExpress.Data/24.1.5": {
+      "DevExpress.Data/24.1.7": {
         "type": "package",
         "dependencies": {
           "System.Drawing.Common": "4.7.2"
@@ -389,15 +389,15 @@
           }
         }
       },
-      "DevExpress.DataAccess/24.1.5": {
+      "DevExpress.DataAccess/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.CodeParser": "[24.1.5]",
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.Office.Core": "[24.1.5]",
-          "DevExpress.Printing.Core": "[24.1.5]",
-          "DevExpress.RichEdit.Core": "[24.1.5]",
-          "DevExpress.Xpo": "[24.1.5]",
+          "DevExpress.CodeParser": "[24.1.7]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.Office.Core": "[24.1.7]",
+          "DevExpress.Printing.Core": "[24.1.7]",
+          "DevExpress.RichEdit.Core": "[24.1.7]",
+          "DevExpress.Xpo": "[24.1.7]",
           "System.Configuration.ConfigurationManager": "4.7.0",
           "System.Data.SqlClient": "4.8.6"
         },
@@ -412,11 +412,11 @@
           }
         }
       },
-      "DevExpress.DataVisualization.Core/24.1.5": {
+      "DevExpress.DataVisualization.Core/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.Drawing": "[24.1.5]"
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.Drawing": "[24.1.7]"
         },
         "compile": {
           "lib/net6.0/DevExpress.DataVisualization.v24.1.Core.dll": {}
@@ -425,10 +425,10 @@
           "lib/net6.0/DevExpress.DataVisualization.v24.1.Core.dll": {}
         }
       },
-      "DevExpress.Drawing/24.1.5": {
+      "DevExpress.Drawing/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
+          "DevExpress.Data": "[24.1.7]",
           "System.Drawing.Common": "4.7.2"
         },
         "compile": {
@@ -442,11 +442,11 @@
           }
         }
       },
-      "DevExpress.Drawing.Skia/24.1.5": {
+      "DevExpress.Drawing.Skia/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.Drawing": "[24.1.5]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.Drawing": "[24.1.7]",
           "HarfBuzzSharp.NativeAssets.Linux": "2.8.2.5",
           "SkiaSharp": "2.88.7",
           "SkiaSharp.HarfBuzz": "2.88.7",
@@ -460,13 +460,13 @@
           "lib/net6.0/DevExpress.Drawing.v24.1.Skia.dll": {}
         }
       },
-      "DevExpress.ExpressApp/24.1.5": {
+      "DevExpress.ExpressApp/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.Drawing": "[24.1.5]",
-          "DevExpress.Images": "[24.1.5]",
-          "DevExpress.Printing.Core": "[24.1.5]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.Drawing": "[24.1.7]",
+          "DevExpress.Images": "[24.1.7]",
+          "DevExpress.Printing.Core": "[24.1.7]",
           "Microsoft.CodeAnalysis.CSharp": "3.3.1",
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
@@ -474,6 +474,7 @@
           "Microsoft.Win32.Registry": "5.0.0",
           "System.Configuration.ConfigurationManager": "6.0.1",
           "System.Diagnostics.EventLog": "6.0.0",
+          "System.Formats.Asn1": "8.0.1",
           "System.Resources.Extensions": "6.0.0",
           "System.Security.Cryptography.Pkcs": "6.0.3",
           "System.Security.Cryptography.Xml": "6.0.1",
@@ -490,13 +491,13 @@
           }
         }
       },
-      "DevExpress.ExpressApp.AspNetCore/24.1.5": {
+      "DevExpress.ExpressApp.AspNetCore/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.Drawing": "[24.1.5]",
-          "DevExpress.ExpressApp": "[24.1.5]",
-          "DevExpress.Persistent.Base": "[24.1.5]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.Drawing": "[24.1.7]",
+          "DevExpress.ExpressApp": "[24.1.7]",
+          "DevExpress.Persistent.Base": "[24.1.7]",
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "Microsoft.Extensions.Options": "6.0.0",
@@ -514,18 +515,18 @@
           }
         }
       },
-      "DevExpress.ExpressApp.Blazor/24.1.5": {
+      "DevExpress.ExpressApp.Blazor/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Blazor": "[24.1.5]",
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.Drawing": "[24.1.5]",
-          "DevExpress.ExpressApp": "[24.1.5]",
-          "DevExpress.ExpressApp.AspNetCore": "[24.1.5]",
-          "DevExpress.ExpressApp.Security": "[24.1.5]",
-          "DevExpress.ExpressApp.Security.AspNetCore": "[24.1.5]",
-          "DevExpress.Persistent.Base": "[24.1.5]",
-          "DevExpress.Printing.Core": "[24.1.5]",
+          "DevExpress.Blazor": "[24.1.7]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.Drawing": "[24.1.7]",
+          "DevExpress.ExpressApp": "[24.1.7]",
+          "DevExpress.ExpressApp.AspNetCore": "[24.1.7]",
+          "DevExpress.ExpressApp.Security": "[24.1.7]",
+          "DevExpress.ExpressApp.Security.AspNetCore": "[24.1.7]",
+          "DevExpress.Persistent.Base": "[24.1.7]",
+          "DevExpress.Printing.Core": "[24.1.7]",
           "DevExtreme.AspNet.Data": "4.0.0",
           "Microsoft.AspNetCore.DataProtection.Extensions": "6.0.0",
           "System.Diagnostics.EventLog": "6.0.0",
@@ -548,12 +549,12 @@
           "buildMultiTargeting/DevExpress.ExpressApp.Blazor.props": {}
         }
       },
-      "DevExpress.ExpressApp.CloneObject.Xpo/24.1.5": {
+      "DevExpress.ExpressApp.CloneObject.Xpo/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.ExpressApp": "[24.1.5]",
-          "DevExpress.Persistent.Base": "[24.1.5]"
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.ExpressApp": "[24.1.7]",
+          "DevExpress.Persistent.Base": "[24.1.7]"
         },
         "compile": {
           "lib/net6.0/DevExpress.ExpressApp.CloneObject.Xpo.v24.1.dll": {
@@ -566,16 +567,16 @@
           }
         }
       },
-      "DevExpress.ExpressApp.CodeAnalysis/24.1.5": {
+      "DevExpress.ExpressApp.CodeAnalysis/24.1.7": {
         "type": "package"
       },
-      "DevExpress.ExpressApp.ConditionalAppearance/24.1.5": {
+      "DevExpress.ExpressApp.ConditionalAppearance/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.Drawing": "[24.1.5]",
-          "DevExpress.ExpressApp": "[24.1.5]",
-          "DevExpress.Persistent.Base": "[24.1.5]"
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.Drawing": "[24.1.7]",
+          "DevExpress.ExpressApp": "[24.1.7]",
+          "DevExpress.Persistent.Base": "[24.1.7]"
         },
         "compile": {
           "lib/net6.0/DevExpress.ExpressApp.ConditionalAppearance.v24.1.dll": {
@@ -588,14 +589,14 @@
           }
         }
       },
-      "DevExpress.ExpressApp.Dashboards/24.1.5": {
+      "DevExpress.ExpressApp.Dashboards/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Dashboard.Core": "[24.1.5]",
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.DataAccess": "[24.1.5]",
-          "DevExpress.ExpressApp": "[24.1.5]",
-          "DevExpress.Persistent.Base": "[24.1.5]"
+          "DevExpress.Dashboard.Core": "[24.1.7]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.DataAccess": "[24.1.7]",
+          "DevExpress.ExpressApp": "[24.1.7]",
+          "DevExpress.Persistent.Base": "[24.1.7]"
         },
         "compile": {
           "lib/net6.0/DevExpress.ExpressApp.Dashboards.v24.1.dll": {
@@ -608,28 +609,29 @@
           }
         }
       },
-      "DevExpress.ExpressApp.Dashboards.Blazor/24.1.5": {
+      "DevExpress.ExpressApp.Dashboards.Blazor/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.AspNetCore.Dashboard": "[24.1.5]",
-          "DevExpress.Blazor.Dashboard": "[24.1.5]",
-          "DevExpress.Dashboard.Core": "[24.1.5]",
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.DataAccess": "[24.1.5]",
-          "DevExpress.ExpressApp": "[24.1.5]",
-          "DevExpress.ExpressApp.AspNetCore": "[24.1.5]",
-          "DevExpress.ExpressApp.Blazor": "[24.1.5]",
-          "DevExpress.ExpressApp.Dashboards": "[24.1.5]",
-          "DevExpress.Persistent.Base": "[24.1.5]",
-          "DevExpress.Web.Dashboard.Common": "[24.1.5]",
+          "DevExpress.AspNetCore.Dashboard": "[24.1.7]",
+          "DevExpress.Blazor.Dashboard": "[24.1.7]",
+          "DevExpress.Dashboard.Core": "[24.1.7]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.DataAccess": "[24.1.7]",
+          "DevExpress.ExpressApp": "[24.1.7]",
+          "DevExpress.ExpressApp.AspNetCore": "[24.1.7]",
+          "DevExpress.ExpressApp.Blazor": "[24.1.7]",
+          "DevExpress.ExpressApp.Dashboards": "[24.1.7]",
+          "DevExpress.Persistent.Base": "[24.1.7]",
+          "DevExpress.Web.Dashboard.Common": "[24.1.7]",
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
-          "Microsoft.Extensions.DependencyModel": "6.0.0",
+          "Microsoft.Extensions.DependencyModel": "6.0.1",
           "Microsoft.Extensions.Hosting.Abstractions": "6.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "6.0.4",
           "Microsoft.Extensions.Options": "6.0.0",
           "Microsoft.Extensions.Primitives": "6.0.0",
-          "System.Diagnostics.EventLog": "6.0.0"
+          "System.Diagnostics.EventLog": "6.0.0",
+          "System.Text.Json": "8.0.5"
         },
         "compile": {
           "lib/net6.0/DevExpress.ExpressApp.Dashboards.Blazor.v24.1.dll": {
@@ -648,14 +650,14 @@
           "buildMultiTargeting/DevExpress.ExpressApp.Dashboards.Blazor.props": {}
         }
       },
-      "DevExpress.ExpressApp.FileAttachment.Blazor/24.1.5": {
+      "DevExpress.ExpressApp.FileAttachment.Blazor/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Blazor": "[24.1.5]",
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.ExpressApp": "[24.1.5]",
-          "DevExpress.ExpressApp.Blazor": "[24.1.5]",
-          "DevExpress.Persistent.Base": "[24.1.5]",
+          "DevExpress.Blazor": "[24.1.7]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.ExpressApp": "[24.1.7]",
+          "DevExpress.ExpressApp.Blazor": "[24.1.7]",
+          "DevExpress.Persistent.Base": "[24.1.7]",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "6.0.4",
           "Microsoft.Extensions.Options": "6.0.0",
@@ -672,12 +674,12 @@
           }
         }
       },
-      "DevExpress.ExpressApp.Notifications/24.1.5": {
+      "DevExpress.ExpressApp.Notifications/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.ExpressApp": "[24.1.5]",
-          "DevExpress.Persistent.Base": "[24.1.5]"
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.ExpressApp": "[24.1.7]",
+          "DevExpress.Persistent.Base": "[24.1.7]"
         },
         "compile": {
           "lib/net6.0/DevExpress.ExpressApp.Notifications.v24.1.dll": {
@@ -690,15 +692,15 @@
           }
         }
       },
-      "DevExpress.ExpressApp.Notifications.Blazor/24.1.5": {
+      "DevExpress.ExpressApp.Notifications.Blazor/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.ExpressApp": "[24.1.5]",
-          "DevExpress.ExpressApp.AspNetCore": "[24.1.5]",
-          "DevExpress.ExpressApp.Blazor": "[24.1.5]",
-          "DevExpress.ExpressApp.Notifications": "[24.1.5]",
-          "DevExpress.Persistent.Base": "[24.1.5]"
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.ExpressApp": "[24.1.7]",
+          "DevExpress.ExpressApp.AspNetCore": "[24.1.7]",
+          "DevExpress.ExpressApp.Blazor": "[24.1.7]",
+          "DevExpress.ExpressApp.Notifications": "[24.1.7]",
+          "DevExpress.Persistent.Base": "[24.1.7]"
         },
         "compile": {
           "lib/net6.0/DevExpress.ExpressApp.Notifications.Blazor.v24.1.dll": {
@@ -711,11 +713,12 @@
           }
         }
       },
-      "DevExpress.ExpressApp.Objects/24.1.5": {
+      "DevExpress.ExpressApp.Objects/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.ExpressApp": "[24.1.5]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.ExpressApp": "[24.1.7]",
+          "System.Formats.Asn1": "8.0.1",
           "System.Security.Cryptography.Xml": "6.0.1"
         },
         "compile": {
@@ -729,15 +732,15 @@
           }
         }
       },
-      "DevExpress.ExpressApp.Office/24.1.5": {
+      "DevExpress.ExpressApp.Office/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.ExpressApp": "[24.1.5]",
-          "DevExpress.Office.Core": "[24.1.5]",
-          "DevExpress.Persistent.Base": "[24.1.5]",
-          "DevExpress.RichEdit.Core": "[24.1.5]",
-          "DevExpress.Spreadsheet.Core": "[24.1.5]"
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.ExpressApp": "[24.1.7]",
+          "DevExpress.Office.Core": "[24.1.7]",
+          "DevExpress.Persistent.Base": "[24.1.7]",
+          "DevExpress.RichEdit.Core": "[24.1.7]",
+          "DevExpress.Spreadsheet.Core": "[24.1.7]"
         },
         "compile": {
           "lib/net6.0/DevExpress.ExpressApp.Office.v24.1.dll": {
@@ -750,18 +753,18 @@
           }
         }
       },
-      "DevExpress.ExpressApp.Office.Blazor/24.1.5": {
+      "DevExpress.ExpressApp.Office.Blazor/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Blazor": "[24.1.5]",
-          "DevExpress.Blazor.RichEdit": "[24.1.5]",
-          "DevExpress.ExpressApp": "[24.1.5]",
-          "DevExpress.ExpressApp.AspNetCore": "[24.1.5]",
-          "DevExpress.ExpressApp.Blazor": "[24.1.5]",
-          "DevExpress.ExpressApp.Office": "[24.1.5]",
-          "DevExpress.Office.Core": "[24.1.5]",
-          "DevExpress.Persistent.Base": "[24.1.5]",
-          "DevExpress.RichEdit.Core": "[24.1.5]",
+          "DevExpress.Blazor": "[24.1.7]",
+          "DevExpress.Blazor.RichEdit": "[24.1.7]",
+          "DevExpress.ExpressApp": "[24.1.7]",
+          "DevExpress.ExpressApp.AspNetCore": "[24.1.7]",
+          "DevExpress.ExpressApp.Blazor": "[24.1.7]",
+          "DevExpress.ExpressApp.Office": "[24.1.7]",
+          "DevExpress.Office.Core": "[24.1.7]",
+          "DevExpress.Persistent.Base": "[24.1.7]",
+          "DevExpress.RichEdit.Core": "[24.1.7]",
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "Microsoft.Extensions.Hosting.Abstractions": "6.0.0",
@@ -787,14 +790,14 @@
           "buildMultiTargeting/DevExpress.ExpressApp.Office.Blazor.props": {}
         }
       },
-      "DevExpress.ExpressApp.ReportsV2/24.1.5": {
+      "DevExpress.ExpressApp.ReportsV2/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.ExpressApp": "[24.1.5]",
-          "DevExpress.Persistent.Base": "[24.1.5]",
-          "DevExpress.Printing.Core": "[24.1.5]",
-          "DevExpress.Reporting.Core": "[24.1.5]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.ExpressApp": "[24.1.7]",
+          "DevExpress.Persistent.Base": "[24.1.7]",
+          "DevExpress.Printing.Core": "[24.1.7]",
+          "DevExpress.Reporting.Core": "[24.1.7]",
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "Microsoft.Extensions.Options": "6.0.0"
@@ -810,31 +813,32 @@
           }
         }
       },
-      "DevExpress.ExpressApp.ReportsV2.Blazor/24.1.5": {
+      "DevExpress.ExpressApp.ReportsV2.Blazor/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.AspNetCore.Reporting": "[24.1.5]",
-          "DevExpress.Blazor": "[24.1.5]",
-          "DevExpress.Blazor.Reporting.JSBasedControls": "[24.1.5]",
-          "DevExpress.Blazor.Reporting.JSBasedControls.Common": "[24.1.5]",
-          "DevExpress.Blazor.Reporting.Viewer": "[24.1.5]",
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.ExpressApp": "[24.1.5]",
-          "DevExpress.ExpressApp.AspNetCore": "[24.1.5]",
-          "DevExpress.ExpressApp.Blazor": "[24.1.5]",
-          "DevExpress.ExpressApp.ReportsV2": "[24.1.5]",
-          "DevExpress.Persistent.Base": "[24.1.5]",
-          "DevExpress.Printing.Core": "[24.1.5]",
-          "DevExpress.Reporting.Core": "[24.1.5]",
-          "DevExpress.Web.Reporting.Common": "[24.1.5]",
+          "DevExpress.AspNetCore.Reporting": "[24.1.7]",
+          "DevExpress.Blazor": "[24.1.7]",
+          "DevExpress.Blazor.Reporting.JSBasedControls": "[24.1.7]",
+          "DevExpress.Blazor.Reporting.JSBasedControls.Common": "[24.1.7]",
+          "DevExpress.Blazor.Reporting.Viewer": "[24.1.7]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.ExpressApp": "[24.1.7]",
+          "DevExpress.ExpressApp.AspNetCore": "[24.1.7]",
+          "DevExpress.ExpressApp.Blazor": "[24.1.7]",
+          "DevExpress.ExpressApp.ReportsV2": "[24.1.7]",
+          "DevExpress.Persistent.Base": "[24.1.7]",
+          "DevExpress.Printing.Core": "[24.1.7]",
+          "DevExpress.Reporting.Core": "[24.1.7]",
+          "DevExpress.Web.Reporting.Common": "[24.1.7]",
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
-          "Microsoft.Extensions.DependencyModel": "6.0.0",
+          "Microsoft.Extensions.DependencyModel": "6.0.1",
           "Microsoft.Extensions.Hosting.Abstractions": "6.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "6.0.4",
           "Microsoft.Extensions.Options": "6.0.0",
           "Microsoft.Extensions.Primitives": "6.0.0",
-          "System.Diagnostics.EventLog": "6.0.0"
+          "System.Diagnostics.EventLog": "6.0.0",
+          "System.Text.Json": "8.0.5"
         },
         "compile": {
           "lib/net6.0/DevExpress.ExpressApp.ReportsV2.Blazor.v24.1.dll": {
@@ -847,13 +851,13 @@
           }
         }
       },
-      "DevExpress.ExpressApp.Scheduler/24.1.5": {
+      "DevExpress.ExpressApp.Scheduler/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.ExpressApp": "[24.1.5]",
-          "DevExpress.Persistent.Base": "[24.1.5]",
-          "DevExpress.Scheduler.Core": "[24.1.5]"
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.ExpressApp": "[24.1.7]",
+          "DevExpress.Persistent.Base": "[24.1.7]",
+          "DevExpress.Scheduler.Core": "[24.1.7]"
         },
         "compile": {
           "lib/net6.0/DevExpress.ExpressApp.Scheduler.v24.1.dll": {
@@ -866,18 +870,18 @@
           }
         }
       },
-      "DevExpress.ExpressApp.Scheduler.Blazor/24.1.5": {
+      "DevExpress.ExpressApp.Scheduler.Blazor/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Blazor": "[24.1.5]",
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.ExpressApp": "[24.1.5]",
-          "DevExpress.ExpressApp.AspNetCore": "[24.1.5]",
-          "DevExpress.ExpressApp.Blazor": "[24.1.5]",
-          "DevExpress.ExpressApp.Notifications": "[24.1.5]",
-          "DevExpress.ExpressApp.Scheduler": "[24.1.5]",
-          "DevExpress.Persistent.Base": "[24.1.5]",
-          "DevExpress.Scheduler.Core": "[24.1.5]",
+          "DevExpress.Blazor": "[24.1.7]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.ExpressApp": "[24.1.7]",
+          "DevExpress.ExpressApp.AspNetCore": "[24.1.7]",
+          "DevExpress.ExpressApp.Blazor": "[24.1.7]",
+          "DevExpress.ExpressApp.Notifications": "[24.1.7]",
+          "DevExpress.ExpressApp.Scheduler": "[24.1.7]",
+          "DevExpress.Persistent.Base": "[24.1.7]",
+          "DevExpress.Scheduler.Core": "[24.1.7]",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "6.0.4",
           "Microsoft.Extensions.Options": "6.0.0",
@@ -894,14 +898,14 @@
           }
         }
       },
-      "DevExpress.ExpressApp.Security/24.1.5": {
+      "DevExpress.ExpressApp.Security/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.Drawing": "[24.1.5]",
-          "DevExpress.ExpressApp": "[24.1.5]",
-          "DevExpress.Persistent.Base": "[24.1.5]",
-          "MessagePack": "2.5.140",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.Drawing": "[24.1.7]",
+          "DevExpress.ExpressApp": "[24.1.7]",
+          "DevExpress.Persistent.Base": "[24.1.7]",
+          "MessagePack": "2.5.187",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "Microsoft.Extensions.Options": "6.0.0",
           "System.Security.Permissions": "6.0.0"
@@ -917,13 +921,13 @@
           }
         }
       },
-      "DevExpress.ExpressApp.Security.AspNetCore/24.1.5": {
+      "DevExpress.ExpressApp.Security.AspNetCore/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.ExpressApp": "[24.1.5]",
-          "DevExpress.ExpressApp.AspNetCore": "[24.1.5]",
-          "DevExpress.ExpressApp.Security": "[24.1.5]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.ExpressApp": "[24.1.7]",
+          "DevExpress.ExpressApp.AspNetCore": "[24.1.7]",
+          "DevExpress.ExpressApp.Security": "[24.1.7]",
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "Microsoft.Extensions.Options": "6.0.0",
@@ -937,16 +941,16 @@
           "lib/net6.0/DevExpress.ExpressApp.Security.AspNetCore.v24.1.dll": {}
         }
       },
-      "DevExpress.ExpressApp.Security.Xpo/24.1.5": {
+      "DevExpress.ExpressApp.Security.Xpo/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.ExpressApp": "[24.1.5]",
-          "DevExpress.ExpressApp.Security": "[24.1.5]",
-          "DevExpress.ExpressApp.Xpo": "[24.1.5]",
-          "DevExpress.Persistent.Base": "[24.1.5]",
-          "DevExpress.Xpo": "[24.1.5]",
-          "MessagePack": "2.5.140",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.ExpressApp": "[24.1.7]",
+          "DevExpress.ExpressApp.Security": "[24.1.7]",
+          "DevExpress.ExpressApp.Xpo": "[24.1.7]",
+          "DevExpress.Persistent.Base": "[24.1.7]",
+          "DevExpress.Xpo": "[24.1.7]",
+          "MessagePack": "2.5.187",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "Microsoft.Extensions.Options": "6.0.0",
           "System.ServiceModel.Http": "6.2.0",
@@ -963,12 +967,12 @@
           }
         }
       },
-      "DevExpress.ExpressApp.Validation/24.1.5": {
+      "DevExpress.ExpressApp.Validation/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.ExpressApp": "[24.1.5]",
-          "DevExpress.Persistent.Base": "[24.1.5]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.ExpressApp": "[24.1.7]",
+          "DevExpress.Persistent.Base": "[24.1.7]",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "Microsoft.Extensions.Options": "6.0.0",
           "System.Drawing.Common": "6.0.0"
@@ -984,14 +988,14 @@
           }
         }
       },
-      "DevExpress.ExpressApp.Validation.Blazor/24.1.5": {
+      "DevExpress.ExpressApp.Validation.Blazor/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.ExpressApp": "[24.1.5]",
-          "DevExpress.ExpressApp.Blazor": "[24.1.5]",
-          "DevExpress.ExpressApp.Validation": "[24.1.5]",
-          "DevExpress.Persistent.Base": "[24.1.5]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.ExpressApp": "[24.1.7]",
+          "DevExpress.ExpressApp.Blazor": "[24.1.7]",
+          "DevExpress.ExpressApp.Validation": "[24.1.7]",
+          "DevExpress.Persistent.Base": "[24.1.7]",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "6.0.4",
           "Microsoft.Extensions.Options": "6.0.0",
@@ -1008,13 +1012,13 @@
           }
         }
       },
-      "DevExpress.ExpressApp.Xpo/24.1.5": {
+      "DevExpress.ExpressApp.Xpo/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.Drawing": "[24.1.5]",
-          "DevExpress.ExpressApp": "[24.1.5]",
-          "DevExpress.Xpo": "[24.1.5]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.Drawing": "[24.1.7]",
+          "DevExpress.ExpressApp": "[24.1.7]",
+          "DevExpress.Xpo": "[24.1.7]",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "System.Drawing.Common": "6.0.0",
           "System.Security.Permissions": "6.0.0"
@@ -1030,12 +1034,12 @@
           }
         }
       },
-      "DevExpress.Gauges.Core/24.1.5": {
+      "DevExpress.Gauges.Core/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.Drawing": "[24.1.5]",
-          "DevExpress.Printing.Core": "[24.1.5]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.Drawing": "[24.1.7]",
+          "DevExpress.Printing.Core": "[24.1.7]",
           "System.Drawing.Common": "4.7.2"
         },
         "compile": {
@@ -1049,11 +1053,11 @@
           }
         }
       },
-      "DevExpress.Images/24.1.5": {
+      "DevExpress.Images/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.Drawing": "[24.1.5]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.Drawing": "[24.1.7]",
           "System.Drawing.Common": "4.7.2"
         },
         "compile": {
@@ -1063,12 +1067,12 @@
           "lib/net6.0/DevExpress.Images.v24.1.dll": {}
         }
       },
-      "DevExpress.Map.Core/24.1.5": {
+      "DevExpress.Map.Core/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.Drawing": "[24.1.5]",
-          "DevExpress.Printing.Core": "[24.1.5]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.Drawing": "[24.1.7]",
+          "DevExpress.Printing.Core": "[24.1.7]",
           "System.Drawing.Common": "4.7.2"
         },
         "compile": {
@@ -1082,15 +1086,14 @@
           }
         }
       },
-      "DevExpress.Office.Core/24.1.5": {
+      "DevExpress.Office.Core/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.Drawing": "[24.1.5]",
-          "DevExpress.Pdf.Core": "[24.1.5]",
-          "DevExpress.Printing.Core": "[24.1.5]",
-          "System.Drawing.Common": "4.7.2",
-          "System.Security.Cryptography.Xml": "6.0.1"
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.Drawing": "[24.1.7]",
+          "DevExpress.Pdf.Core": "[24.1.7]",
+          "DevExpress.Printing.Core": "[24.1.7]",
+          "System.Drawing.Common": "4.7.2"
         },
         "compile": {
           "lib/net6.0/DevExpress.Office.v24.1.Core.dll": {
@@ -1103,12 +1106,13 @@
           }
         }
       },
-      "DevExpress.Pdf.Core/24.1.5": {
+      "DevExpress.Pdf.Core/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.Drawing": "[24.1.5]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.Drawing": "[24.1.7]",
           "System.Drawing.Common": "4.7.2",
+          "System.Formats.Asn1": "6.0.1",
           "System.Security.Cryptography.Pkcs": "6.0.3"
         },
         "compile": {
@@ -1122,12 +1126,12 @@
           }
         }
       },
-      "DevExpress.Pdf.Drawing/24.1.5": {
+      "DevExpress.Pdf.Drawing/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.Drawing": "[24.1.5]",
-          "DevExpress.Pdf.Core": "[24.1.5]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.Drawing": "[24.1.7]",
+          "DevExpress.Pdf.Core": "[24.1.7]",
           "System.Drawing.Common": "4.7.2"
         },
         "compile": {
@@ -1141,14 +1145,14 @@
           }
         }
       },
-      "DevExpress.Persistent.Base/24.1.5": {
+      "DevExpress.Persistent.Base/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.DataAccess": "[24.1.5]",
-          "DevExpress.Drawing": "[24.1.5]",
-          "DevExpress.ExpressApp": "[24.1.5]",
-          "DevExpress.Printing.Core": "[24.1.5]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.DataAccess": "[24.1.7]",
+          "DevExpress.Drawing": "[24.1.7]",
+          "DevExpress.ExpressApp": "[24.1.7]",
+          "DevExpress.Printing.Core": "[24.1.7]",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "Microsoft.Extensions.Options": "6.0.0"
         },
@@ -1163,17 +1167,17 @@
           }
         }
       },
-      "DevExpress.Persistent.BaseImpl.Xpo/24.1.5": {
+      "DevExpress.Persistent.BaseImpl.Xpo/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.Drawing": "[24.1.5]",
-          "DevExpress.ExpressApp": "[24.1.5]",
-          "DevExpress.ExpressApp.Objects": "[24.1.5]",
-          "DevExpress.ExpressApp.Xpo": "[24.1.5]",
-          "DevExpress.Persistent.Base": "[24.1.5]",
-          "DevExpress.Scheduler.Core": "[24.1.5]",
-          "DevExpress.Xpo": "[24.1.5]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.Drawing": "[24.1.7]",
+          "DevExpress.ExpressApp": "[24.1.7]",
+          "DevExpress.ExpressApp.Objects": "[24.1.7]",
+          "DevExpress.ExpressApp.Xpo": "[24.1.7]",
+          "DevExpress.Persistent.Base": "[24.1.7]",
+          "DevExpress.Scheduler.Core": "[24.1.7]",
+          "DevExpress.Xpo": "[24.1.7]",
           "Microsoft.Extensions.Options": "6.0.0"
         },
         "compile": {
@@ -1187,12 +1191,12 @@
           }
         }
       },
-      "DevExpress.PivotGrid.Core/24.1.5": {
+      "DevExpress.PivotGrid.Core/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.Drawing": "[24.1.5]",
-          "DevExpress.Printing.Core": "[24.1.5]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.Drawing": "[24.1.7]",
+          "DevExpress.Printing.Core": "[24.1.7]",
           "System.Drawing.Common": "4.7.2"
         },
         "compile": {
@@ -1206,14 +1210,15 @@
           }
         }
       },
-      "DevExpress.Printing.Core/24.1.5": {
+      "DevExpress.Printing.Core/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.Drawing": "[24.1.5]",
-          "DevExpress.Pdf.Core": "[24.1.5]",
-          "DevExpress.Pdf.Drawing": "[24.1.5]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.Drawing": "[24.1.7]",
+          "DevExpress.Pdf.Core": "[24.1.7]",
+          "DevExpress.Pdf.Drawing": "[24.1.7]",
           "System.Drawing.Common": "4.7.2",
+          "System.Formats.Asn1": "6.0.1",
           "System.Security.Cryptography.Pkcs": "6.0.3",
           "System.ServiceModel.Http": "6.2.0"
         },
@@ -1228,25 +1233,25 @@
           }
         }
       },
-      "DevExpress.Reporting.Core/24.1.5": {
+      "DevExpress.Reporting.Core/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Charts": "[24.1.5]",
-          "DevExpress.Charts.Core": "[24.1.5]",
-          "DevExpress.CodeParser": "[24.1.5]",
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.DataAccess": "[24.1.5]",
-          "DevExpress.Drawing": "[24.1.5]",
-          "DevExpress.Gauges.Core": "[24.1.5]",
-          "DevExpress.Office.Core": "[24.1.5]",
-          "DevExpress.Pdf.Core": "[24.1.5]",
-          "DevExpress.Pdf.Drawing": "[24.1.5]",
-          "DevExpress.PivotGrid.Core": "[24.1.5]",
-          "DevExpress.Printing.Core": "[24.1.5]",
-          "DevExpress.RichEdit.Core": "[24.1.5]",
-          "DevExpress.RichEdit.Export": "[24.1.5]",
-          "DevExpress.Sparkline.Core": "[24.1.5]",
-          "DevExpress.Xpo": "[24.1.5]",
+          "DevExpress.Charts": "[24.1.7]",
+          "DevExpress.Charts.Core": "[24.1.7]",
+          "DevExpress.CodeParser": "[24.1.7]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.DataAccess": "[24.1.7]",
+          "DevExpress.Drawing": "[24.1.7]",
+          "DevExpress.Gauges.Core": "[24.1.7]",
+          "DevExpress.Office.Core": "[24.1.7]",
+          "DevExpress.Pdf.Core": "[24.1.7]",
+          "DevExpress.Pdf.Drawing": "[24.1.7]",
+          "DevExpress.PivotGrid.Core": "[24.1.7]",
+          "DevExpress.Printing.Core": "[24.1.7]",
+          "DevExpress.RichEdit.Core": "[24.1.7]",
+          "DevExpress.RichEdit.Export": "[24.1.7]",
+          "DevExpress.Sparkline.Core": "[24.1.7]",
+          "DevExpress.Xpo": "[24.1.7]",
           "System.CodeDom": "4.4.0",
           "System.Drawing.Common": "4.7.2"
         },
@@ -1267,14 +1272,14 @@
           "buildMultiTargeting/DevExpress.Reporting.Core.targets": {}
         }
       },
-      "DevExpress.RichEdit.Core/24.1.5": {
+      "DevExpress.RichEdit.Core/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.Drawing": "[24.1.5]",
-          "DevExpress.Office.Core": "[24.1.5]",
-          "DevExpress.Pdf.Core": "[24.1.5]",
-          "DevExpress.Printing.Core": "[24.1.5]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.Drawing": "[24.1.7]",
+          "DevExpress.Office.Core": "[24.1.7]",
+          "DevExpress.Pdf.Core": "[24.1.7]",
+          "DevExpress.Printing.Core": "[24.1.7]",
           "System.Drawing.Common": "4.7.2"
         },
         "compile": {
@@ -1288,14 +1293,14 @@
           }
         }
       },
-      "DevExpress.RichEdit.Export/24.1.5": {
+      "DevExpress.RichEdit.Export/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.Drawing": "[24.1.5]",
-          "DevExpress.Office.Core": "[24.1.5]",
-          "DevExpress.Printing.Core": "[24.1.5]",
-          "DevExpress.RichEdit.Core": "[24.1.5]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.Drawing": "[24.1.7]",
+          "DevExpress.Office.Core": "[24.1.7]",
+          "DevExpress.Printing.Core": "[24.1.7]",
+          "DevExpress.RichEdit.Core": "[24.1.7]",
           "System.Drawing.Common": "4.7.2"
         },
         "compile": {
@@ -1305,10 +1310,10 @@
           "lib/net6.0/DevExpress.RichEdit.v24.1.Export.dll": {}
         }
       },
-      "DevExpress.Scheduler.Core/24.1.5": {
+      "DevExpress.Scheduler.Core/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
+          "DevExpress.Data": "[24.1.7]",
           "System.Drawing.Common": "4.7.2"
         },
         "compile": {
@@ -1322,11 +1327,11 @@
           }
         }
       },
-      "DevExpress.Sparkline.Core/24.1.5": {
+      "DevExpress.Sparkline.Core/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.Drawing": "[24.1.5]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.Drawing": "[24.1.7]",
           "System.Drawing.Common": "4.7.2"
         },
         "compile": {
@@ -1340,10 +1345,10 @@
           }
         }
       },
-      "DevExpress.SpellChecker.Core/24.1.5": {
+      "DevExpress.SpellChecker.Core/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]"
+          "DevExpress.Data": "[24.1.7]"
         },
         "compile": {
           "lib/net6.0/DevExpress.SpellChecker.v24.1.Core.dll": {
@@ -1356,17 +1361,17 @@
           }
         }
       },
-      "DevExpress.Spreadsheet.Core/24.1.5": {
+      "DevExpress.Spreadsheet.Core/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.DataAccess": "[24.1.5]",
-          "DevExpress.DataVisualization.Core": "[24.1.5]",
-          "DevExpress.Drawing": "[24.1.5]",
-          "DevExpress.Office.Core": "[24.1.5]",
-          "DevExpress.Pdf.Core": "[24.1.5]",
-          "DevExpress.Printing.Core": "[24.1.5]",
-          "DevExpress.Sparkline.Core": "[24.1.5]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.DataAccess": "[24.1.7]",
+          "DevExpress.DataVisualization.Core": "[24.1.7]",
+          "DevExpress.Drawing": "[24.1.7]",
+          "DevExpress.Office.Core": "[24.1.7]",
+          "DevExpress.Pdf.Core": "[24.1.7]",
+          "DevExpress.Printing.Core": "[24.1.7]",
+          "DevExpress.Sparkline.Core": "[24.1.7]",
           "System.Drawing.Common": "4.7.2"
         },
         "compile": {
@@ -1380,14 +1385,14 @@
           }
         }
       },
-      "DevExpress.TreeMap/24.1.5": {
+      "DevExpress.TreeMap/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.DataVisualization.Core": "[24.1.5]",
-          "DevExpress.Drawing": "[24.1.5]",
-          "DevExpress.Printing.Core": "[24.1.5]",
-          "DevExpress.TreeMap.Core": "[24.1.5]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.DataVisualization.Core": "[24.1.7]",
+          "DevExpress.Drawing": "[24.1.7]",
+          "DevExpress.Printing.Core": "[24.1.7]",
+          "DevExpress.TreeMap.Core": "[24.1.7]",
           "System.Drawing.Common": "4.7.2"
         },
         "compile": {
@@ -1401,10 +1406,10 @@
           }
         }
       },
-      "DevExpress.TreeMap.Core/24.1.5": {
+      "DevExpress.TreeMap.Core/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]"
+          "DevExpress.Data": "[24.1.7]"
         },
         "compile": {
           "lib/net6.0/DevExpress.TreeMap.v24.1.Core.dll": {
@@ -1417,16 +1422,16 @@
           }
         }
       },
-      "DevExpress.Web.Dashboard.Common/24.1.5": {
+      "DevExpress.Web.Dashboard.Common/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Dashboard.Core": "[24.1.5]",
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.DataAccess": "[24.1.5]",
-          "DevExpress.Drawing": "[24.1.5]",
-          "DevExpress.PivotGrid.Core": "[24.1.5]",
-          "DevExpress.Printing.Core": "[24.1.5]",
-          "DevExpress.Reporting.Core": "[24.1.5]"
+          "DevExpress.Dashboard.Core": "[24.1.7]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.DataAccess": "[24.1.7]",
+          "DevExpress.Drawing": "[24.1.7]",
+          "DevExpress.PivotGrid.Core": "[24.1.7]",
+          "DevExpress.Printing.Core": "[24.1.7]",
+          "DevExpress.Reporting.Core": "[24.1.7]"
         },
         "compile": {
           "lib/net6.0/DevExpress.Dashboard.v24.1.Web.dll": {
@@ -1439,20 +1444,20 @@
           }
         }
       },
-      "DevExpress.Web.Reporting.Common/24.1.5": {
+      "DevExpress.Web.Reporting.Common/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Charts": "[24.1.5]",
-          "DevExpress.Charts.Core": "[24.1.5]",
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.DataAccess": "[24.1.5]",
-          "DevExpress.Drawing": "[24.1.5]",
-          "DevExpress.Gauges.Core": "[24.1.5]",
-          "DevExpress.PivotGrid.Core": "[24.1.5]",
-          "DevExpress.Printing.Core": "[24.1.5]",
-          "DevExpress.Reporting.Core": "[24.1.5]",
-          "DevExpress.Sparkline.Core": "[24.1.5]",
-          "DevExpress.Xpo": "[24.1.5]"
+          "DevExpress.Charts": "[24.1.7]",
+          "DevExpress.Charts.Core": "[24.1.7]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.DataAccess": "[24.1.7]",
+          "DevExpress.Drawing": "[24.1.7]",
+          "DevExpress.Gauges.Core": "[24.1.7]",
+          "DevExpress.PivotGrid.Core": "[24.1.7]",
+          "DevExpress.Printing.Core": "[24.1.7]",
+          "DevExpress.Reporting.Core": "[24.1.7]",
+          "DevExpress.Sparkline.Core": "[24.1.7]",
+          "DevExpress.Xpo": "[24.1.7]"
         },
         "compile": {
           "lib/net6.0/DevExpress.XtraReports.v24.1.Web.dll": {
@@ -1465,16 +1470,16 @@
           }
         }
       },
-      "DevExpress.Web.Reporting.Common.Services/24.1.5": {
+      "DevExpress.Web.Reporting.Common.Services/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
-          "DevExpress.DataAccess": "[24.1.5]",
-          "DevExpress.Reporting.Core": "[24.1.5]",
-          "DevExpress.Web.Reporting.Common": "[24.1.5]",
+          "DevExpress.Data": "[24.1.7]",
+          "DevExpress.DataAccess": "[24.1.7]",
+          "DevExpress.Reporting.Core": "[24.1.7]",
+          "DevExpress.Web.Reporting.Common": "[24.1.7]",
           "Microsoft.Extensions.DependencyInjection": "6.0.0",
           "Microsoft.Extensions.Options": "6.0.0",
-          "System.Text.Json": "6.0.0",
+          "System.Text.Json": "6.0.10",
           "System.Threading.AccessControl": "4.4.0"
         },
         "compile": {
@@ -1488,11 +1493,11 @@
           }
         }
       },
-      "DevExpress.Web.Resources/24.1.5": {
+      "DevExpress.Web.Resources/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.AspNetCore.Core": "[24.1.5]",
-          "DevExpress.Data": "[24.1.5]"
+          "DevExpress.AspNetCore.Core": "[24.1.7]",
+          "DevExpress.Data": "[24.1.7]"
         },
         "compile": {
           "lib/net6.0/DevExpress.Web.Resources.v24.1.dll": {}
@@ -1501,13 +1506,14 @@
           "lib/net6.0/DevExpress.Web.Resources.v24.1.dll": {}
         }
       },
-      "DevExpress.Xpo/24.1.5": {
+      "DevExpress.Xpo/24.1.7": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.5]",
+          "DevExpress.Data": "[24.1.7]",
           "Microsoft.Extensions.DependencyInjection": "6.0.0",
           "System.Data.SqlClient": "4.8.6",
           "System.Drawing.Common": "4.7.2",
+          "System.Formats.Asn1": "6.0.1",
           "System.Security.Cryptography.Pkcs": "6.0.3",
           "System.ServiceModel.Http": "6.2.0",
           "System.ServiceModel.NetTcp": "6.2.0"
@@ -1621,12 +1627,11 @@
           }
         }
       },
-      "MessagePack/2.5.140": {
+      "MessagePack/2.5.187": {
         "type": "package",
         "dependencies": {
-          "MessagePack.Annotations": "2.5.140",
-          "Microsoft.NET.StringTools": "17.6.3",
-          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+          "MessagePack.Annotations": "2.5.187",
+          "Microsoft.NET.StringTools": "17.6.3"
         },
         "compile": {
           "lib/net6.0/MessagePack.dll": {
@@ -1639,7 +1644,7 @@
           }
         }
       },
-      "MessagePack.Annotations/2.5.140": {
+      "MessagePack.Annotations/2.5.187": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/MessagePack.Annotations.dll": {
@@ -1927,14 +1932,14 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyModel/6.0.0": {
+      "Microsoft.Extensions.DependencyModel/6.0.1": {
         "type": "package",
         "dependencies": {
           "System.Buffers": "4.5.1",
           "System.Memory": "4.5.4",
           "System.Runtime.CompilerServices.Unsafe": "6.0.0",
           "System.Text.Encodings.Web": "6.0.0",
-          "System.Text.Json": "6.0.0"
+          "System.Text.Json": "6.0.10"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll": {
@@ -2554,20 +2559,20 @@
           }
         }
       },
-      "System.Formats.Asn1/6.0.0": {
+      "System.Formats.Asn1/8.0.1": {
         "type": "package",
         "compile": {
-          "lib/net6.0/System.Formats.Asn1.dll": {
+          "lib/net8.0/System.Formats.Asn1.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/System.Formats.Asn1.dll": {
+          "lib/net8.0/System.Formats.Asn1.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "System.IdentityModel.Tokens.Jwt/7.1.2": {
@@ -3085,24 +3090,20 @@
           }
         }
       },
-      "System.Text.Json/6.0.10": {
+      "System.Text.Json/8.0.5": {
         "type": "package",
-        "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
-          "System.Text.Encodings.Web": "6.0.0"
-        },
         "compile": {
-          "lib/net6.0/System.Text.Json.dll": {
+          "lib/net8.0/System.Text.Json.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/System.Text.Json.dll": {
+          "lib/net8.0/System.Text.Json.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/netcoreapp3.1/System.Text.Json.targets": {}
+          "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
       "System.Threading.AccessControl/4.4.0": {
@@ -3228,62 +3229,62 @@
         "lib/netstandard2.0/Azure.Identity.xml"
       ]
     },
-    "DevExpress.AspNetCore.Common/24.1.5": {
-      "sha512": "eZ3j1qdCUoeaoQG2MezvuSLuaSsZlM77ikhjJb+oyarW9fsEQ+glGeIgMstenfQuMQ+2p5ZjU2yLjbYPOMMH1g==",
+    "DevExpress.AspNetCore.Common/24.1.7": {
+      "sha512": "ICqyNm63i1bHKPACFtQ5gm1Demrmds+vT321pv9dbppM3G1on/Cc6DtF8DMoPMjwJE1+50bKpo9v7CcYVsMp0w==",
       "type": "package",
-      "path": "devexpress.aspnetcore.common/24.1.5",
+      "path": "devexpress.aspnetcore.common/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.aspnetcore.common.24.1.5.nupkg.sha512",
+        "devexpress.aspnetcore.common.24.1.7.nupkg.sha512",
         "devexpress.aspnetcore.common.nuspec",
         "lib/net6.0/DevExpress.AspNetCore.Common.v24.1.dll",
         "lib/net6.0/DevExpress.AspNetCore.Common.v24.1.xml"
       ]
     },
-    "DevExpress.AspNetCore.Core/24.1.5": {
-      "sha512": "ChNrP8W0IOaJrzFvwbN/6Q1nUg4wrKjradScFAX76ssAEVbQmJBuHQFlVhJOJvUY1/yDsN6sKc7FcjVQbvyGRg==",
+    "DevExpress.AspNetCore.Core/24.1.7": {
+      "sha512": "APGfM+lWiQ7lInqkaEWCGv9irYUS7TCuH4WtD0rJ+1P+XQaeg6rjgBxjeSDEkpzC6luUsck/kIBnS8DwyB0sRA==",
       "type": "package",
-      "path": "devexpress.aspnetcore.core/24.1.5",
+      "path": "devexpress.aspnetcore.core/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.aspnetcore.core.24.1.5.nupkg.sha512",
+        "devexpress.aspnetcore.core.24.1.7.nupkg.sha512",
         "devexpress.aspnetcore.core.nuspec",
         "lib/net6.0/DevExpress.AspNetCore.Core.v24.1.dll",
         "lib/net6.0/DevExpress.AspNetCore.Core.v24.1.xml"
       ]
     },
-    "DevExpress.AspNetCore.Dashboard/24.1.5": {
-      "sha512": "op1hGLK4URLbOHIEwrMnV6IFWgVV0i1JX1whFCGBa2c77k9UZ60JuvCVckBwbEFK8FjnXJNIPSyFNHKChbL5tA==",
+    "DevExpress.AspNetCore.Dashboard/24.1.7": {
+      "sha512": "+42cGVJKVNlCL44gjI5RDiHk5XMFveZnmyknn6EO5hwJjOyZzi1+RHRtljEYtmJZ98cVanKGH4gEc97zeC4H7A==",
       "type": "package",
-      "path": "devexpress.aspnetcore.dashboard/24.1.5",
+      "path": "devexpress.aspnetcore.dashboard/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.aspnetcore.dashboard.24.1.5.nupkg.sha512",
+        "devexpress.aspnetcore.dashboard.24.1.7.nupkg.sha512",
         "devexpress.aspnetcore.dashboard.nuspec",
         "lib/net6.0/DevExpress.Dashboard.v24.1.AspNetCore.dll",
         "lib/net6.0/DevExpress.Dashboard.v24.1.AspNetCore.xml"
       ]
     },
-    "DevExpress.AspNetCore.Reporting/24.1.5": {
-      "sha512": "TlWwFMuq7LS+pzoH23Rma73jxxlWgCXFwVkvFxZsFXwLFNej/NxDMboN80YKehJjOVn2JpTeYAF09mmcIcUEcg==",
+    "DevExpress.AspNetCore.Reporting/24.1.7": {
+      "sha512": "HrgBMAyomwMopsr4Q6YYNkQ9Vcn8j5dfIPRwbBE0ALU69htPRVQUuIds+6yPqNvso5iTHz9g0NFkfPWQRd4LHg==",
       "type": "package",
-      "path": "devexpress.aspnetcore.reporting/24.1.5",
+      "path": "devexpress.aspnetcore.reporting/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.aspnetcore.reporting.24.1.5.nupkg.sha512",
+        "devexpress.aspnetcore.reporting.24.1.7.nupkg.sha512",
         "devexpress.aspnetcore.reporting.nuspec",
         "lib/net6.0/DevExpress.AspNetCore.Reporting.v24.1.dll",
         "lib/net6.0/DevExpress.AspNetCore.Reporting.v24.1.xml"
       ]
     },
-    "DevExpress.Blazor/24.1.5": {
-      "sha512": "NW6Ev1VTTwN0lLzkTXL1wTfG0y+YGRwHzxfmMU9HoXfA7DKe5GUHTsdcfP1ddPuhXX/c4gQh75juDZqjQrfBLQ==",
+    "DevExpress.Blazor/24.1.7": {
+      "sha512": "KIB8baSt6TO0IHw1ymyE0t2T9E16A3MB04xHXmJOcSQC1gNFKScNdXX1IeIWzxU1HSn1l76oSf7LUbv+ScY3Hw==",
       "type": "package",
-      "path": "devexpress.blazor/24.1.5",
+      "path": "devexpress.blazor/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3293,20 +3294,20 @@
         "buildTransitive/DevExpress.Blazor.props",
         "buildTransitive/net5.0/DevExpress.Blazor.props",
         "buildTransitive/net5.0/DevExpress.Blazor.targets",
-        "devexpress.blazor.24.1.5.nupkg.sha512",
+        "devexpress.blazor.24.1.7.nupkg.sha512",
         "devexpress.blazor.nuspec",
         "lib/net6.0/DevExpress.Blazor.v24.1.dll",
         "lib/net6.0/DevExpress.Blazor.v24.1.xml",
         "staticwebassets/dx-blazor-f98cd0f48e.svg",
         "staticwebassets/modules/_tslib-6e8ca86b.js",
-        "staticwebassets/modules/adaptivedropdowncomponents-f2bc4f61.js",
+        "staticwebassets/modules/adaptivedropdowncomponents-1d8f3085.js",
         "staticwebassets/modules/after-render-utils-180db514.js",
-        "staticwebassets/modules/baseChart-ef8da3d9.js",
+        "staticwebassets/modules/baseChart-d9b79817.js",
         "staticwebassets/modules/branch-e081818f.js",
         "staticwebassets/modules/browser-d96520d8.js",
         "staticwebassets/modules/capturemanager-43e041e5.js",
-        "staticwebassets/modules/chart-dcf7092c.js",
-        "staticwebassets/modules/column-resize-d38267fc.js",
+        "staticwebassets/modules/chart-f3b90c39.js",
+        "staticwebassets/modules/column-resize-f97423c0.js",
         "staticwebassets/modules/columnchooser-ab1bbcd9.js",
         "staticwebassets/modules/common-f853e871.js",
         "staticwebassets/modules/const-90026e45.js",
@@ -3318,14 +3319,14 @@
         "staticwebassets/modules/constants-9c7feb92.js",
         "staticwebassets/modules/create-after-timeout-fn-executor-38b3d79d.js",
         "staticwebassets/modules/css-classes-cee8476c.js",
-        "staticwebassets/modules/custom-color-area-83e13cf6.js",
+        "staticwebassets/modules/custom-color-area-71e77b35.js",
         "staticwebassets/modules/custom-element-267f9a21.js",
         "staticwebassets/modules/custom-events-helper-e7f279d3.js",
-        "staticwebassets/modules/custom-theme-generator-777a3837.js",
+        "staticwebassets/modules/custom-theme-generator-9dcb87cb.js",
         "staticwebassets/modules/data-qa-utils-8be7c726.js",
         "staticwebassets/modules/define-custom-element-6b54b261.js",
-        "staticwebassets/modules/devexpress-b5c2eb64.js",
-        "staticwebassets/modules/devextreme-widget-wrapper-ee9f96b5.js",
+        "staticwebassets/modules/devexpress-1990bef3.js",
+        "staticwebassets/modules/devextreme-widget-wrapper-e8f76a7a.js",
         "staticwebassets/modules/devices-afeafb19.js",
         "staticwebassets/modules/disposable-d2c2d283.js",
         "staticwebassets/modules/dom-da46d023.js",
@@ -3333,61 +3334,61 @@
         "staticwebassets/modules/dotnet-a96c8118.js",
         "staticwebassets/modules/dragAndDropUnit-98774f64.js",
         "staticwebassets/modules/draggable-eb9fff07.js",
-        "staticwebassets/modules/dropdown-f12d8c2d.js",
-        "staticwebassets/modules/dropdown-menu-keyboard-strategy-715db8f5.js",
-        "staticwebassets/modules/dropdowncomponents-96414fa1.js",
-        "staticwebassets/modules/dropdowns-20dd7475.js",
-        "staticwebassets/modules/dx-accordion-f94ffa8e.js",
-        "staticwebassets/modules/dx-bar-gauge-7573bb20.js",
-        "staticwebassets/modules/dx-blazor-610c0aeb.js",
-        "staticwebassets/modules/dx-blazor-all-d526a3a3.js",
-        "staticwebassets/modules/dx-calendar-bb383ec8.js",
-        "staticwebassets/modules/dx-check-internal-86a77c5f.js",
-        "staticwebassets/modules/dx-combo-box-47143a4b.js",
-        "staticwebassets/modules/dx-combobox-70bfc1bc.js",
-        "staticwebassets/modules/dx-context-menu-5d02ce86.js",
+        "staticwebassets/modules/dropdown-c4908e0b.js",
+        "staticwebassets/modules/dropdown-menu-keyboard-strategy-0adf881a.js",
+        "staticwebassets/modules/dropdowncomponents-4ccadb32.js",
+        "staticwebassets/modules/dropdowns-a2e11599.js",
+        "staticwebassets/modules/dx-accordion-88edf32a.js",
+        "staticwebassets/modules/dx-bar-gauge-4068fd49.js",
+        "staticwebassets/modules/dx-blazor-all-ac0a7a80.js",
+        "staticwebassets/modules/dx-blazor-d186a8a8.js",
+        "staticwebassets/modules/dx-calendar-dc655f73.js",
+        "staticwebassets/modules/dx-check-internal-4daa1d5d.js",
+        "staticwebassets/modules/dx-combo-box-080c3639.js",
+        "staticwebassets/modules/dx-combobox-40afd08c.js",
+        "staticwebassets/modules/dx-context-menu-00e2375b.js",
         "staticwebassets/modules/dx-css-runtime-b3e20aad.js",
-        "staticwebassets/modules/dx-date-edit-85ac59e9.js",
-        "staticwebassets/modules/dx-date-edit-base-f73a3d5e.js",
-        "staticwebassets/modules/dx-date-range-picker-ce7d4fe7.js",
-        "staticwebassets/modules/dx-date-time-edit-496422f6.js",
-        "staticwebassets/modules/dx-drawer-ee60d864.js",
-        "staticwebassets/modules/dx-dropdown-base3-8e15c7c1.js",
-        "staticwebassets/modules/dx-dropdown-box-6a7ba8b1.js",
-        "staticwebassets/modules/dx-dropdown-list-box-c301ed11.js",
-        "staticwebassets/modules/dx-dropdown-owner-c8a72b0e.js",
-        "staticwebassets/modules/dx-form-layout-8fb98a0d.js",
-        "staticwebassets/modules/dx-grid-3c944b69.js",
-        "staticwebassets/modules/dx-grid-layout-940c1e54.js",
-        "staticwebassets/modules/dx-grid-layout-element-base-f83da33f.js",
-        "staticwebassets/modules/dx-html-editor-e8a74a29.js",
-        "staticwebassets/modules/dx-html-element-base-fafcaecf.js",
+        "staticwebassets/modules/dx-date-edit-base-415eef49.js",
+        "staticwebassets/modules/dx-date-edit-dd3740e7.js",
+        "staticwebassets/modules/dx-date-range-picker-4bd5ebdf.js",
+        "staticwebassets/modules/dx-date-time-edit-3f44378a.js",
+        "staticwebassets/modules/dx-drawer-53785997.js",
+        "staticwebassets/modules/dx-dropdown-base3-2fdad707.js",
+        "staticwebassets/modules/dx-dropdown-box-3c95bb6f.js",
+        "staticwebassets/modules/dx-dropdown-list-box-ee9a9a9d.js",
+        "staticwebassets/modules/dx-dropdown-owner-cb4aef60.js",
+        "staticwebassets/modules/dx-form-layout-0e7acf9b.js",
+        "staticwebassets/modules/dx-grid-033dcb6b.js",
+        "staticwebassets/modules/dx-grid-layout-e1c8c558.js",
+        "staticwebassets/modules/dx-grid-layout-element-base-409aa3ba.js",
+        "staticwebassets/modules/dx-html-editor-c43c5c1d.js",
+        "staticwebassets/modules/dx-html-element-base-fd84f3f8.js",
         "staticwebassets/modules/dx-html-element-pointer-events-helper-b4d2ae7e.js",
-        "staticwebassets/modules/dx-license-e6fd1b24.js",
-        "staticwebassets/modules/dx-list-box-ca5c0fa7.js",
-        "staticwebassets/modules/dx-list-box-events-c8133a66.js",
-        "staticwebassets/modules/dx-listbox-d9dfcbfd.js",
-        "staticwebassets/modules/dx-loading-panel-cb1f23c4.js",
-        "staticwebassets/modules/dx-map-57b4732b.js",
-        "staticwebassets/modules/dx-memo-7425a81d.js",
-        "staticwebassets/modules/dx-menu-01a2f39f.js",
-        "staticwebassets/modules/dx-menu-item-3a19aba1.js",
+        "staticwebassets/modules/dx-license-dd341102.js",
+        "staticwebassets/modules/dx-list-box-530d3f96.js",
+        "staticwebassets/modules/dx-list-box-events-62ff2856.js",
+        "staticwebassets/modules/dx-listbox-6e425633.js",
+        "staticwebassets/modules/dx-loading-panel-5a967195.js",
+        "staticwebassets/modules/dx-map-5628c1d1.js",
+        "staticwebassets/modules/dx-memo-587f0ec5.js",
+        "staticwebassets/modules/dx-menu-95b67441.js",
+        "staticwebassets/modules/dx-menu-item-5452f824.js",
         "staticwebassets/modules/dx-menu-preloader-e1834dc5.js",
-        "staticwebassets/modules/dx-progress-bar-0afb550f.js",
-        "staticwebassets/modules/dx-scroll-viewer-015d9282.js",
-        "staticwebassets/modules/dx-sparkline-ed3827c5.js",
-        "staticwebassets/modules/dx-stack-layout-ce0e141c.js",
-        "staticwebassets/modules/dx-style-helper-2f946b7b.js",
-        "staticwebassets/modules/dx-tag-box-246d0e8f.js",
-        "staticwebassets/modules/dx-tagbox-1dfe546d.js",
-        "staticwebassets/modules/dx-toast-a7e8bdd4.js",
-        "staticwebassets/modules/dx-toast-portal-6bd8db77.js",
-        "staticwebassets/modules/dx-tree-view-06da94ba.js",
-        "staticwebassets/modules/dx-ui-element-9b07aafc.js",
+        "staticwebassets/modules/dx-progress-bar-d1d571cb.js",
+        "staticwebassets/modules/dx-scroll-viewer-d14c6cca.js",
+        "staticwebassets/modules/dx-sparkline-70a99b70.js",
+        "staticwebassets/modules/dx-stack-layout-84687cf2.js",
+        "staticwebassets/modules/dx-style-helper-84099057.js",
+        "staticwebassets/modules/dx-tag-box-68ae3362.js",
+        "staticwebassets/modules/dx-tagbox-eb70dc61.js",
+        "staticwebassets/modules/dx-toast-ea4770ad.js",
+        "staticwebassets/modules/dx-toast-portal-fa64d9d2.js",
+        "staticwebassets/modules/dx-tree-view-526bb6af.js",
+        "staticwebassets/modules/dx-ui-element-822e6c84.js",
         "staticwebassets/modules/dx-ui-handlers-bridge-c2148178.js",
-        "staticwebassets/modules/dx-virtual-scroll-viewer-a6e3c836.js",
-        "staticwebassets/modules/dxbl-itemlistdropdown-575380f2.js",
-        "staticwebassets/modules/dxbl-window-635d552f.js",
+        "staticwebassets/modules/dx-virtual-scroll-viewer-1ee44a82.js",
+        "staticwebassets/modules/dxbl-itemlistdropdown-5e0ec0d3.js",
+        "staticwebassets/modules/dxbl-window-ad57a88a.js",
         "staticwebassets/modules/dynamic-stylesheet-component-e45a91ae.js",
         "staticwebassets/modules/enumConverter-6047c3ff.js",
         "staticwebassets/modules/eventRegister-fb9b0e47.js",
@@ -3396,34 +3397,34 @@
         "staticwebassets/modules/events-70d90aad.js",
         "staticwebassets/modules/events-interseptor-35e91aec.js",
         "staticwebassets/modules/evt-e106b696.js",
-        "staticwebassets/modules/expandable-container-9bd64f3f.js",
-        "staticwebassets/modules/file-input-0ff793f8.js",
-        "staticwebassets/modules/flyout-6b682fdd.js",
-        "staticwebassets/modules/flyoutcomponents-1cbe3475.js",
+        "staticwebassets/modules/expandable-container-d95c8b41.js",
+        "staticwebassets/modules/file-input-695b9fb8.js",
+        "staticwebassets/modules/flyout-7bc357c6.js",
+        "staticwebassets/modules/flyoutcomponents-8f63fc61.js",
         "staticwebassets/modules/focus-utils-405a64a8.js",
         "staticwebassets/modules/focushelper-cb993bae.js",
         "staticwebassets/modules/focustrap-8a58142c.js",
-        "staticwebassets/modules/grid-1aaedada.js",
-        "staticwebassets/modules/grid-scroll-utils-2608dc88.js",
-        "staticwebassets/modules/group-control-f0cceb4a.js",
-        "staticwebassets/modules/index-533489fb.js",
-        "staticwebassets/modules/input-187583b1.js",
+        "staticwebassets/modules/grid-9f78f3f1.js",
+        "staticwebassets/modules/grid-scroll-utils-85c8cb9d.js",
+        "staticwebassets/modules/group-control-70ba6200.js",
+        "staticwebassets/modules/index-9f673bcf.js",
+        "staticwebassets/modules/input-158e4fdf.js",
         "staticwebassets/modules/key-f9cbed1b.js",
         "staticwebassets/modules/keyboard-navigation-strategy-940ff3b3.js",
         "staticwebassets/modules/layouthelper-0c7c89da.js",
         "staticwebassets/modules/lit-element-462e7ad3.js",
-        "staticwebassets/modules/lit-element-base-95084ec8.js",
+        "staticwebassets/modules/lit-element-base-32a69cc0.js",
         "staticwebassets/modules/logicaltreehelper-7b19cc30.js",
-        "staticwebassets/modules/masked-input-fa40de67.js",
-        "staticwebassets/modules/menu-keyboard-strategy-72132bb2.js",
-        "staticwebassets/modules/modalcomponents-4c2f7e63.js",
+        "staticwebassets/modules/masked-input-16225991.js",
+        "staticwebassets/modules/menu-keyboard-strategy-ec303e3a.js",
+        "staticwebassets/modules/modalcomponents-1148ec67.js",
         "staticwebassets/modules/nameof-factory-64d95f5b.js",
         "staticwebassets/modules/observables-589a5615.js",
         "staticwebassets/modules/pager-64a19cb6.js",
-        "staticwebassets/modules/pieChart-2a94f471.js",
+        "staticwebassets/modules/pieChart-f9aa84eb.js",
         "staticwebassets/modules/point-e4ec110e.js",
-        "staticwebassets/modules/polarChart-bd8f4520.js",
-        "staticwebassets/modules/popup-e33cb9f6.js",
+        "staticwebassets/modules/polarChart-11a954c2.js",
+        "staticwebassets/modules/popup-1339ec31.js",
         "staticwebassets/modules/popupportal-87b21a6c.js",
         "staticwebassets/modules/portal-8366b474.js",
         "staticwebassets/modules/positionlistener-192de9f8.js",
@@ -3431,41 +3432,41 @@
         "staticwebassets/modules/property-4ec0b52d.js",
         "staticwebassets/modules/query-44b9267f.js",
         "staticwebassets/modules/rafaction-bba7928b.js",
-        "staticwebassets/modules/ribbon-88f228d1.js",
-        "staticwebassets/modules/ribbon-tabs-fb35078c.js",
+        "staticwebassets/modules/ribbon-aa4512d5.js",
+        "staticwebassets/modules/ribbon-tabs-9cfac8da.js",
         "staticwebassets/modules/ribbon-utils-6bb79d90.js",
         "staticwebassets/modules/roller-ac970633.js",
-        "staticwebassets/modules/root-keyboard-strategy-ffda51f9.js",
-        "staticwebassets/modules/scheduler-46e916c2.js",
+        "staticwebassets/modules/root-keyboard-strategy-e1de740d.js",
+        "staticwebassets/modules/scheduler-7ef44ab6.js",
         "staticwebassets/modules/screenhelper-cc818363.js",
         "staticwebassets/modules/scroll-viewer-css-classes-4d6797bc.js",
-        "staticwebassets/modules/single-slot-element-base-05b10475.js",
+        "staticwebassets/modules/single-slot-element-base-9e7a4622.js",
         "staticwebassets/modules/snackbar-faac56f1.js",
-        "staticwebassets/modules/spinedit-5e474ea9.js",
+        "staticwebassets/modules/spinedit-fd5d0720.js",
         "staticwebassets/modules/state-c294470d.js",
         "staticwebassets/modules/svg-utils-6d80148e.js",
-        "staticwebassets/modules/text-editor-22aefc12.js",
+        "staticwebassets/modules/text-editor-2c313fd3.js",
         "staticwebassets/modules/thumb-c80aa4fc.js",
+        "staticwebassets/modules/toolbar-54ccb760.js",
         "staticwebassets/modules/toolbar-css-classes-a87b5199.js",
-        "staticwebassets/modules/toolbar-ef4d85b8.js",
         "staticwebassets/modules/tooltip-30e59f64.js",
         "staticwebassets/modules/touch-4bff3f51.js",
         "staticwebassets/modules/transformhelper-ebad0156.js",
-        "staticwebassets/modules/upload-base-d3870569.js",
-        "staticwebassets/modules/upload-d30b6a32.js",
+        "staticwebassets/modules/upload-1d16f150.js",
+        "staticwebassets/modules/upload-base-7fd10b87.js",
         "staticwebassets/modules/utils-583c443b.js",
         "staticwebassets/modules/webview-svg-loader-d4378c1a.js",
-        "staticwebassets/modules/widget-chunks/dxw-bar-gauge-f9fb994b698aac143bf4.js",
-        "staticwebassets/modules/widget-chunks/dxw-html-editor-585a7c6bf14527f77bb5.js",
-        "staticwebassets/modules/widget-chunks/dxw-html-editor-585a7c6bf14527f77bb5.js.LICENSE.txt",
-        "staticwebassets/modules/widget-chunks/dxw-map-17a4f3c6bfc713ce84bd.js",
+        "staticwebassets/modules/widget-chunks/dxw-bar-gauge-aa44708ec4226a266453.js",
+        "staticwebassets/modules/widget-chunks/dxw-html-editor-9cd522ed0507bf4d9844.js",
+        "staticwebassets/modules/widget-chunks/dxw-html-editor-9cd522ed0507bf4d9844.js.LICENSE.txt",
+        "staticwebassets/modules/widget-chunks/dxw-map-023ade5cb4d660a3fa06.js",
         "staticwebassets/modules/window-resize-helper-8b32f302.js"
       ]
     },
-    "DevExpress.Blazor.Dashboard/24.1.5": {
-      "sha512": "IJpuGYQEn/JM4rgaHfgSwgEPsz3D85A6ba8K/dzRBpMzoK8e13y2lIkjeRiz69xSYs4oXhH8Kcv106sGnWPGaA==",
+    "DevExpress.Blazor.Dashboard/24.1.7": {
+      "sha512": "ICi358+c22mv8bJfHV82PEvnIoZlMa6MOob5rmIANo40jeXGcM8q+UaJDvPT9ejizVH8KWkWVwoIzw4CMSQijQ==",
       "type": "package",
-      "path": "devexpress.blazor.dashboard/24.1.5",
+      "path": "devexpress.blazor.dashboard/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3473,7 +3474,7 @@
         "build/Microsoft.AspNetCore.StaticWebAssets.props",
         "buildMultiTargeting/DevExpress.Blazor.Dashboard.props",
         "buildTransitive/DevExpress.Blazor.Dashboard.props",
-        "devexpress.blazor.dashboard.24.1.5.nupkg.sha512",
+        "devexpress.blazor.dashboard.24.1.7.nupkg.sha512",
         "devexpress.blazor.dashboard.nuspec",
         "lib/net6.0/DevExpress.Dashboard.v24.1.Blazor.dll",
         "lib/net6.0/DevExpress.Dashboard.v24.1.Blazor.xml",
@@ -3568,10 +3569,10 @@
         "staticwebassets/knockout-latest.js"
       ]
     },
-    "DevExpress.Blazor.Reporting.JSBasedControls/24.1.5": {
-      "sha512": "s373yWkjVl0Ss00xwH5K0T8Cc+QeU85KPwtrVLXaLFswuhBecZZpxOAbeuLL3v08BV8AHPHTNrJHGv3YtDOZfw==",
+    "DevExpress.Blazor.Reporting.JSBasedControls/24.1.7": {
+      "sha512": "VYkD03q23DQkGgAs/mvtAEGjX8AgTLumGu/ZtZ0p8kaXG5+lhyxgKBKH2b8LFdHZ8BD+BnEIhOUwTTuc3gPpnw==",
       "type": "package",
-      "path": "devexpress.blazor.reporting.jsbasedcontrols/24.1.5",
+      "path": "devexpress.blazor.reporting.jsbasedcontrols/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3579,16 +3580,16 @@
         "build/Microsoft.AspNetCore.StaticWebAssets.props",
         "buildMultiTargeting/DevExpress.Blazor.Reporting.JSBasedControls.props",
         "buildTransitive/DevExpress.Blazor.Reporting.JSBasedControls.props",
-        "devexpress.blazor.reporting.jsbasedcontrols.24.1.5.nupkg.sha512",
+        "devexpress.blazor.reporting.jsbasedcontrols.24.1.7.nupkg.sha512",
         "devexpress.blazor.reporting.jsbasedcontrols.nuspec",
         "lib/net6.0/DevExpress.Blazor.Reporting.v24.1.JSBasedControls.dll",
         "lib/net6.0/DevExpress.Blazor.Reporting.v24.1.JSBasedControls.xml"
       ]
     },
-    "DevExpress.Blazor.Reporting.JSBasedControls.Common/24.1.5": {
-      "sha512": "scUu2a9KYx4CvsJtwIgV25KQKr9MQyaUO6l/smhzO5/ftgvDAwxsR7ioTsK22FhkNK4ScHbuOZuEs358GZ2x6Q==",
+    "DevExpress.Blazor.Reporting.JSBasedControls.Common/24.1.7": {
+      "sha512": "8qgiLxbybhf2sXmfIumqq58fLWM+pueaR3mMWO3xxTIkLTem8xpwhu5v8QY1pEfUcfd9Huz+fVcK9dH+D6erzQ==",
       "type": "package",
-      "path": "devexpress.blazor.reporting.jsbasedcontrols.common/24.1.5",
+      "path": "devexpress.blazor.reporting.jsbasedcontrols.common/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3596,7 +3597,7 @@
         "build/Microsoft.AspNetCore.StaticWebAssets.props",
         "buildMultiTargeting/DevExpress.Blazor.Reporting.JSBasedControls.Common.props",
         "buildTransitive/DevExpress.Blazor.Reporting.JSBasedControls.Common.props",
-        "devexpress.blazor.reporting.jsbasedcontrols.common.24.1.5.nupkg.sha512",
+        "devexpress.blazor.reporting.jsbasedcontrols.common.24.1.7.nupkg.sha512",
         "devexpress.blazor.reporting.jsbasedcontrols.common.nuspec",
         "lib/net6.0/DevExpress.Blazor.Reporting.v24.1.JSBasedControls.Common.dll",
         "lib/net6.0/DevExpress.Blazor.Reporting.v24.1.JSBasedControls.Common.xml",
@@ -3609,9 +3610,9 @@
         "staticwebassets/assets/dxicons.woff",
         "staticwebassets/assets/dxicons.woff2",
         "staticwebassets/assets/main-1.png",
-        "staticwebassets/assets/main-10.png",
-        "staticwebassets/assets/main-11.png",
-        "staticwebassets/assets/main-12.png",
+        "staticwebassets/assets/main-10.svg",
+        "staticwebassets/assets/main-11.svg",
+        "staticwebassets/assets/main-12.svg",
         "staticwebassets/assets/main-13.png",
         "staticwebassets/assets/main-14.png",
         "staticwebassets/assets/main-15.png",
@@ -3622,8 +3623,11 @@
         "staticwebassets/assets/main-2.png",
         "staticwebassets/assets/main-20.png",
         "staticwebassets/assets/main-21.png",
-        "staticwebassets/assets/main-22.svg",
+        "staticwebassets/assets/main-22.png",
         "staticwebassets/assets/main-23.png",
+        "staticwebassets/assets/main-24.png",
+        "staticwebassets/assets/main-25.svg",
+        "staticwebassets/assets/main-26.png",
         "staticwebassets/assets/main-3.png",
         "staticwebassets/assets/main-4.png",
         "staticwebassets/assets/main-5.svg",
@@ -3631,18 +3635,18 @@
         "staticwebassets/assets/main-7.svg",
         "staticwebassets/assets/main-8.svg",
         "staticwebassets/assets/main-9.svg",
-        "staticwebassets/dx-blazor-reportdesigner-4e5fc384fecb4d5b3791.js",
-        "staticwebassets/dx-blazor-reportdesigner-4e5fc384fecb4d5b3791.js.LICENSE.txt",
-        "staticwebassets/dx-blazor-reporting-4e5fc384fecb4d5b3791.css",
-        "staticwebassets/dx-blazor-webdocumentviewer-4e5fc384fecb4d5b3791.js",
-        "staticwebassets/dx-blazor-webdocumentviewer-4e5fc384fecb4d5b3791.js.LICENSE.txt",
-        "staticwebassets/dx-reporting-skeleton-screen-4e5fc384fecb4d5b3791.css"
+        "staticwebassets/dx-blazor-reportdesigner-041ee311bc013fea76ae.js",
+        "staticwebassets/dx-blazor-reportdesigner-041ee311bc013fea76ae.js.LICENSE.txt",
+        "staticwebassets/dx-blazor-reporting-041ee311bc013fea76ae.css",
+        "staticwebassets/dx-blazor-webdocumentviewer-041ee311bc013fea76ae.js",
+        "staticwebassets/dx-blazor-webdocumentviewer-041ee311bc013fea76ae.js.LICENSE.txt",
+        "staticwebassets/dx-reporting-skeleton-screen-041ee311bc013fea76ae.css"
       ]
     },
-    "DevExpress.Blazor.Reporting.Viewer/24.1.5": {
-      "sha512": "YByRhVVGzhur7z9DfkbkRNrERmKhpVlkVBu2s0ogOgU9NfiuoohlBwQi56h57bS2+yKxh0EW5dGQhrZVw7j/8Q==",
+    "DevExpress.Blazor.Reporting.Viewer/24.1.7": {
+      "sha512": "J1+S1aRwQD+F6jZPea1Oq9bcAVYONKgReHG6g1nv9RNF2nFPkaE1WU/F5780vhbNfkez/CWA+aPfTeB7dsEHLg==",
       "type": "package",
-      "path": "devexpress.blazor.reporting.viewer/24.1.5",
+      "path": "devexpress.blazor.reporting.viewer/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3650,7 +3654,7 @@
         "build/Microsoft.AspNetCore.StaticWebAssets.props",
         "buildMultiTargeting/DevExpress.Blazor.Reporting.Viewer.props",
         "buildTransitive/DevExpress.Blazor.Reporting.Viewer.props",
-        "devexpress.blazor.reporting.viewer.24.1.5.nupkg.sha512",
+        "devexpress.blazor.reporting.viewer.24.1.7.nupkg.sha512",
         "devexpress.blazor.reporting.viewer.nuspec",
         "lib/net6.0/DevExpress.Blazor.Reporting.v24.1.Viewer.dll",
         "lib/net6.0/DevExpress.Blazor.Reporting.v24.1.Viewer.xml",
@@ -3665,10 +3669,10 @@
         "staticwebassets/font/Devexpress-Reporting-Icons.woff2"
       ]
     },
-    "DevExpress.Blazor.RichEdit/24.1.5": {
-      "sha512": "YHkS0dzNKYnfNy1CXhmoKmX426QBG0i3HqFs1v5Iv7omiBqOXDGaOe5NFBnWs6WNOcKSUt5iM4XlOtHsrsu4cw==",
+    "DevExpress.Blazor.RichEdit/24.1.7": {
+      "sha512": "vqMGAiaHoeUNZD50Pv01FB8aEU+V6fhpfsyTQUr93oQxlhozpoC7oG6djHToyffkfAzIP/NbRVJF0bNI+pLlAA==",
       "type": "package",
-      "path": "devexpress.blazor.richedit/24.1.5",
+      "path": "devexpress.blazor.richedit/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3676,7 +3680,7 @@
         "build/Microsoft.AspNetCore.StaticWebAssets.props",
         "buildMultiTargeting/DevExpress.Blazor.RichEdit.props",
         "buildTransitive/DevExpress.Blazor.RichEdit.props",
-        "devexpress.blazor.richedit.24.1.5.nupkg.sha512",
+        "devexpress.blazor.richedit.24.1.7.nupkg.sha512",
         "devexpress.blazor.richedit.nuspec",
         "lib/net6.0/DevExpress.Blazor.RichEdit.v24.1.dll",
         "lib/net6.0/DevExpress.Blazor.RichEdit.v24.1.xml",
@@ -3691,10 +3695,10 @@
         "staticwebassets/sprite_rich.svg"
       ]
     },
-    "DevExpress.Blazor.Themes/24.1.5": {
-      "sha512": "Gg21wGWOZGVw9sgtim1+CeMzV1nuSQhMvgcMgyWi0w+gc7jM4K0cOFpM+5n6Vc/eXMgWMocjLfKjZVaKeQgWoA==",
+    "DevExpress.Blazor.Themes/24.1.7": {
+      "sha512": "9qRDurF/rblwD8sOIm6hWNnRbdIc/eGVX6O7FTKHpeN8Outxf+YgwxJ13EbVk3BXQHatXSbhgugKlDpzs7Ix4Q==",
       "type": "package",
-      "path": "devexpress.blazor.themes/24.1.5",
+      "path": "devexpress.blazor.themes/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3702,7 +3706,7 @@
         "build/Microsoft.AspNetCore.StaticWebAssets.props",
         "buildMultiTargeting/DevExpress.Blazor.Themes.props",
         "buildTransitive/DevExpress.Blazor.Themes.props",
-        "devexpress.blazor.themes.24.1.5.nupkg.sha512",
+        "devexpress.blazor.themes.24.1.7.nupkg.sha512",
         "devexpress.blazor.themes.nuspec",
         "staticwebassets/blazing-berry.bs4.css",
         "staticwebassets/blazing-berry.bs4.min.css",
@@ -3726,14 +3730,14 @@
         "staticwebassets/purple.bs5.min.css"
       ]
     },
-    "DevExpress.Charts/24.1.5": {
-      "sha512": "8B+IRL/zij4ABYabzVIoABAtx0F25rXhwXsi4a/HRapiEg6943Tb+HgEDJD4I/cRpFNQjAI+/lcvnj/W92Vbjw==",
+    "DevExpress.Charts/24.1.7": {
+      "sha512": "FcXBm/dCgX5scFaZHbMIdtuMCOhrf3moIe5Cm/VIg4dJ6ZWWGGmDI3Fd+3vHZv0wlZGak9d9WdfTFuuIDeJ2sg==",
       "type": "package",
-      "path": "devexpress.charts/24.1.5",
+      "path": "devexpress.charts/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.charts.24.1.5.nupkg.sha512",
+        "devexpress.charts.24.1.7.nupkg.sha512",
         "devexpress.charts.nuspec",
         "lib/net452/DevExpress.XtraCharts.v24.1.dll",
         "lib/net452/DevExpress.XtraCharts.v24.1.xml",
@@ -3741,14 +3745,14 @@
         "lib/net6.0/DevExpress.XtraCharts.v24.1.xml"
       ]
     },
-    "DevExpress.Charts.Core/24.1.5": {
-      "sha512": "hoe7m/Np7RMMPnWqdsYdkYGopC4BLoB5GHh0QXmkVTZ7yfb8PO3mj9b3aqgD6AkpGj2LbFpDmQ3fjdAvNjHTew==",
+    "DevExpress.Charts.Core/24.1.7": {
+      "sha512": "3UBfqwQ/z5d4f6OV4aUjDTQH12XeFPnB0y1LMQHF6xy4fVEKYrQpgQA4MFFCNdv4GUDMppU8x+iOurmaM8uWag==",
       "type": "package",
-      "path": "devexpress.charts.core/24.1.5",
+      "path": "devexpress.charts.core/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.charts.core.24.1.5.nupkg.sha512",
+        "devexpress.charts.core.24.1.7.nupkg.sha512",
         "devexpress.charts.core.nuspec",
         "lib/net452/DevExpress.Charts.v24.1.Core.dll",
         "lib/net452/DevExpress.Charts.v24.1.Core.xml",
@@ -3756,27 +3760,27 @@
         "lib/net6.0/DevExpress.Charts.v24.1.Core.xml"
       ]
     },
-    "DevExpress.CodeParser/24.1.5": {
-      "sha512": "Xh9bxeVBLzfW1VyJTTIEI4md0TyNzLtsCNXfI5558eWwlt7nW3ch05ZxqeKWLDZ00ns8PwAdi8LTylmZWQfoVA==",
+    "DevExpress.CodeParser/24.1.7": {
+      "sha512": "W6t9sjkDvckEK7TUtOHWX6i4xNbVbDEKHJDvGMC5aG9LPXZ7sVMhYiy1kJTwhDVPNaGMlgFr4vhnK4DYMPWX8g==",
       "type": "package",
-      "path": "devexpress.codeparser/24.1.5",
+      "path": "devexpress.codeparser/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.codeparser.24.1.5.nupkg.sha512",
+        "devexpress.codeparser.24.1.7.nupkg.sha512",
         "devexpress.codeparser.nuspec",
         "lib/net452/DevExpress.CodeParser.v24.1.dll",
         "lib/net6.0/DevExpress.CodeParser.v24.1.dll"
       ]
     },
-    "DevExpress.Dashboard.Core/24.1.5": {
-      "sha512": "k/vNvZt+5MqqPIItj1CUmxtb+wBe2le1Cpot9eWa24Cbdb1IWKyZRhQcanIgfdatbs4ouL99XNdm4E7bxd2Ylw==",
+    "DevExpress.Dashboard.Core/24.1.7": {
+      "sha512": "4Ey3qmjQNOgTCHhogqICVdVBaifClUnNyYsjCcpiudCEs+0dZ8XZuNb0NvfSfcmMznAZDIV2Ep/yxr3l/7zJEQ==",
       "type": "package",
-      "path": "devexpress.dashboard.core/24.1.5",
+      "path": "devexpress.dashboard.core/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.dashboard.core.24.1.5.nupkg.sha512",
+        "devexpress.dashboard.core.24.1.7.nupkg.sha512",
         "devexpress.dashboard.core.nuspec",
         "lib/net452/DevExpress.Dashboard.v24.1.Core.dll",
         "lib/net452/DevExpress.Dashboard.v24.1.Core.xml",
@@ -3784,16 +3788,17 @@
         "lib/net6.0/DevExpress.Dashboard.v24.1.Core.xml"
       ]
     },
-    "DevExpress.Data/24.1.5": {
-      "sha512": "mJvmevwCZeQQweChpW0XMd+lXXho8tdH7xrbgS3LaA9I2b2MKryp05alcHTDlYO3+mSMdq5MND3Xal6BM1/Evw==",
+    "DevExpress.Data/24.1.7": {
+      "sha512": "5nOCBKGf4GZbw3G4+/feH8xbahLAgJVegLR6iNh+w/c6JTEJT9vmsIDyuSBz0AZjic4DHkaEg+DN7iZLI9jPGg==",
       "type": "package",
-      "path": "devexpress.data/24.1.5",
+      "path": "devexpress.data/24.1.7",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "analyzers/dotnet/cs/DevExpress.Generator.dll",
-        "devexpress.data.24.1.5.nupkg.sha512",
+        "analyzers/dotnet/cs/DevExpress.Generator.dll.DFX",
+        "devexpress.data.24.1.7.nupkg.sha512",
         "devexpress.data.nuspec",
         "lib/net452/DevExpress.Data.v24.1.dll",
         "lib/net452/DevExpress.Data.v24.1.xml",
@@ -3802,15 +3807,15 @@
         "tools/VisualStudioToolsManifest.xml"
       ]
     },
-    "DevExpress.DataAccess/24.1.5": {
-      "sha512": "RqiqN0rXBDG7XNNfGBgT3hdcWdBnhi9k+MU1udLAGcxI+XlksKbswnXmFNH7y9gSxZlwWVDvGgyd7n6ly0MDyw==",
+    "DevExpress.DataAccess/24.1.7": {
+      "sha512": "lSyi57tBuHh2yJiXYvV3p+c3M+vn1sYRJHZy6Uj6HrFU4og75M/d1ZGHbkY87xkb/XT6GUlUfXvJ7R//JvutRQ==",
       "type": "package",
-      "path": "devexpress.dataaccess/24.1.5",
+      "path": "devexpress.dataaccess/24.1.7",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.dataaccess.24.1.5.nupkg.sha512",
+        "devexpress.dataaccess.24.1.7.nupkg.sha512",
         "devexpress.dataaccess.nuspec",
         "lib/net452/DevExpress.DataAccess.v24.1.dll",
         "lib/net452/DevExpress.DataAccess.v24.1.xml",
@@ -3819,27 +3824,27 @@
         "tools/VisualStudioToolsManifest.xml"
       ]
     },
-    "DevExpress.DataVisualization.Core/24.1.5": {
-      "sha512": "uUPUWkQhjvSrihxgAwqa+sLaX/Nz7hLq5X9yA6ApSfa1T0jvCf95Zy+EJi0VdPf+lXgHrw2HbXWA3OUcT3qXnA==",
+    "DevExpress.DataVisualization.Core/24.1.7": {
+      "sha512": "kKoWtfOML5jL+biX9CuZOdN/FvEUad5vvvB2iU1Z3E2bfYALAl+d8TlZzDv1dD43qZlXznwj1BNPRiZraAqtog==",
       "type": "package",
-      "path": "devexpress.datavisualization.core/24.1.5",
+      "path": "devexpress.datavisualization.core/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.datavisualization.core.24.1.5.nupkg.sha512",
+        "devexpress.datavisualization.core.24.1.7.nupkg.sha512",
         "devexpress.datavisualization.core.nuspec",
         "lib/net452/DevExpress.DataVisualization.v24.1.Core.dll",
         "lib/net6.0/DevExpress.DataVisualization.v24.1.Core.dll"
       ]
     },
-    "DevExpress.Drawing/24.1.5": {
-      "sha512": "NSH3Co98m6TmKnyVu9IYbagHXKhXQ4AvlMMvxz8LKC2MNJEURjNgwuIAci6OAtKi8MKnutvZ+UqybTa+6ahFOA==",
+    "DevExpress.Drawing/24.1.7": {
+      "sha512": "jyFsCM0H09W8ZP4GlMl8I6m8Z+l5xRMIlM8nipomN9qlytYhSiDlNjnFHJQhsDZegz2OvkFDi6DJZaqiBtbC6A==",
       "type": "package",
-      "path": "devexpress.drawing/24.1.5",
+      "path": "devexpress.drawing/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.drawing.24.1.5.nupkg.sha512",
+        "devexpress.drawing.24.1.7.nupkg.sha512",
         "devexpress.drawing.nuspec",
         "lib/net452/DevExpress.Drawing.v24.1.dll",
         "lib/net452/DevExpress.Drawing.v24.1.xml",
@@ -3847,28 +3852,28 @@
         "lib/net6.0/DevExpress.Drawing.v24.1.xml"
       ]
     },
-    "DevExpress.Drawing.Skia/24.1.5": {
-      "sha512": "AuLMwOH9xAjTPB+FtsJAHwqQhySL1SXkkQuRiOb3hIa0yZW8WGx20DE0UXClP5vhISzbQRijUpRxBsbZEhBY6w==",
+    "DevExpress.Drawing.Skia/24.1.7": {
+      "sha512": "I6ip9tUu6gE8ACwKydO4bgM/Opo/6JXTBJ39UDhOAMg1XK71Gz1Jg53vqWPBSGutNs6cnLvPi2enxj9IsSiczA==",
       "type": "package",
-      "path": "devexpress.drawing.skia/24.1.5",
+      "path": "devexpress.drawing.skia/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.drawing.skia.24.1.5.nupkg.sha512",
+        "devexpress.drawing.skia.24.1.7.nupkg.sha512",
         "devexpress.drawing.skia.nuspec",
         "lib/net452/DevExpress.Drawing.v24.1.Skia.dll",
         "lib/net6.0/DevExpress.Drawing.v24.1.Skia.dll"
       ]
     },
-    "DevExpress.ExpressApp/24.1.5": {
-      "sha512": "alN8BY0omxVr2oLDgau35QNUZu2jOjZ3yoQvY6wUhsq475FcEcHB7UOad7IjTJQiwr/z7gnpJEfxJe3wuleukg==",
+    "DevExpress.ExpressApp/24.1.7": {
+      "sha512": "QSs3uJ0nsEeU90l0sPB2XxYqqB/vPb/zm5x0KgYbmPyueqpdyxrUH1N0hqCz/aBn4GU5PKmv6XT86999otTIow==",
       "type": "package",
-      "path": "devexpress.expressapp/24.1.5",
+      "path": "devexpress.expressapp/24.1.7",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.expressapp.24.1.5.nupkg.sha512",
+        "devexpress.expressapp.24.1.7.nupkg.sha512",
         "devexpress.expressapp.nuspec",
         "lib/net452/DevExpress.ExpressApp.v24.1.dll",
         "lib/net452/DevExpress.ExpressApp.v24.1.xml",
@@ -3877,23 +3882,23 @@
         "tools/VisualStudioToolsManifest.xml"
       ]
     },
-    "DevExpress.ExpressApp.AspNetCore/24.1.5": {
-      "sha512": "F0xW1jjasvUlYO3YO0h7BHZpvpRmd2E6gZOC+g8EA7uPZeI5+SG028bvD34OOAd/HSkUizHSqpBm6X/xfG8mzg==",
+    "DevExpress.ExpressApp.AspNetCore/24.1.7": {
+      "sha512": "na2GKGHd8XEAsUiC6as5YMGzHgD81HNwoIFys3UkjCKnjlv5LMCYHmdRtwKxs5JrD5DWfEsFkGXvWKMCKthWPA==",
       "type": "package",
-      "path": "devexpress.expressapp.aspnetcore/24.1.5",
+      "path": "devexpress.expressapp.aspnetcore/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.expressapp.aspnetcore.24.1.5.nupkg.sha512",
+        "devexpress.expressapp.aspnetcore.24.1.7.nupkg.sha512",
         "devexpress.expressapp.aspnetcore.nuspec",
         "lib/net6.0/DevExpress.ExpressApp.AspNetCore.v24.1.dll",
         "lib/net6.0/DevExpress.ExpressApp.AspNetCore.v24.1.xml"
       ]
     },
-    "DevExpress.ExpressApp.Blazor/24.1.5": {
-      "sha512": "XcDpJ+T5Fzf0D6d+Y3WKZkPqHgZMdmIUGmp2oTlyDp3DhImr285oI7XSCr0Aspix2t41hoL8Of0QO8YDApwkUQ==",
+    "DevExpress.ExpressApp.Blazor/24.1.7": {
+      "sha512": "gRW6YEXx0CFkoEDzSnG8RZD4YK5YJFL0XJbeJcxSlrR2hPT/Kc+FnSx6BBX5h/IrT4uEM9jQa/cjvau46BDDFw==",
       "type": "package",
-      "path": "devexpress.expressapp.blazor/24.1.5",
+      "path": "devexpress.expressapp.blazor/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3901,7 +3906,7 @@
         "build/Microsoft.AspNetCore.StaticWebAssets.props",
         "buildMultiTargeting/DevExpress.ExpressApp.Blazor.props",
         "buildTransitive/DevExpress.ExpressApp.Blazor.props",
-        "devexpress.expressapp.blazor.24.1.5.nupkg.sha512",
+        "devexpress.expressapp.blazor.24.1.7.nupkg.sha512",
         "devexpress.expressapp.blazor.nuspec",
         "lib/net6.0/DevExpress.ExpressApp.Blazor.v24.1.dll",
         "lib/net6.0/DevExpress.ExpressApp.Blazor.v24.1.xml",
@@ -3916,9 +3921,9 @@
         "staticwebassets/font/dxicons.woff",
         "staticwebassets/font/dxicons.woff2",
         "staticwebassets/font/main-1.png",
-        "staticwebassets/font/main-10.png",
-        "staticwebassets/font/main-11.png",
-        "staticwebassets/font/main-12.png",
+        "staticwebassets/font/main-10.svg",
+        "staticwebassets/font/main-11.svg",
+        "staticwebassets/font/main-12.svg",
         "staticwebassets/font/main-13.png",
         "staticwebassets/font/main-14.png",
         "staticwebassets/font/main-15.png",
@@ -3929,8 +3934,11 @@
         "staticwebassets/font/main-2.png",
         "staticwebassets/font/main-20.png",
         "staticwebassets/font/main-21.png",
-        "staticwebassets/font/main-22.svg",
+        "staticwebassets/font/main-22.png",
         "staticwebassets/font/main-23.png",
+        "staticwebassets/font/main-24.png",
+        "staticwebassets/font/main-25.svg",
+        "staticwebassets/font/main-26.png",
         "staticwebassets/font/main-3.png",
         "staticwebassets/font/main-4.png",
         "staticwebassets/font/main-5.svg",
@@ -3944,14 +3952,14 @@
         "staticwebassets/styles.css"
       ]
     },
-    "DevExpress.ExpressApp.CloneObject.Xpo/24.1.5": {
-      "sha512": "YFdy7zfUHgLeiK620NyEaC8vaajsiKsUOwA2C/HPAY44oig/T9IaU3bUTMY07G2feFpWGcP87B9YypfV2UMS1w==",
+    "DevExpress.ExpressApp.CloneObject.Xpo/24.1.7": {
+      "sha512": "XoCKensIgYCyEV4zdvOMvIurxni9w+UVg2DnbSYWq4exoj+ow/lDuG/D/oBUg1wkg0TdIrOseHImBXLo4rHCcg==",
       "type": "package",
-      "path": "devexpress.expressapp.cloneobject.xpo/24.1.5",
+      "path": "devexpress.expressapp.cloneobject.xpo/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.expressapp.cloneobject.xpo.24.1.5.nupkg.sha512",
+        "devexpress.expressapp.cloneobject.xpo.24.1.7.nupkg.sha512",
         "devexpress.expressapp.cloneobject.xpo.nuspec",
         "lib/net452/DevExpress.ExpressApp.CloneObject.Xpo.v24.1.dll",
         "lib/net452/DevExpress.ExpressApp.CloneObject.Xpo.v24.1.xml",
@@ -3959,29 +3967,29 @@
         "lib/net6.0/DevExpress.ExpressApp.CloneObject.Xpo.v24.1.xml"
       ]
     },
-    "DevExpress.ExpressApp.CodeAnalysis/24.1.5": {
-      "sha512": "smzlwquqDD1X25FFsJRmtxIBmHefpdIDb6EfS/2p1W3MWXUWvZk665gono++jXWixLX8WuJmEcZi9WvxvEu6FA==",
+    "DevExpress.ExpressApp.CodeAnalysis/24.1.7": {
+      "sha512": "XnqtNYE9cYls4DhF13kzDgaP/XIKIYJzksyyMpFMAJiNNdv0lJribPVYTgjDiK/ZEmwgOIk0/YsCLJ5Wq9Yc5w==",
       "type": "package",
-      "path": "devexpress.expressapp.codeanalysis/24.1.5",
+      "path": "devexpress.expressapp.codeanalysis/24.1.7",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "analyzers/dotnet/cs/DevExpress.ExpressApp.CodeAnalysis.v24.1.dll",
-        "devexpress.expressapp.codeanalysis.24.1.5.nupkg.sha512",
+        "devexpress.expressapp.codeanalysis.24.1.7.nupkg.sha512",
         "devexpress.expressapp.codeanalysis.nuspec",
         "tools/install.ps1",
         "tools/uninstall.ps1"
       ]
     },
-    "DevExpress.ExpressApp.ConditionalAppearance/24.1.5": {
-      "sha512": "K5k/aoYtl6nsqx3Za+gh/Q00jUsyr3A6MdasE7XeZcot1Co64C0NvT3ewfa9UCbpLwLBDG3lJXCijuaRz8yvDQ==",
+    "DevExpress.ExpressApp.ConditionalAppearance/24.1.7": {
+      "sha512": "RMtqhcDznTD8/quReBPy+XG+0rS78tumkSqidCgamjDdm5ALuUjl8f4aLjGuKEiEZjIXGqKZx9cVB4quyhe1TQ==",
       "type": "package",
-      "path": "devexpress.expressapp.conditionalappearance/24.1.5",
+      "path": "devexpress.expressapp.conditionalappearance/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.expressapp.conditionalappearance.24.1.5.nupkg.sha512",
+        "devexpress.expressapp.conditionalappearance.24.1.7.nupkg.sha512",
         "devexpress.expressapp.conditionalappearance.nuspec",
         "lib/net452/DevExpress.ExpressApp.ConditionalAppearance.v24.1.dll",
         "lib/net452/DevExpress.ExpressApp.ConditionalAppearance.v24.1.xml",
@@ -3989,14 +3997,14 @@
         "lib/net6.0/DevExpress.ExpressApp.ConditionalAppearance.v24.1.xml"
       ]
     },
-    "DevExpress.ExpressApp.Dashboards/24.1.5": {
-      "sha512": "MDdNWbGAPvEpIIq9aQXKYcUzQbPcHX1LXmWTG9FU0QDQElBWhZfGXCbqs9KR7RwCaIO2OdtTmcS/nJ1xxbSm0g==",
+    "DevExpress.ExpressApp.Dashboards/24.1.7": {
+      "sha512": "0KCXCpVXeZKlfOEN3a8IrKiyOnmzSJ4Ezu+mWMHOVaX84vENa7YkbYuZIHQjAP7Aqoayps8nvZ+keOEwqjO49g==",
       "type": "package",
-      "path": "devexpress.expressapp.dashboards/24.1.5",
+      "path": "devexpress.expressapp.dashboards/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.expressapp.dashboards.24.1.5.nupkg.sha512",
+        "devexpress.expressapp.dashboards.24.1.7.nupkg.sha512",
         "devexpress.expressapp.dashboards.nuspec",
         "lib/net452/DevExpress.ExpressApp.Dashboards.v24.1.dll",
         "lib/net452/DevExpress.ExpressApp.Dashboards.v24.1.xml",
@@ -4004,10 +4012,10 @@
         "lib/net6.0/DevExpress.ExpressApp.Dashboards.v24.1.xml"
       ]
     },
-    "DevExpress.ExpressApp.Dashboards.Blazor/24.1.5": {
-      "sha512": "G5uk0Tgxe8h1fL7rGgRwmy+oWbCQ6kRaSfuFb44DrfpI1xNf5Nq2X1/tqGrvWfMuk1Ttbf+L4PO5IP8f1f9Bhw==",
+    "DevExpress.ExpressApp.Dashboards.Blazor/24.1.7": {
+      "sha512": "gk90Us8cTzfoT6QNCkgx3un24CU73+MpnZLv2UXCBSHvat6VSiYw1CerSTR0MipNJAWAsqE0gklu37POFwuIkg==",
       "type": "package",
-      "path": "devexpress.expressapp.dashboards.blazor/24.1.5",
+      "path": "devexpress.expressapp.dashboards.blazor/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4015,7 +4023,7 @@
         "build/Microsoft.AspNetCore.StaticWebAssets.props",
         "buildMultiTargeting/DevExpress.ExpressApp.Dashboards.Blazor.props",
         "buildTransitive/DevExpress.ExpressApp.Dashboards.Blazor.props",
-        "devexpress.expressapp.dashboards.blazor.24.1.5.nupkg.sha512",
+        "devexpress.expressapp.dashboards.blazor.24.1.7.nupkg.sha512",
         "devexpress.expressapp.dashboards.blazor.nuspec",
         "lib/net6.0/DevExpress.ExpressApp.Dashboards.Blazor.v24.1.dll",
         "lib/net6.0/DevExpress.ExpressApp.Dashboards.Blazor.v24.1.xml",
@@ -4023,27 +4031,27 @@
         "staticwebassets/xaf-blazor-dashboard.js"
       ]
     },
-    "DevExpress.ExpressApp.FileAttachment.Blazor/24.1.5": {
-      "sha512": "YIWj4jxsWMT9qxJhqRtWyh5kEcYtl794afOUMIPzTI5S066ntF4lz9AEX2w2Dukk5hJ24gdh5faOh6cjqL0QfQ==",
+    "DevExpress.ExpressApp.FileAttachment.Blazor/24.1.7": {
+      "sha512": "mFh/I0BpMaWBSKmltAM9VjN+LqyAdAqlsvH/tUxeSAd94mS9gDxZSTovCoQ7TcCmLZvR6jGMEQ9XojUlxSm5jA==",
       "type": "package",
-      "path": "devexpress.expressapp.fileattachment.blazor/24.1.5",
+      "path": "devexpress.expressapp.fileattachment.blazor/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.expressapp.fileattachment.blazor.24.1.5.nupkg.sha512",
+        "devexpress.expressapp.fileattachment.blazor.24.1.7.nupkg.sha512",
         "devexpress.expressapp.fileattachment.blazor.nuspec",
         "lib/net6.0/DevExpress.ExpressApp.FileAttachment.Blazor.v24.1.dll",
         "lib/net6.0/DevExpress.ExpressApp.FileAttachment.Blazor.v24.1.xml"
       ]
     },
-    "DevExpress.ExpressApp.Notifications/24.1.5": {
-      "sha512": "CwnvaShqmZxwvW0xwPyb/euNcpYwaCpNXB6k1tKY9bb/wZIW7pObV3mbpskMPqNX7SbIIQ2U4vDESOKQ4+1uiA==",
+    "DevExpress.ExpressApp.Notifications/24.1.7": {
+      "sha512": "FJCyTr6Iumrp+4Y9+Tm3T+W2eKw5lU8/CwRLCPGCp598zP5UhDqZtf4IfM0Ng/jLzXg4zHCvMY0akfsNPa9IDA==",
       "type": "package",
-      "path": "devexpress.expressapp.notifications/24.1.5",
+      "path": "devexpress.expressapp.notifications/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.expressapp.notifications.24.1.5.nupkg.sha512",
+        "devexpress.expressapp.notifications.24.1.7.nupkg.sha512",
         "devexpress.expressapp.notifications.nuspec",
         "lib/net452/DevExpress.ExpressApp.Notifications.v24.1.dll",
         "lib/net452/DevExpress.ExpressApp.Notifications.v24.1.xml",
@@ -4051,41 +4059,41 @@
         "lib/net6.0/DevExpress.ExpressApp.Notifications.v24.1.xml"
       ]
     },
-    "DevExpress.ExpressApp.Notifications.Blazor/24.1.5": {
-      "sha512": "iWSO8+cnYmt4CXcPqchEuH6VG+12/r8Ipw9w/BemEFe9Fb/eOAE/k1cFZoS7QS7Db+UrF8hzAyKJz3dxgcABfQ==",
+    "DevExpress.ExpressApp.Notifications.Blazor/24.1.7": {
+      "sha512": "WJHBcic2pF1qD5EOnOfN/0BOIHzLCty8YLt5B/STWlCgmLwV4dnZ0CpX5dweJcJxGVOgJ0sMBR+oC7F+9qUvbQ==",
       "type": "package",
-      "path": "devexpress.expressapp.notifications.blazor/24.1.5",
+      "path": "devexpress.expressapp.notifications.blazor/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.expressapp.notifications.blazor.24.1.5.nupkg.sha512",
+        "devexpress.expressapp.notifications.blazor.24.1.7.nupkg.sha512",
         "devexpress.expressapp.notifications.blazor.nuspec",
         "lib/net6.0/DevExpress.ExpressApp.Notifications.Blazor.v24.1.dll",
         "lib/net6.0/DevExpress.ExpressApp.Notifications.Blazor.v24.1.xml"
       ]
     },
-    "DevExpress.ExpressApp.Objects/24.1.5": {
-      "sha512": "mdCdSJbc9p9T1meaNMy/SHgNyFpfL9JdUlZ8ldaqbwXN975tOclCX2uxlb3Cuchrmivt3/8gCdXa5BwTfRf/vA==",
+    "DevExpress.ExpressApp.Objects/24.1.7": {
+      "sha512": "qI2yVgPQA5N5sN8TboxXwjULDKnDIvglF6ZQgYdFa2p/VPW+tqCoyt/onFaEkyjsBVKo69HzcTJLfi/YHFPoIA==",
       "type": "package",
-      "path": "devexpress.expressapp.objects/24.1.5",
+      "path": "devexpress.expressapp.objects/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.expressapp.objects.24.1.5.nupkg.sha512",
+        "devexpress.expressapp.objects.24.1.7.nupkg.sha512",
         "devexpress.expressapp.objects.nuspec",
         "lib/net452/DevExpress.ExpressApp.Objects.v24.1.dll",
         "lib/net6.0/DevExpress.ExpressApp.Objects.v24.1.dll",
         "lib/net6.0/DevExpress.ExpressApp.Objects.v24.1.xml"
       ]
     },
-    "DevExpress.ExpressApp.Office/24.1.5": {
-      "sha512": "nZAXwnmdsI0ROIBaDOm5oHnZAQx9g74U0QNIN7RT/S24sQmZizinZUis78BXoljs/meCcmFrs6az9sslrCOT6A==",
+    "DevExpress.ExpressApp.Office/24.1.7": {
+      "sha512": "E8umpvy8IOBBHODRviwFCLNnnOXyjLpSbjb2v/Xc3o8/VJU9xNV6SDa7hwSUHE7hydtkej4+HYSq2fXUUHYZiA==",
       "type": "package",
-      "path": "devexpress.expressapp.office/24.1.5",
+      "path": "devexpress.expressapp.office/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.expressapp.office.24.1.5.nupkg.sha512",
+        "devexpress.expressapp.office.24.1.7.nupkg.sha512",
         "devexpress.expressapp.office.nuspec",
         "lib/net452/DevExpress.ExpressApp.Office.v24.1.dll",
         "lib/net452/DevExpress.ExpressApp.Office.v24.1.xml",
@@ -4093,10 +4101,10 @@
         "lib/net6.0/DevExpress.ExpressApp.Office.v24.1.xml"
       ]
     },
-    "DevExpress.ExpressApp.Office.Blazor/24.1.5": {
-      "sha512": "yK4AulVmkV7tv+dimW/z70wE5kdHCNSHbq1vd7zcPAJa7s0n/wOoBnfv/Gi27/ZfimZdkfwugDcDxMbekqZ/Cw==",
+    "DevExpress.ExpressApp.Office.Blazor/24.1.7": {
+      "sha512": "3Ztxx3I9A7OkgwoifphqrT5XGJSICxDxNne2DI8vrTMCwTo0nQdCFV/Z2Vd5MlmEEd3A0KV7r05A5MLRCVD5dw==",
       "type": "package",
-      "path": "devexpress.expressapp.office.blazor/24.1.5",
+      "path": "devexpress.expressapp.office.blazor/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4104,21 +4112,21 @@
         "build/Microsoft.AspNetCore.StaticWebAssets.props",
         "buildMultiTargeting/DevExpress.ExpressApp.Office.Blazor.props",
         "buildTransitive/DevExpress.ExpressApp.Office.Blazor.props",
-        "devexpress.expressapp.office.blazor.24.1.5.nupkg.sha512",
+        "devexpress.expressapp.office.blazor.24.1.7.nupkg.sha512",
         "devexpress.expressapp.office.blazor.nuspec",
         "lib/net6.0/DevExpress.ExpressApp.Office.Blazor.v24.1.dll",
         "lib/net6.0/DevExpress.ExpressApp.Office.Blazor.v24.1.xml",
         "staticwebassets/styles.css"
       ]
     },
-    "DevExpress.ExpressApp.ReportsV2/24.1.5": {
-      "sha512": "mdRw/H8e412OP8CleVAR8pjCg7icjmu0vpuAYfdUD/UCZ4XhWxFGxyNh5OXKuybk6Yes17JbtJrMOhLXBk2zoA==",
+    "DevExpress.ExpressApp.ReportsV2/24.1.7": {
+      "sha512": "46u3n+Jf46Qy08SY/XOwHcCeDVpdRLEPSZUTixFCEb8rwtaKSQycGyY7rT3Tojk22G5goUAS0B8M5Krzkb1JxA==",
       "type": "package",
-      "path": "devexpress.expressapp.reportsv2/24.1.5",
+      "path": "devexpress.expressapp.reportsv2/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.expressapp.reportsv2.24.1.5.nupkg.sha512",
+        "devexpress.expressapp.reportsv2.24.1.7.nupkg.sha512",
         "devexpress.expressapp.reportsv2.nuspec",
         "lib/net452/DevExpress.ExpressApp.ReportsV2.v24.1.dll",
         "lib/net452/DevExpress.ExpressApp.ReportsV2.v24.1.xml",
@@ -4126,27 +4134,27 @@
         "lib/net6.0/DevExpress.ExpressApp.ReportsV2.v24.1.xml"
       ]
     },
-    "DevExpress.ExpressApp.ReportsV2.Blazor/24.1.5": {
-      "sha512": "rLT21S6QuQOB1pA29iGV8ABF3Syr4GPWjlByXqylxKiOtjAg3pYMbHT8OR2SpfkxwuK6F1spQZ8nZKIuqI6Ghw==",
+    "DevExpress.ExpressApp.ReportsV2.Blazor/24.1.7": {
+      "sha512": "/Rus8eEa7KjrK4tlWBJOKP7G3cQE0ZFBMV5PoLOO73acjX1ax10n+YAdZYosxctom0amf9l6sEd7CjGXfgPyuQ==",
       "type": "package",
-      "path": "devexpress.expressapp.reportsv2.blazor/24.1.5",
+      "path": "devexpress.expressapp.reportsv2.blazor/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.expressapp.reportsv2.blazor.24.1.5.nupkg.sha512",
+        "devexpress.expressapp.reportsv2.blazor.24.1.7.nupkg.sha512",
         "devexpress.expressapp.reportsv2.blazor.nuspec",
         "lib/net6.0/DevExpress.ExpressApp.ReportsV2.Blazor.v24.1.dll",
         "lib/net6.0/DevExpress.ExpressApp.ReportsV2.Blazor.v24.1.xml"
       ]
     },
-    "DevExpress.ExpressApp.Scheduler/24.1.5": {
-      "sha512": "mAPlwrnxUINKX92HBN6qlngDlEPuX6eZW/U4DV+60KqY99uGMEHmF+BlUjrrwIQgJ7qwbi0D6dOtdetkPGDqVA==",
+    "DevExpress.ExpressApp.Scheduler/24.1.7": {
+      "sha512": "NN1ztZ3pfLtL++9RC5U3O+p0c+yHe9JUt564r8LuqTqCZbsodkwWxv4FK9mnD/8Z2A1LmZbV1Yl9krdIG001Iw==",
       "type": "package",
-      "path": "devexpress.expressapp.scheduler/24.1.5",
+      "path": "devexpress.expressapp.scheduler/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.expressapp.scheduler.24.1.5.nupkg.sha512",
+        "devexpress.expressapp.scheduler.24.1.7.nupkg.sha512",
         "devexpress.expressapp.scheduler.nuspec",
         "lib/net452/DevExpress.ExpressApp.Scheduler.v24.1.dll",
         "lib/net452/DevExpress.ExpressApp.Scheduler.v24.1.xml",
@@ -4154,27 +4162,27 @@
         "lib/net6.0/DevExpress.ExpressApp.Scheduler.v24.1.xml"
       ]
     },
-    "DevExpress.ExpressApp.Scheduler.Blazor/24.1.5": {
-      "sha512": "01yM0WthuQ6d0XsWtO4R8rnglds/bZeLpFDNoCQTU27sNJm0ZwJnjHR1jmG1JeTSfgFrKAVzlAJcg8BaaEe/rg==",
+    "DevExpress.ExpressApp.Scheduler.Blazor/24.1.7": {
+      "sha512": "OcjaLsFjT/w+8MFFrsV9VeJxTgaEVJ0An+uSWzRv+UcX9ygcJ6239uXrn6LrsJC+PWLir0aaUBbyBY2HkXS18A==",
       "type": "package",
-      "path": "devexpress.expressapp.scheduler.blazor/24.1.5",
+      "path": "devexpress.expressapp.scheduler.blazor/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.expressapp.scheduler.blazor.24.1.5.nupkg.sha512",
+        "devexpress.expressapp.scheduler.blazor.24.1.7.nupkg.sha512",
         "devexpress.expressapp.scheduler.blazor.nuspec",
         "lib/net6.0/DevExpress.ExpressApp.Scheduler.Blazor.v24.1.dll",
         "lib/net6.0/DevExpress.ExpressApp.Scheduler.Blazor.v24.1.xml"
       ]
     },
-    "DevExpress.ExpressApp.Security/24.1.5": {
-      "sha512": "c+MPX2U5MBKGGNZa2NQDilnpCrNmy2JC/LsN5Q/lN9TvmEt/ia5gBYJwGjUXVqBP5VfqjgxeoqNVsG/kUwi8BQ==",
+    "DevExpress.ExpressApp.Security/24.1.7": {
+      "sha512": "butfGpK9813GDRuYSpv/xs+hKH4/ziLp07L3VOz8xdPC1QvNlGKNTm3H9OH1EtbCl1ygcsU203AJW0Qva3xUmg==",
       "type": "package",
-      "path": "devexpress.expressapp.security/24.1.5",
+      "path": "devexpress.expressapp.security/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.expressapp.security.24.1.5.nupkg.sha512",
+        "devexpress.expressapp.security.24.1.7.nupkg.sha512",
         "devexpress.expressapp.security.nuspec",
         "lib/net452/DevExpress.ExpressApp.Security.v24.1.dll",
         "lib/net452/DevExpress.ExpressApp.Security.v24.1.xml",
@@ -4182,26 +4190,26 @@
         "lib/net6.0/DevExpress.ExpressApp.Security.v24.1.xml"
       ]
     },
-    "DevExpress.ExpressApp.Security.AspNetCore/24.1.5": {
-      "sha512": "ign4xvlaw/IHPfKHiz18X69HXITo3XUNC4ZicAQHNksnY63k1W+NOIi5mJeR3jk6E4EduoyTpiJPwLPZR/zUUg==",
+    "DevExpress.ExpressApp.Security.AspNetCore/24.1.7": {
+      "sha512": "lXl3UQDbZgrjez3ixePpg3yE3nyiBx+DFRoBImtEcQDfy6iBFczxIKNbJKh6T5aJ3gCp1NesAhe69Bm3QspLxA==",
       "type": "package",
-      "path": "devexpress.expressapp.security.aspnetcore/24.1.5",
+      "path": "devexpress.expressapp.security.aspnetcore/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.expressapp.security.aspnetcore.24.1.5.nupkg.sha512",
+        "devexpress.expressapp.security.aspnetcore.24.1.7.nupkg.sha512",
         "devexpress.expressapp.security.aspnetcore.nuspec",
         "lib/net6.0/DevExpress.ExpressApp.Security.AspNetCore.v24.1.dll"
       ]
     },
-    "DevExpress.ExpressApp.Security.Xpo/24.1.5": {
-      "sha512": "iP2Mz++4oXgJ+V0U+vjk3D8C6+VpgqRilMZhkJsbfRf8l3k+QUaWxYeOU2nb2hKKzhBQxJy5XFgqzTdmHwYZLQ==",
+    "DevExpress.ExpressApp.Security.Xpo/24.1.7": {
+      "sha512": "/rhDBUPa1zIA1mmmkHMEb7U5FNONgxVdjgjWYqdYpO68We8wGBdiwhAHiud3PF0f4RRIzlpCEWaYqv0cwn+tkw==",
       "type": "package",
-      "path": "devexpress.expressapp.security.xpo/24.1.5",
+      "path": "devexpress.expressapp.security.xpo/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.expressapp.security.xpo.24.1.5.nupkg.sha512",
+        "devexpress.expressapp.security.xpo.24.1.7.nupkg.sha512",
         "devexpress.expressapp.security.xpo.nuspec",
         "lib/net452/DevExpress.ExpressApp.Security.Xpo.v24.1.dll",
         "lib/net452/DevExpress.ExpressApp.Security.Xpo.v24.1.xml",
@@ -4209,14 +4217,14 @@
         "lib/net6.0/DevExpress.ExpressApp.Security.Xpo.v24.1.xml"
       ]
     },
-    "DevExpress.ExpressApp.Validation/24.1.5": {
-      "sha512": "J8h5DR/Zea+oege6VoIYMsZW7AgyWE23tAR7ZZm6e6jkLoMcMOWpli4yTkZJBEv//irXpN/ppcWY6cMD0jFkIQ==",
+    "DevExpress.ExpressApp.Validation/24.1.7": {
+      "sha512": "CNqYRMpnmDUuwQlFlOBBPsWeAEtVn9K6HBYUE/alZyNVF7JXW1dFr9hAY6Yv6gMU1xt+D45gX4Njc7mNdXO2cA==",
       "type": "package",
-      "path": "devexpress.expressapp.validation/24.1.5",
+      "path": "devexpress.expressapp.validation/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.expressapp.validation.24.1.5.nupkg.sha512",
+        "devexpress.expressapp.validation.24.1.7.nupkg.sha512",
         "devexpress.expressapp.validation.nuspec",
         "lib/net452/DevExpress.ExpressApp.Validation.v24.1.dll",
         "lib/net452/DevExpress.ExpressApp.Validation.v24.1.xml",
@@ -4224,27 +4232,27 @@
         "lib/net6.0/DevExpress.ExpressApp.Validation.v24.1.xml"
       ]
     },
-    "DevExpress.ExpressApp.Validation.Blazor/24.1.5": {
-      "sha512": "cAxBi7V0GvsXqE+482Z8/ORjXkCQGdkjMKTWnX6nwITuNms3MwOgrc3yOqcTv8Ta0Y8vYu9GKpjlG83a5JqCfQ==",
+    "DevExpress.ExpressApp.Validation.Blazor/24.1.7": {
+      "sha512": "crNFryy9w/koPWnjLwL+uTYxJZDWOUtRV2SOOqL+v/7toHu95qrH7rK1M9MSjh8WoPaRFWwbQWyMsjPAiipQ5A==",
       "type": "package",
-      "path": "devexpress.expressapp.validation.blazor/24.1.5",
+      "path": "devexpress.expressapp.validation.blazor/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.expressapp.validation.blazor.24.1.5.nupkg.sha512",
+        "devexpress.expressapp.validation.blazor.24.1.7.nupkg.sha512",
         "devexpress.expressapp.validation.blazor.nuspec",
         "lib/net6.0/DevExpress.ExpressApp.Validation.Blazor.v24.1.dll",
         "lib/net6.0/DevExpress.ExpressApp.Validation.Blazor.v24.1.xml"
       ]
     },
-    "DevExpress.ExpressApp.Xpo/24.1.5": {
-      "sha512": "XtshS8CZDS7/LKnNA2OQ2t/C9r8QWHaCzwi54yf65E+XXZqpZ7O1+ytQOREnUwJD6Cy3DD33lwXFQStqho1ssg==",
+    "DevExpress.ExpressApp.Xpo/24.1.7": {
+      "sha512": "7WtBww2euO9lSA+wgBlxULUZsQkOH/1jV5esg/Ydnn2cR+42t86xq6lsYZKRXTmIKIj/njm/ujbwjx8pQxQOIw==",
       "type": "package",
-      "path": "devexpress.expressapp.xpo/24.1.5",
+      "path": "devexpress.expressapp.xpo/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.expressapp.xpo.24.1.5.nupkg.sha512",
+        "devexpress.expressapp.xpo.24.1.7.nupkg.sha512",
         "devexpress.expressapp.xpo.nuspec",
         "lib/net452/DevExpress.ExpressApp.Xpo.v24.1.dll",
         "lib/net452/DevExpress.ExpressApp.Xpo.v24.1.xml",
@@ -4252,14 +4260,14 @@
         "lib/net6.0/DevExpress.ExpressApp.Xpo.v24.1.xml"
       ]
     },
-    "DevExpress.Gauges.Core/24.1.5": {
-      "sha512": "AlK5UKBij/1x33qUxm9fhhg6FJYrwgSIOiDcHR/AIbZ6h0EXjGKLiNfdsGpL0uRjoaupP33eYL8I2BiLlbKAeg==",
+    "DevExpress.Gauges.Core/24.1.7": {
+      "sha512": "+f6l2G4gwoWVtGCp/xgLCA3KFJessaQEtuGM+rdbOQWUsJWU0ajOP1o26LL6HVMl9qUSPqe210htzaE5oeO/4A==",
       "type": "package",
-      "path": "devexpress.gauges.core/24.1.5",
+      "path": "devexpress.gauges.core/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.gauges.core.24.1.5.nupkg.sha512",
+        "devexpress.gauges.core.24.1.7.nupkg.sha512",
         "devexpress.gauges.core.nuspec",
         "lib/net452/DevExpress.XtraGauges.v24.1.Core.dll",
         "lib/net452/DevExpress.XtraGauges.v24.1.Core.xml",
@@ -4267,27 +4275,27 @@
         "lib/net6.0/DevExpress.XtraGauges.v24.1.Core.xml"
       ]
     },
-    "DevExpress.Images/24.1.5": {
-      "sha512": "L55KxLiS0hBEE1Ow/EyDdRqiGL2Bp/Nc3ADt4am5V0hADazbedwx/+H6AiibNhJ2wVdiBakAW6g9MMA3dWgqDA==",
+    "DevExpress.Images/24.1.7": {
+      "sha512": "FuGN0IuW37aWDRavwiA8HN28UoMqAa+q8GAdYAR6T982Eq2B87UU5wNk/u7WA9UVwe6FkTRgJUnzQdDpY6aPaw==",
       "type": "package",
-      "path": "devexpress.images/24.1.5",
+      "path": "devexpress.images/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.images.24.1.5.nupkg.sha512",
+        "devexpress.images.24.1.7.nupkg.sha512",
         "devexpress.images.nuspec",
         "lib/net452/DevExpress.Images.v24.1.dll",
         "lib/net6.0/DevExpress.Images.v24.1.dll"
       ]
     },
-    "DevExpress.Map.Core/24.1.5": {
-      "sha512": "/h6NYEOYMcWel5itSZELAveroSD7/Dwd9Pv6sf6tkQztvX/9RR/v0xxvbcUMJNbakATIj4R2ax924TJpN0T4vQ==",
+    "DevExpress.Map.Core/24.1.7": {
+      "sha512": "vFi10DyrNqZg93HpeEoHKfEjtaLvKvuqztmCOr7IvPkZ4G0YYuMqnqx28lwT9jMxBVVNfeHkh5FMl5Yq4/8rGw==",
       "type": "package",
-      "path": "devexpress.map.core/24.1.5",
+      "path": "devexpress.map.core/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.map.core.24.1.5.nupkg.sha512",
+        "devexpress.map.core.24.1.7.nupkg.sha512",
         "devexpress.map.core.nuspec",
         "lib/net452/DevExpress.Map.v24.1.Core.dll",
         "lib/net452/DevExpress.Map.v24.1.Core.xml",
@@ -4295,14 +4303,14 @@
         "lib/net6.0/DevExpress.Map.v24.1.Core.xml"
       ]
     },
-    "DevExpress.Office.Core/24.1.5": {
-      "sha512": "MFNDs1p5g+iTQ2ZtJiQVGRgFquupsG8rH8/sJHq6nfx3GaKtmcXiJf+K6VhyE3kpbTUqvQ0+OlYbdpZjSRChvA==",
+    "DevExpress.Office.Core/24.1.7": {
+      "sha512": "QLWlYVFm5quBUtWnZalhuBQBjKylX5CbKdxZ7tLMwbHWUMGbZyAQRThHnvYOC0PjOdIfXl2o+Tv8y4aW65+AFg==",
       "type": "package",
-      "path": "devexpress.office.core/24.1.5",
+      "path": "devexpress.office.core/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.office.core.24.1.5.nupkg.sha512",
+        "devexpress.office.core.24.1.7.nupkg.sha512",
         "devexpress.office.core.nuspec",
         "lib/net452/DevExpress.Office.v24.1.Core.dll",
         "lib/net452/DevExpress.Office.v24.1.Core.xml",
@@ -4310,14 +4318,14 @@
         "lib/net6.0/DevExpress.Office.v24.1.Core.xml"
       ]
     },
-    "DevExpress.Pdf.Core/24.1.5": {
-      "sha512": "m7z4uZDSAleZ+DnedxKA5dTHfppNhTq7p8fN8qBB4/u7Ps1FAXMwPkJZ3MI2INJKsiuQoIRENzkxgRVWkcG4gw==",
+    "DevExpress.Pdf.Core/24.1.7": {
+      "sha512": "BeAfsjlt6I+2EEgfpYlgTxck2FvkmlnCeBxiO2Irl7VuHoJ5rFhIChVnqxTitkCzniVypltDWtihps2WcJxz7w==",
       "type": "package",
-      "path": "devexpress.pdf.core/24.1.5",
+      "path": "devexpress.pdf.core/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.pdf.core.24.1.5.nupkg.sha512",
+        "devexpress.pdf.core.24.1.7.nupkg.sha512",
         "devexpress.pdf.core.nuspec",
         "lib/net452/DevExpress.Pdf.v24.1.Core.dll",
         "lib/net452/DevExpress.Pdf.v24.1.Core.xml",
@@ -4325,14 +4333,14 @@
         "lib/net6.0/DevExpress.Pdf.v24.1.Core.xml"
       ]
     },
-    "DevExpress.Pdf.Drawing/24.1.5": {
-      "sha512": "LY3gePBkaJhf3WoilJ38jn7ChOY5LgjISQQcyq4jNwuKWyVeIBM0UTfBVZLpr6rxW7yKpRkZ/Xlf4xIg8SZSuw==",
+    "DevExpress.Pdf.Drawing/24.1.7": {
+      "sha512": "UAR7S7MJ+4tyicL1QXDNOfk9ErU74Z/kYThl1Rud7RS7cGDq9lwLRVW1laHzJxiMbig7G6A/sTqDUqAugVTa1g==",
       "type": "package",
-      "path": "devexpress.pdf.drawing/24.1.5",
+      "path": "devexpress.pdf.drawing/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.pdf.drawing.24.1.5.nupkg.sha512",
+        "devexpress.pdf.drawing.24.1.7.nupkg.sha512",
         "devexpress.pdf.drawing.nuspec",
         "lib/net452/DevExpress.Pdf.v24.1.Drawing.dll",
         "lib/net452/DevExpress.Pdf.v24.1.Drawing.xml",
@@ -4340,14 +4348,14 @@
         "lib/net6.0/DevExpress.Pdf.v24.1.Drawing.xml"
       ]
     },
-    "DevExpress.Persistent.Base/24.1.5": {
-      "sha512": "PyRt0wk/J0b0tRJ/fPITjccgyKF0adf0MrJiGpf3jZUIyH3z8GOLT8PTZokCRmfboKustJ4DmYw810erK9u0Jw==",
+    "DevExpress.Persistent.Base/24.1.7": {
+      "sha512": "vZ4nb+PcpFPVELjsnTfFTCFYFYAbBOkPt05WdcEg5GDkZGFlrSZVPx50MLHX16e8eNLjeXHxw9tTZiuFlPaKgg==",
       "type": "package",
-      "path": "devexpress.persistent.base/24.1.5",
+      "path": "devexpress.persistent.base/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.persistent.base.24.1.5.nupkg.sha512",
+        "devexpress.persistent.base.24.1.7.nupkg.sha512",
         "devexpress.persistent.base.nuspec",
         "lib/net452/DevExpress.Persistent.Base.v24.1.dll",
         "lib/net452/DevExpress.Persistent.Base.v24.1.xml",
@@ -4355,14 +4363,14 @@
         "lib/net6.0/DevExpress.Persistent.Base.v24.1.xml"
       ]
     },
-    "DevExpress.Persistent.BaseImpl.Xpo/24.1.5": {
-      "sha512": "42ISc6ivTRP8czpqw9dRCGDn8ctyBTVIJHJ3SiHATl5udtVqXtiTtY5obUGh9trso4iqupNkinM2fVI9kcpq8g==",
+    "DevExpress.Persistent.BaseImpl.Xpo/24.1.7": {
+      "sha512": "r/O8Pi713KW1fu7cGok4ek3T4VbEHP0LHYBWl2MhpAcxXMAKBKdLUoGHIB6Ft1+YxNaz+cthm9da4N5mAtn0qg==",
       "type": "package",
-      "path": "devexpress.persistent.baseimpl.xpo/24.1.5",
+      "path": "devexpress.persistent.baseimpl.xpo/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.persistent.baseimpl.xpo.24.1.5.nupkg.sha512",
+        "devexpress.persistent.baseimpl.xpo.24.1.7.nupkg.sha512",
         "devexpress.persistent.baseimpl.xpo.nuspec",
         "lib/net452/DevExpress.Persistent.BaseImpl.Xpo.v24.1.dll",
         "lib/net452/DevExpress.Persistent.BaseImpl.Xpo.v24.1.xml",
@@ -4370,14 +4378,14 @@
         "lib/net6.0/DevExpress.Persistent.BaseImpl.Xpo.v24.1.xml"
       ]
     },
-    "DevExpress.PivotGrid.Core/24.1.5": {
-      "sha512": "cMz6Xhdt68btCMxJWF64IkEGGFerHih8Ns6fiOHkH2kCuS5MlpTbox4fMn0UzZ7Vo9/XEYh7F0IufvlOS2tpYw==",
+    "DevExpress.PivotGrid.Core/24.1.7": {
+      "sha512": "dSS705vgH4OE7LCLoNiFXH/6d6hNxP+vEUMrNffM/29hdVaPB4f/r9EsyAMM5JVN1cPT53k0vSP8qRHVIO2j+w==",
       "type": "package",
-      "path": "devexpress.pivotgrid.core/24.1.5",
+      "path": "devexpress.pivotgrid.core/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.pivotgrid.core.24.1.5.nupkg.sha512",
+        "devexpress.pivotgrid.core.24.1.7.nupkg.sha512",
         "devexpress.pivotgrid.core.nuspec",
         "lib/net452/DevExpress.PivotGrid.v24.1.Core.dll",
         "lib/net452/DevExpress.PivotGrid.v24.1.Core.xml",
@@ -4385,14 +4393,14 @@
         "lib/net6.0/DevExpress.PivotGrid.v24.1.Core.xml"
       ]
     },
-    "DevExpress.Printing.Core/24.1.5": {
-      "sha512": "Zlg+n0OyTUzfXzRpJjCXDwlq5gnNrDNHx6lcZvzOxrhs204zAMgMjClu3CudXdjvLR1Fw4rmi4Pp5j5dq3gWSA==",
+    "DevExpress.Printing.Core/24.1.7": {
+      "sha512": "MiLs4bvWJ6AEB8ZUqu8K1sQgxPkAoKCVauF+YWzINvSRgv0MnATjMClLPLTxAULIx/fL04dEo4D4TfrdxFhzpg==",
       "type": "package",
-      "path": "devexpress.printing.core/24.1.5",
+      "path": "devexpress.printing.core/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.printing.core.24.1.5.nupkg.sha512",
+        "devexpress.printing.core.24.1.7.nupkg.sha512",
         "devexpress.printing.core.nuspec",
         "lib/net452/DevExpress.Printing.v24.1.Core.dll",
         "lib/net452/DevExpress.Printing.v24.1.Core.xml",
@@ -4400,17 +4408,17 @@
         "lib/net6.0/DevExpress.Printing.v24.1.Core.xml"
       ]
     },
-    "DevExpress.Reporting.Core/24.1.5": {
-      "sha512": "bYl6jXPb6u6uzI1tPBMR2nu9cUr7sgFCt7RpatL+afTTG1vPiS4LIEyeLAq6K6n5765Y+CjLgD9hbg9N/YlD6w==",
+    "DevExpress.Reporting.Core/24.1.7": {
+      "sha512": "EBxwTZCE5pOmPRWpT+Y3E+DPgRIir+NhiQeuA62fFFcVlmeBfu/MjRxGmBvMoq0+gu1B8tcATRZRZQOf2g6jLg==",
       "type": "package",
-      "path": "devexpress.reporting.core/24.1.5",
+      "path": "devexpress.reporting.core/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "build/DevExpress.Reporting.Core.targets",
         "buildMultiTargeting/DevExpress.Reporting.Core.targets",
         "buildTransitive/DevExpress.Reporting.Core.targets",
-        "devexpress.reporting.core.24.1.5.nupkg.sha512",
+        "devexpress.reporting.core.24.1.7.nupkg.sha512",
         "devexpress.reporting.core.nuspec",
         "lib/net452/DevExpress.XtraReports.v24.1.dll",
         "lib/net452/DevExpress.XtraReports.v24.1.xml",
@@ -4418,14 +4426,14 @@
         "lib/net6.0/DevExpress.XtraReports.v24.1.xml"
       ]
     },
-    "DevExpress.RichEdit.Core/24.1.5": {
-      "sha512": "LsonC2+/K+PpA3KYw/lUx9OiEjNTkH0bvvIg0it+IDUcm/m0G8XkO9HyuLfo+tuwOkmzG2Dl/EMnOvErl2J8hA==",
+    "DevExpress.RichEdit.Core/24.1.7": {
+      "sha512": "KmJnUcECp/5uDQ8FLEnhcQhP22/9doSRNlYj+8VnwUh14EsSQ91cNjMmlM7MeDNIgs7a0AvjSETZ9SbvmZltmA==",
       "type": "package",
-      "path": "devexpress.richedit.core/24.1.5",
+      "path": "devexpress.richedit.core/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.richedit.core.24.1.5.nupkg.sha512",
+        "devexpress.richedit.core.24.1.7.nupkg.sha512",
         "devexpress.richedit.core.nuspec",
         "lib/net452/DevExpress.RichEdit.v24.1.Core.dll",
         "lib/net452/DevExpress.RichEdit.v24.1.Core.xml",
@@ -4433,27 +4441,27 @@
         "lib/net6.0/DevExpress.RichEdit.v24.1.Core.xml"
       ]
     },
-    "DevExpress.RichEdit.Export/24.1.5": {
-      "sha512": "6mcxg0sINvVxEIk7AUYjlbbMhdKKBZ07RF4BCzXu9e6bonCtsRz0v3UvhT4YOEV8I3lcB0bKSJRZ2tlZO5UGFQ==",
+    "DevExpress.RichEdit.Export/24.1.7": {
+      "sha512": "jwrvWR5XkOjz5IkKQBzH5XLJK8EuGRXs6i+nPlqVF3pa26suorolNtwMqydbRVmvL4xUiG3mu75PZYWkH6fGgA==",
       "type": "package",
-      "path": "devexpress.richedit.export/24.1.5",
+      "path": "devexpress.richedit.export/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.richedit.export.24.1.5.nupkg.sha512",
+        "devexpress.richedit.export.24.1.7.nupkg.sha512",
         "devexpress.richedit.export.nuspec",
         "lib/net452/DevExpress.RichEdit.v24.1.Export.dll",
         "lib/net6.0/DevExpress.RichEdit.v24.1.Export.dll"
       ]
     },
-    "DevExpress.Scheduler.Core/24.1.5": {
-      "sha512": "Y4R9nqmrdb340THjCQJqYjc7/0h4jVyqnJc0bwPy+tvI9Ircsvzw7hv+DS16InWVNUJ7aVd6CZ7Ke/pteNqH3g==",
+    "DevExpress.Scheduler.Core/24.1.7": {
+      "sha512": "i414CgspGLmD50jS6rOUs6jNOZR6POutexpcmmy/lgcLz9+ZswMiExxPsDJv3ERi7dvHdTRHW+7N1ddlWdSCVw==",
       "type": "package",
-      "path": "devexpress.scheduler.core/24.1.5",
+      "path": "devexpress.scheduler.core/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.scheduler.core.24.1.5.nupkg.sha512",
+        "devexpress.scheduler.core.24.1.7.nupkg.sha512",
         "devexpress.scheduler.core.nuspec",
         "lib/net452/DevExpress.XtraScheduler.v24.1.Core.dll",
         "lib/net452/DevExpress.XtraScheduler.v24.1.Core.xml",
@@ -4461,14 +4469,14 @@
         "lib/net6.0/DevExpress.XtraScheduler.v24.1.Core.xml"
       ]
     },
-    "DevExpress.Sparkline.Core/24.1.5": {
-      "sha512": "Zvmm/m9jpLVaYqkOWoXPvpAK6+5gvWavpNMNai5/rd4GQb/WQ6GvUbmZYPYdyHPKAkjciAvhx28h/lXzIqKXQg==",
+    "DevExpress.Sparkline.Core/24.1.7": {
+      "sha512": "ObZmT+9K7s5Vg92Wg10tGqKihlvgutJlTJ/Lnuyxt0TuMeDm9EY63qqyj2Aq8PAY6vjSOQCqVbeAu3GYf1UEhw==",
       "type": "package",
-      "path": "devexpress.sparkline.core/24.1.5",
+      "path": "devexpress.sparkline.core/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.sparkline.core.24.1.5.nupkg.sha512",
+        "devexpress.sparkline.core.24.1.7.nupkg.sha512",
         "devexpress.sparkline.core.nuspec",
         "lib/net452/DevExpress.Sparkline.v24.1.Core.dll",
         "lib/net452/DevExpress.Sparkline.v24.1.Core.xml",
@@ -4476,14 +4484,14 @@
         "lib/net6.0/DevExpress.Sparkline.v24.1.Core.xml"
       ]
     },
-    "DevExpress.SpellChecker.Core/24.1.5": {
-      "sha512": "8X/4FQosS5GH4CdeFh76aWg9xXbP7yOBrcQHTL0bgbceldzufE53ZR7yaxE4B54Ux3GrQIiweT+ToeVGpvJjsQ==",
+    "DevExpress.SpellChecker.Core/24.1.7": {
+      "sha512": "mUBEhiaGonZFYU+iBq9SgiKaUipJ7OnM+w5ieEtnO3TikTyAoMeJ48UeLDRMsWfoB0NYPc+WKNX1Nroor/VBYg==",
       "type": "package",
-      "path": "devexpress.spellchecker.core/24.1.5",
+      "path": "devexpress.spellchecker.core/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.spellchecker.core.24.1.5.nupkg.sha512",
+        "devexpress.spellchecker.core.24.1.7.nupkg.sha512",
         "devexpress.spellchecker.core.nuspec",
         "lib/net452/DevExpress.SpellChecker.v24.1.Core.dll",
         "lib/net452/DevExpress.SpellChecker.v24.1.Core.xml",
@@ -4491,14 +4499,14 @@
         "lib/net6.0/DevExpress.SpellChecker.v24.1.Core.xml"
       ]
     },
-    "DevExpress.Spreadsheet.Core/24.1.5": {
-      "sha512": "A39aC2PFAWQp5pgzhavMgGv1rAQIAkPp+DBQL8FN9G5x6MOKbQizgS/6S1EhJ+gNLrDCjROzbR4LGTxQ26gptg==",
+    "DevExpress.Spreadsheet.Core/24.1.7": {
+      "sha512": "ZhqA93QLrePs+G6FbPb/yWNfiQX50/sea2yy/gsiqkSQkk9IxUZefbBIt5nt56s5MOBrYU7SX6VP07li2WHsLg==",
       "type": "package",
-      "path": "devexpress.spreadsheet.core/24.1.5",
+      "path": "devexpress.spreadsheet.core/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.spreadsheet.core.24.1.5.nupkg.sha512",
+        "devexpress.spreadsheet.core.24.1.7.nupkg.sha512",
         "devexpress.spreadsheet.core.nuspec",
         "lib/net452/DevExpress.Spreadsheet.v24.1.Core.dll",
         "lib/net452/DevExpress.Spreadsheet.v24.1.Core.xml",
@@ -4506,14 +4514,14 @@
         "lib/net6.0/DevExpress.Spreadsheet.v24.1.Core.xml"
       ]
     },
-    "DevExpress.TreeMap/24.1.5": {
-      "sha512": "Czu0ohiaqMy3/BVSnj52YIFvfgMBFDkayEoWun2gk8ni7RoRHHYN8plDBc9ClGn32WAMx69EeECaMlWCwAu3mQ==",
+    "DevExpress.TreeMap/24.1.7": {
+      "sha512": "Wkk3NR4lGJRu3MFqaVy9cdG+Uhbn82YGanFQr/z19IyJqAptWw0wS9oeD31MrptvMlRUQYFrVLN6ss0MLX+ETQ==",
       "type": "package",
-      "path": "devexpress.treemap/24.1.5",
+      "path": "devexpress.treemap/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.treemap.24.1.5.nupkg.sha512",
+        "devexpress.treemap.24.1.7.nupkg.sha512",
         "devexpress.treemap.nuspec",
         "lib/net452/DevExpress.XtraTreeMap.v24.1.dll",
         "lib/net452/DevExpress.XtraTreeMap.v24.1.xml",
@@ -4521,14 +4529,14 @@
         "lib/net6.0/DevExpress.XtraTreeMap.v24.1.xml"
       ]
     },
-    "DevExpress.TreeMap.Core/24.1.5": {
-      "sha512": "dgHjM1kX9lfepTkJ90Zt1+T7bRKitpp6tfCqSoFuVGUmGDwch/VkQAmpR6lDeM9vlNrhgepFw6oxGppR6J/z4w==",
+    "DevExpress.TreeMap.Core/24.1.7": {
+      "sha512": "uIKzY0CfN5l6FwrcJlmeLJHSpuloSDJB1QFejWPcBm5rJ7i3RMwGM/RWuvseMqd26Bdj1zHo0x/3p/Z+3o1luQ==",
       "type": "package",
-      "path": "devexpress.treemap.core/24.1.5",
+      "path": "devexpress.treemap.core/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.treemap.core.24.1.5.nupkg.sha512",
+        "devexpress.treemap.core.24.1.7.nupkg.sha512",
         "devexpress.treemap.core.nuspec",
         "lib/net452/DevExpress.TreeMap.v24.1.Core.dll",
         "lib/net452/DevExpress.TreeMap.v24.1.Core.xml",
@@ -4536,14 +4544,14 @@
         "lib/net6.0/DevExpress.TreeMap.v24.1.Core.xml"
       ]
     },
-    "DevExpress.Web.Dashboard.Common/24.1.5": {
-      "sha512": "YcxRRiwnO5ihI/BhsIjVH7X6x+vZxaRLJ4iB77Ux41YTW9ceYndTLu1Ichu70JKEPE2t259u4ZXt+dI1iyoaDw==",
+    "DevExpress.Web.Dashboard.Common/24.1.7": {
+      "sha512": "NVB9yG3te8JSe0HrJVd1fCcZI8l0imXrqutTrL0dT1cyJaSLmShU7mf8Lh42WCqboZB7ZPuK8vZYJL3zl91Ilw==",
       "type": "package",
-      "path": "devexpress.web.dashboard.common/24.1.5",
+      "path": "devexpress.web.dashboard.common/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.web.dashboard.common.24.1.5.nupkg.sha512",
+        "devexpress.web.dashboard.common.24.1.7.nupkg.sha512",
         "devexpress.web.dashboard.common.nuspec",
         "lib/net452/DevExpress.Dashboard.v24.1.Web.dll",
         "lib/net452/DevExpress.Dashboard.v24.1.Web.xml",
@@ -4551,14 +4559,14 @@
         "lib/net6.0/DevExpress.Dashboard.v24.1.Web.xml"
       ]
     },
-    "DevExpress.Web.Reporting.Common/24.1.5": {
-      "sha512": "cF8mSm/fzGt8WshVYb/Io82DvpxjiFi4otQcJf+TyBlWThEzwtzZjWkvaQ1dfa+RN6ELCX5fTN31rUh6Qayapw==",
+    "DevExpress.Web.Reporting.Common/24.1.7": {
+      "sha512": "xmvS5O/8B86kEDe/OCuIO4aF0BbHv+usobkDt1n7LddZDVXjLowawKjAzKX1FD7hIychzzJ8ogc4jyUnuFUy/Q==",
       "type": "package",
-      "path": "devexpress.web.reporting.common/24.1.5",
+      "path": "devexpress.web.reporting.common/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.web.reporting.common.24.1.5.nupkg.sha512",
+        "devexpress.web.reporting.common.24.1.7.nupkg.sha512",
         "devexpress.web.reporting.common.nuspec",
         "lib/net452/DevExpress.XtraReports.v24.1.Web.dll",
         "lib/net452/DevExpress.XtraReports.v24.1.Web.xml",
@@ -4566,41 +4574,41 @@
         "lib/net6.0/DevExpress.XtraReports.v24.1.Web.xml"
       ]
     },
-    "DevExpress.Web.Reporting.Common.Services/24.1.5": {
-      "sha512": "mX8qmInzGwzXz0TXXvTjfK9NYvYS8z67s6JkC3a+yEuosT5L4q27Mp2Pu8BVaB7FnTTO/JFpp4VtNAaLo9lYbQ==",
+    "DevExpress.Web.Reporting.Common.Services/24.1.7": {
+      "sha512": "0AmJp3PTai3Yhr6RgNSQYwUBsIb5cxebx359sJlh6sY/KjQOfVuyDYYyC8t/vOebnnX0QdJ3o/PBsqmgZmZ8Dw==",
       "type": "package",
-      "path": "devexpress.web.reporting.common.services/24.1.5",
+      "path": "devexpress.web.reporting.common.services/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.web.reporting.common.services.24.1.5.nupkg.sha512",
+        "devexpress.web.reporting.common.services.24.1.7.nupkg.sha512",
         "devexpress.web.reporting.common.services.nuspec",
         "lib/net6.0/DevExpress.Web.Reporting.v24.1.Common.Services.dll",
         "lib/net6.0/DevExpress.Web.Reporting.v24.1.Common.Services.xml"
       ]
     },
-    "DevExpress.Web.Resources/24.1.5": {
-      "sha512": "89jVXVUBhETUVTQRqCIAvlOeo0f3bxLoChBGuDmKGTSv4FQFmH5AHUB1vRCLgV63TmSvrTjC4q70WY+LwLT5PQ==",
+    "DevExpress.Web.Resources/24.1.7": {
+      "sha512": "+zzyjXNp2Kc+2G1M+914/1POuWg1l+elY6mjAZF7ZHRY8KXUbpRO8o5ktSwGNGXzgh++ZYUMmOQQLORehbz1Pg==",
       "type": "package",
-      "path": "devexpress.web.resources/24.1.5",
+      "path": "devexpress.web.resources/24.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.web.resources.24.1.5.nupkg.sha512",
+        "devexpress.web.resources.24.1.7.nupkg.sha512",
         "devexpress.web.resources.nuspec",
         "lib/net452/DevExpress.Web.Resources.v24.1.dll",
         "lib/net6.0/DevExpress.Web.Resources.v24.1.dll"
       ]
     },
-    "DevExpress.Xpo/24.1.5": {
-      "sha512": "7MlXIkMgTlADSS+TK7jZ6y9ZiDsKcW5h4IPH1cegdWL0e9qiPWIRJNEdBBxpRa3BnftfL8Wphx+FLJIFU2Lalg==",
+    "DevExpress.Xpo/24.1.7": {
+      "sha512": "SxcpuT4jZ+jazhmOy/phbdwd8I70KYN69+M3xmiQPggRuioIehfiEG1oAefLt1v5QtiCxomFirAt+xF4O4Fz6A==",
       "type": "package",
-      "path": "devexpress.xpo/24.1.5",
+      "path": "devexpress.xpo/24.1.7",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.xpo.24.1.5.nupkg.sha512",
+        "devexpress.xpo.24.1.7.nupkg.sha512",
         "devexpress.xpo.nuspec",
         "lib/net452/DevExpress.Xpo.v24.1.dll",
         "lib/net452/DevExpress.Xpo.v24.1.xml",
@@ -4766,31 +4774,33 @@
         "runtimes/win-x86/native/libHarfBuzzSharp.dll"
       ]
     },
-    "MessagePack/2.5.140": {
-      "sha512": "nkIsgy8BkIfv40bSz9XZb4q//scI1PF3AYeB5X66nSlIhBIqbdpLz8Qk3gHvnjV3RZglQLO/ityK3eNfLii2NA==",
+    "MessagePack/2.5.187": {
+      "sha512": "uW4j8m4Nc+2Mk5n6arOChavJ9bLjkis0qWASOj2h2OwmfINuzYv+mjCHUymrYhmyyKTu3N+ObtTXAY4uQ7jIhg==",
       "type": "package",
-      "path": "messagepack/2.5.140",
+      "path": "messagepack/2.5.187",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "lib/net472/MessagePack.dll",
+        "lib/net472/MessagePack.xml",
         "lib/net6.0/MessagePack.dll",
         "lib/net6.0/MessagePack.xml",
         "lib/netstandard2.0/MessagePack.dll",
         "lib/netstandard2.0/MessagePack.xml",
-        "messagepack.2.5.140.nupkg.sha512",
+        "messagepack.2.5.187.nupkg.sha512",
         "messagepack.nuspec"
       ]
     },
-    "MessagePack.Annotations/2.5.140": {
-      "sha512": "JE3vwluOrsJ4t3hnfXzIxJUh6lhx6M/KR8Sark/HOUw1DJ5UKu5JsAnnuaQngg6poFkRx1lzHSLTkxHNJO7+uQ==",
+    "MessagePack.Annotations/2.5.187": {
+      "sha512": "/IvvMMS8opvlHjEJ/fR2Cal4Co726Kj77Z8KiohFhuHfLHHmb9uUxW5+tSCL4ToKFfkQlrS3HD638mRq83ySqA==",
       "type": "package",
-      "path": "messagepack.annotations/2.5.140",
+      "path": "messagepack.annotations/2.5.187",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/MessagePack.Annotations.dll",
         "lib/netstandard2.0/MessagePack.Annotations.xml",
-        "messagepack.annotations.2.5.140.nupkg.sha512",
+        "messagepack.annotations.2.5.187.nupkg.sha512",
         "messagepack.annotations.nuspec"
       ]
     },
@@ -5102,10 +5112,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.DependencyModel/6.0.0": {
-      "sha512": "TD5QHg98m3+QhgEV1YVoNMl5KtBw/4rjfxLHO0e/YV9bPUBDKntApP4xdrVtGgCeQZHVfC2EXIGsdpRNrr87Pg==",
+    "Microsoft.Extensions.DependencyModel/6.0.1": {
+      "sha512": "AdvrtrqZpMgW4tIAQ/8gE1LAM/FjFY8JrFdyiolOf9WLEfN3WuFG1Hje6n0jqaOs3ldZFGWhatJQHJRrIOd++w==",
       "type": "package",
-      "path": "microsoft.extensions.dependencymodel/6.0.0",
+      "path": "microsoft.extensions.dependencymodel/6.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5116,7 +5126,7 @@
         "lib/net461/Microsoft.Extensions.DependencyModel.xml",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.xml",
-        "microsoft.extensions.dependencymodel.6.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencymodel.6.0.1.nupkg.sha512",
         "microsoft.extensions.dependencymodel.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -6116,25 +6126,31 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Formats.Asn1/6.0.0": {
-      "sha512": "T6fD00dQ3NTbPDy31m4eQUwKW84s03z0N2C8HpOklyeaDgaJPa/TexP4/SkORMSOwc7WhKifnA6Ya33AkzmafA==",
+    "System.Formats.Asn1/8.0.1": {
+      "sha512": "XqKba7Mm/koKSjKMfW82olQdmfbI5yqeoLV/tidRp7fbh5rmHAQ5raDI/7SU0swTzv+jgqtUGkzmFxuUg0it1A==",
       "type": "package",
-      "path": "system.formats.asn1/6.0.0",
+      "path": "system.formats.asn1/8.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Formats.Asn1.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
         "buildTransitive/netcoreapp2.0/System.Formats.Asn1.targets",
-        "buildTransitive/netcoreapp3.1/_._",
-        "lib/net461/System.Formats.Asn1.dll",
-        "lib/net461/System.Formats.Asn1.xml",
+        "lib/net462/System.Formats.Asn1.dll",
+        "lib/net462/System.Formats.Asn1.xml",
         "lib/net6.0/System.Formats.Asn1.dll",
         "lib/net6.0/System.Formats.Asn1.xml",
+        "lib/net7.0/System.Formats.Asn1.dll",
+        "lib/net7.0/System.Formats.Asn1.xml",
+        "lib/net8.0/System.Formats.Asn1.dll",
+        "lib/net8.0/System.Formats.Asn1.xml",
         "lib/netstandard2.0/System.Formats.Asn1.dll",
         "lib/netstandard2.0/System.Formats.Asn1.xml",
-        "system.formats.asn1.6.0.0.nupkg.sha512",
+        "system.formats.asn1.8.0.1.nupkg.sha512",
         "system.formats.asn1.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -6742,15 +6758,16 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Text.Json/6.0.10": {
-      "sha512": "NSB0kDipxn2ychp88NXWfFRFlmi1bst/xynOutbnpEfRCT9JZkZ7KOmF/I/hNKo2dILiMGnqblm+j1sggdLB9g==",
+    "System.Text.Json/8.0.5": {
+      "sha512": "0f1B50Ss7rqxXiaBJyzUu9bWFOO2/zSlifZ/UNMdiIpDYe4cY4LQQicP4nirK1OS31I43rn062UIJ1Q9bpmHpg==",
       "type": "package",
-      "path": "system.text.json/6.0.10",
+      "path": "system.text.json/8.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
+        "PACKAGE.md",
         "THIRD-PARTY-NOTICES.TXT",
         "analyzers/dotnet/roslyn3.11/cs/System.Text.Json.SourceGeneration.dll",
         "analyzers/dotnet/roslyn3.11/cs/cs/System.Text.Json.SourceGeneration.resources.dll",
@@ -6780,18 +6797,36 @@
         "analyzers/dotnet/roslyn4.0/cs/tr/System.Text.Json.SourceGeneration.resources.dll",
         "analyzers/dotnet/roslyn4.0/cs/zh-Hans/System.Text.Json.SourceGeneration.resources.dll",
         "analyzers/dotnet/roslyn4.0/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/System.Text.Json.SourceGeneration.dll",
+        "analyzers/dotnet/roslyn4.4/cs/cs/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/de/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/es/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/fr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/it/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ja/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ko/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/pl/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/pt-BR/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ru/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/tr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/zh-Hans/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll",
+        "buildTransitive/net461/System.Text.Json.targets",
+        "buildTransitive/net462/System.Text.Json.targets",
+        "buildTransitive/net6.0/System.Text.Json.targets",
         "buildTransitive/netcoreapp2.0/System.Text.Json.targets",
-        "buildTransitive/netcoreapp3.1/System.Text.Json.targets",
         "buildTransitive/netstandard2.0/System.Text.Json.targets",
-        "lib/net461/System.Text.Json.dll",
-        "lib/net461/System.Text.Json.xml",
+        "lib/net462/System.Text.Json.dll",
+        "lib/net462/System.Text.Json.xml",
         "lib/net6.0/System.Text.Json.dll",
         "lib/net6.0/System.Text.Json.xml",
-        "lib/netcoreapp3.1/System.Text.Json.dll",
-        "lib/netcoreapp3.1/System.Text.Json.xml",
+        "lib/net7.0/System.Text.Json.dll",
+        "lib/net7.0/System.Text.Json.xml",
+        "lib/net8.0/System.Text.Json.dll",
+        "lib/net8.0/System.Text.Json.xml",
         "lib/netstandard2.0/System.Text.Json.dll",
         "lib/netstandard2.0/System.Text.Json.xml",
-        "system.text.json.6.0.10.nupkg.sha512",
+        "system.text.json.8.0.5.nupkg.sha512",
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -6919,27 +6954,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DIEM\\.nuget\\packages\\": {},
-    "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\MaiHuong\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CNPM\\in7\\IN7.Blazor.Server\\IN7.Blazor.Server.csproj",
+      "projectUniqueName": "E:\\cnpm\\IN7\\IN7.Blazor.Server\\IN7.Blazor.Server.csproj",
       "projectName": "IN7.Blazor.Server",
-      "projectPath": "C:\\CNPM\\in7\\IN7.Blazor.Server\\IN7.Blazor.Server.csproj",
-      "packagesPath": "C:\\Users\\DIEM\\.nuget\\packages\\",
-      "outputPath": "C:\\CNPM\\in7\\IN7.Blazor.Server\\obj\\",
+      "projectPath": "E:\\cnpm\\IN7\\IN7.Blazor.Server\\IN7.Blazor.Server.csproj",
+      "packagesPath": "C:\\Users\\MaiHuong\\.nuget\\packages\\",
+      "outputPath": "E:\\cnpm\\IN7\\IN7.Blazor.Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
       ],
       "configFilePaths": [
-        "C:\\Users\\DIEM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MaiHuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6955,8 +6987,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\CNPM\\in7\\IN7.Module\\IN7.Module.csproj": {
-              "projectPath": "C:\\CNPM\\in7\\IN7.Module\\IN7.Module.csproj"
+            "E:\\cnpm\\IN7\\IN7.Module\\IN7.Module.csproj": {
+              "projectPath": "E:\\cnpm\\IN7\\IN7.Module\\IN7.Module.csproj"
             }
           }
         }
@@ -7047,5 +7079,257 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Blazor.Server depends on DevExpress.Drawing.Skia (>= 24.1.5) but DevExpress.Drawing.Skia 24.1.5 was not found. An approximate best match of DevExpress.Drawing.Skia 24.1.7 was resolved.",
+      "libraryId": "DevExpress.Drawing.Skia",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Module depends on DevExpress.ExpressApp (>= 24.1.5) but DevExpress.ExpressApp 24.1.5 was not found. An approximate best match of DevExpress.ExpressApp 24.1.7 was resolved.",
+      "libraryId": "DevExpress.ExpressApp",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Blazor.Server depends on DevExpress.ExpressApp.Blazor (>= 24.1.5) but DevExpress.ExpressApp.Blazor 24.1.5 was not found. An approximate best match of DevExpress.ExpressApp.Blazor 24.1.7 was resolved.",
+      "libraryId": "DevExpress.ExpressApp.Blazor",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Module depends on DevExpress.ExpressApp.CloneObject.Xpo (>= 24.1.5) but DevExpress.ExpressApp.CloneObject.Xpo 24.1.5 was not found. An approximate best match of DevExpress.ExpressApp.CloneObject.Xpo 24.1.7 was resolved.",
+      "libraryId": "DevExpress.ExpressApp.CloneObject.Xpo",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Blazor.Server depends on DevExpress.ExpressApp.CodeAnalysis (>= 24.1.5) but DevExpress.ExpressApp.CodeAnalysis 24.1.5 was not found. An approximate best match of DevExpress.ExpressApp.CodeAnalysis 24.1.7 was resolved.",
+      "libraryId": "DevExpress.ExpressApp.CodeAnalysis",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Module depends on DevExpress.ExpressApp.ConditionalAppearance (>= 24.1.5) but DevExpress.ExpressApp.ConditionalAppearance 24.1.5 was not found. An approximate best match of DevExpress.ExpressApp.ConditionalAppearance 24.1.7 was resolved.",
+      "libraryId": "DevExpress.ExpressApp.ConditionalAppearance",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Module depends on DevExpress.ExpressApp.Dashboards (>= 24.1.5) but DevExpress.ExpressApp.Dashboards 24.1.5 was not found. An approximate best match of DevExpress.ExpressApp.Dashboards 24.1.7 was resolved.",
+      "libraryId": "DevExpress.ExpressApp.Dashboards",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Blazor.Server depends on DevExpress.ExpressApp.Dashboards.Blazor (>= 24.1.5) but DevExpress.ExpressApp.Dashboards.Blazor 24.1.5 was not found. An approximate best match of DevExpress.ExpressApp.Dashboards.Blazor 24.1.7 was resolved.",
+      "libraryId": "DevExpress.ExpressApp.Dashboards.Blazor",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Blazor.Server depends on DevExpress.ExpressApp.FileAttachment.Blazor (>= 24.1.5) but DevExpress.ExpressApp.FileAttachment.Blazor 24.1.5 was not found. An approximate best match of DevExpress.ExpressApp.FileAttachment.Blazor 24.1.7 was resolved.",
+      "libraryId": "DevExpress.ExpressApp.FileAttachment.Blazor",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Module depends on DevExpress.ExpressApp.Notifications (>= 24.1.5) but DevExpress.ExpressApp.Notifications 24.1.5 was not found. An approximate best match of DevExpress.ExpressApp.Notifications 24.1.7 was resolved.",
+      "libraryId": "DevExpress.ExpressApp.Notifications",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Blazor.Server depends on DevExpress.ExpressApp.Notifications.Blazor (>= 24.1.5) but DevExpress.ExpressApp.Notifications.Blazor 24.1.5 was not found. An approximate best match of DevExpress.ExpressApp.Notifications.Blazor 24.1.7 was resolved.",
+      "libraryId": "DevExpress.ExpressApp.Notifications.Blazor",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Module depends on DevExpress.ExpressApp.Objects (>= 24.1.5) but DevExpress.ExpressApp.Objects 24.1.5 was not found. An approximate best match of DevExpress.ExpressApp.Objects 24.1.7 was resolved.",
+      "libraryId": "DevExpress.ExpressApp.Objects",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Module depends on DevExpress.ExpressApp.Office (>= 24.1.5) but DevExpress.ExpressApp.Office 24.1.5 was not found. An approximate best match of DevExpress.ExpressApp.Office 24.1.7 was resolved.",
+      "libraryId": "DevExpress.ExpressApp.Office",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Blazor.Server depends on DevExpress.ExpressApp.Office.Blazor (>= 24.1.5) but DevExpress.ExpressApp.Office.Blazor 24.1.5 was not found. An approximate best match of DevExpress.ExpressApp.Office.Blazor 24.1.7 was resolved.",
+      "libraryId": "DevExpress.ExpressApp.Office.Blazor",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Module depends on DevExpress.ExpressApp.ReportsV2 (>= 24.1.5) but DevExpress.ExpressApp.ReportsV2 24.1.5 was not found. An approximate best match of DevExpress.ExpressApp.ReportsV2 24.1.7 was resolved.",
+      "libraryId": "DevExpress.ExpressApp.ReportsV2",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Blazor.Server depends on DevExpress.ExpressApp.ReportsV2.Blazor (>= 24.1.5) but DevExpress.ExpressApp.ReportsV2.Blazor 24.1.5 was not found. An approximate best match of DevExpress.ExpressApp.ReportsV2.Blazor 24.1.7 was resolved.",
+      "libraryId": "DevExpress.ExpressApp.ReportsV2.Blazor",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Module depends on DevExpress.ExpressApp.Scheduler (>= 24.1.5) but DevExpress.ExpressApp.Scheduler 24.1.5 was not found. An approximate best match of DevExpress.ExpressApp.Scheduler 24.1.7 was resolved.",
+      "libraryId": "DevExpress.ExpressApp.Scheduler",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Blazor.Server depends on DevExpress.ExpressApp.Scheduler.Blazor (>= 24.1.5) but DevExpress.ExpressApp.Scheduler.Blazor 24.1.5 was not found. An approximate best match of DevExpress.ExpressApp.Scheduler.Blazor 24.1.7 was resolved.",
+      "libraryId": "DevExpress.ExpressApp.Scheduler.Blazor",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Module depends on DevExpress.ExpressApp.Security (>= 24.1.5) but DevExpress.ExpressApp.Security 24.1.5 was not found. An approximate best match of DevExpress.ExpressApp.Security 24.1.7 was resolved.",
+      "libraryId": "DevExpress.ExpressApp.Security",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Blazor.Server depends on DevExpress.ExpressApp.Security.Xpo (>= 24.1.5) but DevExpress.ExpressApp.Security.Xpo 24.1.5 was not found. An approximate best match of DevExpress.ExpressApp.Security.Xpo 24.1.7 was resolved.",
+      "libraryId": "DevExpress.ExpressApp.Security.Xpo",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Module depends on DevExpress.ExpressApp.Validation (>= 24.1.5) but DevExpress.ExpressApp.Validation 24.1.5 was not found. An approximate best match of DevExpress.ExpressApp.Validation 24.1.7 was resolved.",
+      "libraryId": "DevExpress.ExpressApp.Validation",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Blazor.Server depends on DevExpress.ExpressApp.Validation.Blazor (>= 24.1.5) but DevExpress.ExpressApp.Validation.Blazor 24.1.5 was not found. An approximate best match of DevExpress.ExpressApp.Validation.Blazor 24.1.7 was resolved.",
+      "libraryId": "DevExpress.ExpressApp.Validation.Blazor",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Module depends on DevExpress.ExpressApp.Xpo (>= 24.1.5) but DevExpress.ExpressApp.Xpo 24.1.5 was not found. An approximate best match of DevExpress.ExpressApp.Xpo 24.1.7 was resolved.",
+      "libraryId": "DevExpress.ExpressApp.Xpo",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Module depends on DevExpress.Persistent.Base (>= 24.1.5) but DevExpress.Persistent.Base 24.1.5 was not found. An approximate best match of DevExpress.Persistent.Base 24.1.7 was resolved.",
+      "libraryId": "DevExpress.Persistent.Base",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "IN7.Module depends on DevExpress.Persistent.BaseImpl.Xpo (>= 24.1.5) but DevExpress.Persistent.BaseImpl.Xpo 24.1.5 was not found. An approximate best match of DevExpress.Persistent.BaseImpl.Xpo 24.1.7 was resolved.",
+      "libraryId": "DevExpress.Persistent.BaseImpl.Xpo",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

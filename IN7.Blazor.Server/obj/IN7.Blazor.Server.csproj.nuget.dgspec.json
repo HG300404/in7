@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CNPM\\in7\\IN7.Blazor.Server\\IN7.Blazor.Server.csproj": {}
+    "E:\\cnpm\\IN7\\IN7.Blazor.Server\\IN7.Blazor.Server.csproj": {}
   },
   "projects": {
-    "C:\\CNPM\\in7\\IN7.Blazor.Server\\IN7.Blazor.Server.csproj": {
+    "E:\\cnpm\\IN7\\IN7.Blazor.Server\\IN7.Blazor.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CNPM\\in7\\IN7.Blazor.Server\\IN7.Blazor.Server.csproj",
+        "projectUniqueName": "E:\\cnpm\\IN7\\IN7.Blazor.Server\\IN7.Blazor.Server.csproj",
         "projectName": "IN7.Blazor.Server",
-        "projectPath": "C:\\CNPM\\in7\\IN7.Blazor.Server\\IN7.Blazor.Server.csproj",
-        "packagesPath": "C:\\Users\\DIEM\\.nuget\\packages\\",
-        "outputPath": "C:\\CNPM\\in7\\IN7.Blazor.Server\\obj\\",
+        "projectPath": "E:\\cnpm\\IN7\\IN7.Blazor.Server\\IN7.Blazor.Server.csproj",
+        "packagesPath": "C:\\Users\\MaiHuong\\.nuget\\packages\\",
+        "outputPath": "E:\\cnpm\\IN7\\IN7.Blazor.Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DIEM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MaiHuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -36,8 +34,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\CNPM\\in7\\IN7.Module\\IN7.Module.csproj": {
-                "projectPath": "C:\\CNPM\\in7\\IN7.Module\\IN7.Module.csproj"
+              "E:\\cnpm\\IN7\\IN7.Module\\IN7.Module.csproj": {
+                "projectPath": "E:\\cnpm\\IN7\\IN7.Module\\IN7.Module.csproj"
               }
             }
           }
@@ -129,23 +127,21 @@
         }
       }
     },
-    "C:\\CNPM\\in7\\IN7.Module\\IN7.Module.csproj": {
+    "E:\\cnpm\\IN7\\IN7.Module\\IN7.Module.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CNPM\\in7\\IN7.Module\\IN7.Module.csproj",
+        "projectUniqueName": "E:\\cnpm\\IN7\\IN7.Module\\IN7.Module.csproj",
         "projectName": "IN7.Module",
-        "projectPath": "C:\\CNPM\\in7\\IN7.Module\\IN7.Module.csproj",
-        "packagesPath": "C:\\Users\\DIEM\\.nuget\\packages\\",
-        "outputPath": "C:\\CNPM\\in7\\IN7.Module\\obj\\",
+        "projectPath": "E:\\cnpm\\IN7\\IN7.Module\\IN7.Module.csproj",
+        "packagesPath": "C:\\Users\\MaiHuong\\.nuget\\packages\\",
+        "outputPath": "E:\\cnpm\\IN7\\IN7.Module\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DIEM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MaiHuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
