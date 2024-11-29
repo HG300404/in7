@@ -39,6 +39,13 @@ namespace IN7.Module.BusinessObjects.ChungTu
         }
 
 
+        [DevExpress.Xpo.Association]
+        public XPCollection<InstallmentBill> InstallmentBills
+        {
+            get { return GetCollection<InstallmentBill>(nameof(InstallmentBills)); }
+        }
+
+
         [DevExpress.Xpo.Aggregated, DevExpress.Xpo.Association]
         public XPCollection<BillDetails> BillDetails
         {
@@ -85,8 +92,8 @@ namespace IN7.Module.BusinessObjects.ChungTu
 
         private decimal _ProductPrice;
         [XafDisplayName("Giá SP")]
-        [ModelDefault("DisplayFormat", "{0:### ### ###}")]
-        [ModelDefault("EditMask", "{0:### ### ###}")]
+        [ModelDefault("DisplayFormat", "{0:#,##0.00 ₫}")]
+        [ModelDefault("EditMask", "n2")]
         public decimal ProductPrice
         {
             get
@@ -127,8 +134,8 @@ namespace IN7.Module.BusinessObjects.ChungTu
         private decimal _TotalAmount;
 
         [XafDisplayName("Tổng Tiền")]
-        [ModelDefault("DisplayFormat", "{0:### ### ###}")]
-        [ModelDefault("EditMask", "{0:### ### ###}")]
+        [ModelDefault("DisplayFormat", "{0:#,##0.00 ₫}")]
+        [ModelDefault("EditMask", "n2")]
         public decimal TotalAmount
         {
             get
@@ -204,7 +211,8 @@ namespace IN7.Module.BusinessObjects.ChungTu
 
         private decimal _Minimum;
         [XafDisplayName("Cọc tối thiểu")]
-        [ModelDefault("DisplayFormat", "{0:### ### ###}")]
+        [ModelDefault("DisplayFormat", "{0:#,##0.00 ₫}")]
+        [ModelDefault("EditMask", "n2")]
         [ReadOnly(true)]
         public decimal Minimum
         {
@@ -214,8 +222,8 @@ namespace IN7.Module.BusinessObjects.ChungTu
 
         private decimal _Deposit;
         [XafDisplayName("Tiền Cọc")]
-        [ModelDefault("DisplayFormat", "{0:### ### ###}")]
-        [ModelDefault("EditMask", "{0:### ### ###}")]
+        [ModelDefault("DisplayFormat", "{0:#,##0.00 ₫}")]
+        [ModelDefault("EditMask", "n2")]
         //[RuleValueComparison(DefaultContexts.Save, ValueComparisonType.GreaterThanOrEqual, "Minimum",
         //CustomMessageTemplate = "Tiền Cọc phải lớn hơn hoặc bằng Cọc tối thiểu")]
         public decimal Deposit
@@ -266,8 +274,8 @@ namespace IN7.Module.BusinessObjects.ChungTu
 
         private decimal _MoneyMonth;
         [XafDisplayName("Tiền tháng")]
-        [ModelDefault("DisplayFormat", "{0:### ### ###}")]
-        [ModelDefault("EditMask", "{0:### ### ###}")]
+        [ModelDefault("DisplayFormat", "{0:#,##0.00 ₫}")]
+        [ModelDefault("EditMask", "n2")]
         public decimal MoneyMonth
         {
             get { return _MoneyMonth; }
@@ -319,20 +327,6 @@ namespace IN7.Module.BusinessObjects.ChungTu
             set
             {
                 SetPropertyValue(nameof(Type), ref _Type, value);
-                //if (SetPropertyValue(nameof(Type), ref _Type, value)
-                //       && !IsLoading && !IsSaving && !Session.IsObjectsLoading)
-                //{
-                //    if (value == PaymentType.OneTime)
-                //    {
-                //        // Nếu loại hình trả là "Trả hết"
-                //        _TotalAmount = ProductPrice;
-                //    }
-                //    else
-                //    {
-                //        // Nếu loại hình trả là "Trả góp"
-                //        _TotalAmount = Deposit + (MoneyMonth * (int)Option);
-                //    }
-                //}
             }
         }
 

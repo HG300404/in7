@@ -39,6 +39,12 @@ namespace IN7.Module.BusinessObjects.ChungTu
         }
 
 
+        [Association]
+        public XPCollection<Installment_Import> Installment_Imports
+        {
+            get { return GetCollection<Installment_Import>(nameof(Installment_Imports)); }
+        }
+
 
         private Employees _Employee;
         [XafDisplayName("Nhân Viên")]
@@ -105,8 +111,8 @@ namespace IN7.Module.BusinessObjects.ChungTu
 
         private decimal _Total;
         [XafDisplayName("Tổng Tiền")]
-        [ModelDefault("DisplayFormat", "{0:### ### ###}")]
-        [ModelDefault("EditMask", "{0:### ### ###}")]
+        [ModelDefault("DisplayFormat", "{0:#,##0.00 ₫}")]
+        [ModelDefault("EditMask", "n2")]
         public decimal Total
         {
             get
@@ -175,8 +181,8 @@ namespace IN7.Module.BusinessObjects.ChungTu
 
         private decimal _MoneyMonth;
         [XafDisplayName("Tiền tháng")]
-        [ModelDefault("DisplayFormat", "{0:### ### ###}")]
-        [ModelDefault("EditMask", "{0:### ### ###}")]
+        [ModelDefault("DisplayFormat", "{0:#,##0.00 ₫}")]
+        [ModelDefault("EditMask", "n2")]
         public decimal MoneyMonth
         {
             get { return _MoneyMonth; }
@@ -186,19 +192,12 @@ namespace IN7.Module.BusinessObjects.ChungTu
 
         private decimal _Deposit;
         [XafDisplayName("Tiền Cọc")]
-        [ModelDefault("DisplayFormat", "{0:### ### ###}")]
-        [ModelDefault("EditMask", "{0:### ### ###}")]
+        [ModelDefault("DisplayFormat", "{0:#,##0.00 ₫}")]
+        [ModelDefault("EditMask", "n2")]
         public decimal Deposit
         {
             get { return _Deposit; }
-            set
-            {
-                if (SetPropertyValue<decimal>(nameof(Deposit), ref _Deposit, value)
-                   && Total != 0) 
-                { 
-                    MoneyMonth = Math.Round((Total - value) * 0.1m / 6, 1, MidpointRounding.AwayFromZero);
-                }
-            }
+            set { SetPropertyValue<decimal>(nameof(Deposit), ref _Deposit, value); }
         }
 
         private DateTime _Time;
@@ -221,6 +220,34 @@ namespace IN7.Module.BusinessObjects.ChungTu
             {
                 SetPropertyValue<DateTime>(nameof(CreatedAt), ref _CreatedAt, value);
             }
+        }
+
+
+        // Thêm Trường Trạng Thái
+        private TrangThaiNhapHang _TrangThai;
+        [XafDisplayName("Trạng Thái Nhập Hàng")]
+        public TrangThaiNhapHang TrangThai
+        {
+            get { return _TrangThai; }
+            set { SetPropertyValue<TrangThaiNhapHang>(nameof(TrangThai), ref _TrangThai, value); }
+        }
+
+
+        // Enum cho Trạng Thái Nhập Hàng
+        public enum TrangThaiNhapHang
+        {
+            [XafDisplayName("Đã đặt hàng")]
+            DaDatHang,
+
+            [XafDisplayName("Đã giao hàng")]
+            DaGiaoHang,
+        }
+
+        // Phương thức Cập Nhật Trạng Thái Đơn Hàng
+        public void CapNhatTrangThai(TrangThaiNhapHang trangThaiMoi)
+        {
+            TrangThai = trangThaiMoi;
+            Save();
         }
     }
 }

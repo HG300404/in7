@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Application Title="IN7">
   <BOModel>
     <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser" Caption="Base User" />
@@ -6,7 +6,72 @@
   <Options>
     <LayoutManagerOptions RequiredFieldMark="*" />
   </Options>
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="24.1.7.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerModuleBase" Version="24.1.7.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="24.1.7.0" IsNewNode="True" />
+  </SchemaModules>
   <Views>
     <ListView Id="ApplicationUser_ListView" Caption="Users" />
+    <ListView Id="BillDetails_ListView" IsFooterVisible="True">
+      <Columns>
+        <ColumnInfo Id="Price">
+          <Summary>
+            <ColumnSummaryItem Id="Summary0" SummaryType="Sum" IsNewNode="True" />
+          </Summary>
+        </ColumnInfo>
+      </Columns>
+    </ListView>
+    <ListView Id="BillDetails_LookupListView" FilterEnabled="True" Filter="">
+      <Columns>
+        <ColumnInfo Id="Product" Width="94" DataSourceCriteria="[Quantity] &gt;= 1" />
+        <ColumnInfo Id="Quantity" SortIndex="0" SortOrder="Descending" Width="117" />
+      </Columns>
+    </ListView>
+    <ListView Id="ImportProductDetails_ListView" IsFooterVisible="True">
+      <Columns>
+        <ColumnInfo Id="Price">
+          <Summary>
+            <ColumnSummaryItem Id="Summary0" SummaryType="Sum" IsNewNode="True" />
+          </Summary>
+        </ColumnInfo>
+      </Columns>
+    </ListView>
+    <DetailView Id="ImportProducts_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="41.86851211072664">
+            <LayoutGroup Id="ImportProducts" RelativeSize="100">
+              <LayoutGroup Id="ImportProducts_col1" RelativeSize="49.95034756703078">
+                <LayoutItem Id="Employee" RelativeSize="17.171717171717173" />
+                <LayoutItem Id="Supplier" RelativeSize="13.131313131313131" />
+                <LayoutItem Id="ContactName" RelativeSize="13.131313131313131" />
+                <LayoutItem Id="ContactEmail" RelativeSize="13.131313131313131" />
+                <LayoutItem Id="Phone" RelativeSize="13.131313131313131" />
+                <LayoutItem Id="Total" RelativeSize="13.131313131313131" />
+                <LayoutItem Id="Type" RelativeSize="17.171717171717173" />
+              </LayoutGroup>
+              <LayoutGroup Id="ImportProducts_col2" RelativeSize="50.04965243296922">
+                <LayoutItem Id="PaymentMethod" RelativeSize="17.171717171717173" />
+                <LayoutItem Id="MoneyMonth" RelativeSize="13.131313131313131" />
+                <LayoutItem Id="Deposit" ViewItem="Deposit" Index="2" RelativeSize="13.131313131313131" IsNewNode="True" Removed="True" />
+                <LayoutItem Id="Time" RelativeSize="13.131313131313131" />
+                <LayoutItem Id="CreatedAt" RelativeSize="13.131313131313131" />
+                <LayoutItem Id="TrangThai" RelativeSize="30.303030303030305" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs" RelativeSize="58.13148788927336">
+            <LayoutGroup Id="Installment_Imports" RelativeSize="100">
+              <LayoutItem Id="Installment_Imports" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="ImportProductDetails" RelativeSize="100">
+              <LayoutItem Id="ImportProductDetails" RelativeSize="100" />
+            </LayoutGroup>
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="ImportProducts_ListView" IsFooterVisible="False" />
   </Views>
 </Application>
