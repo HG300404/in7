@@ -7,7 +7,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAY967XJ71mky63XZPEdi9jwAAAAACAAAAAAAQZgAAAAEAACAAAAAEvgfGWYd249e2W2fN7+sT6bohJSzXDGuOMlx+efMOCAAAAAAOgAAAAAIAACAAAADk2E/zG9LgTDpt/sx5WtV2+z14xdPIIeDd9tAEj6QeMyAAAAAcTjBEV12BsBqEJYq2XgogwKO/XmFZXM+CfvJmEbT5AEAAAADoYT7vN0x73HqIivL4JRC5I4zRLqmIow3V/ODiUWeR9VlaUdvlQxof1nOtwGpxNQYtAyh/JyQM+73dj9uxwdB0</EncryptedPassword>
     <_PublishTargetUrl>ftp://site12142.siteasp.net/wwwroot</_PublishTargetUrl>
-    <History>True|2024-11-09T15:31:28.8369154Z||;</History>
+    <History>True|2024-11-29T14:55:39.5159948Z||;True|2024-11-09T22:31:28.8369154+07:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
@@ -60,202 +60,202 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>11/07/2023 09:35:24</publishTime>
     </File>
     <File Include="DevExpress.AspNetCore.Common.v24.1.dll">
-      <publishTime>11/02/2024 02:22:14</publishTime>
+      <publishTime>11/12/2024 19:02:52</publishTime>
     </File>
     <File Include="DevExpress.AspNetCore.Core.v24.1.dll">
-      <publishTime>11/02/2024 02:22:14</publishTime>
+      <publishTime>11/12/2024 19:02:52</publishTime>
     </File>
     <File Include="DevExpress.AspNetCore.Reporting.v24.1.dll">
-      <publishTime>11/02/2024 02:22:14</publishTime>
+      <publishTime>11/12/2024 19:02:52</publishTime>
     </File>
     <File Include="DevExpress.Blazor.Reporting.v24.1.JSBasedControls.Common.dll">
-      <publishTime>11/02/2024 02:22:14</publishTime>
+      <publishTime>11/12/2024 19:02:52</publishTime>
     </File>
     <File Include="DevExpress.Blazor.Reporting.v24.1.JSBasedControls.dll">
-      <publishTime>11/02/2024 02:22:14</publishTime>
+      <publishTime>11/12/2024 19:02:52</publishTime>
     </File>
     <File Include="DevExpress.Blazor.Reporting.v24.1.Viewer.dll">
-      <publishTime>11/02/2024 02:22:14</publishTime>
+      <publishTime>11/12/2024 19:02:52</publishTime>
     </File>
     <File Include="DevExpress.Blazor.RichEdit.v24.1.dll">
-      <publishTime>11/02/2024 02:22:14</publishTime>
+      <publishTime>11/12/2024 19:02:52</publishTime>
     </File>
     <File Include="DevExpress.Blazor.v24.1.dll">
-      <publishTime>11/02/2024 02:22:14</publishTime>
+      <publishTime>11/12/2024 19:02:52</publishTime>
     </File>
     <File Include="DevExpress.Charts.v24.1.Core.dll">
-      <publishTime>11/02/2024 02:22:14</publishTime>
+      <publishTime>11/12/2024 19:02:52</publishTime>
     </File>
     <File Include="DevExpress.CodeParser.v24.1.dll">
-      <publishTime>11/02/2024 02:22:14</publishTime>
+      <publishTime>11/12/2024 19:02:52</publishTime>
     </File>
     <File Include="DevExpress.Dashboard.v24.1.AspNetCore.dll">
-      <publishTime>11/02/2024 02:22:14</publishTime>
+      <publishTime>11/12/2024 19:02:52</publishTime>
     </File>
     <File Include="DevExpress.Dashboard.v24.1.Blazor.dll">
-      <publishTime>11/02/2024 02:22:14</publishTime>
+      <publishTime>11/12/2024 19:02:52</publishTime>
     </File>
     <File Include="DevExpress.Dashboard.v24.1.Core.dll">
-      <publishTime>11/02/2024 02:22:14</publishTime>
+      <publishTime>11/12/2024 19:02:52</publishTime>
     </File>
     <File Include="DevExpress.Dashboard.v24.1.Web.dll">
-      <publishTime>11/02/2024 02:22:14</publishTime>
+      <publishTime>11/12/2024 19:02:52</publishTime>
     </File>
     <File Include="DevExpress.Data.v24.1.dll">
-      <publishTime>11/02/2024 02:31:35</publishTime>
+      <publishTime>11/12/2024 19:14:53</publishTime>
     </File>
     <File Include="DevExpress.DataAccess.v24.1.dll">
-      <publishTime>11/02/2024 02:22:14</publishTime>
+      <publishTime>11/12/2024 19:02:52</publishTime>
     </File>
     <File Include="DevExpress.DataVisualization.v24.1.Core.dll">
-      <publishTime>11/02/2024 02:22:14</publishTime>
+      <publishTime>11/12/2024 19:02:52</publishTime>
     </File>
     <File Include="DevExpress.Drawing.v24.1.dll">
-      <publishTime>11/02/2024 02:22:14</publishTime>
+      <publishTime>11/12/2024 19:02:52</publishTime>
     </File>
     <File Include="DevExpress.Drawing.v24.1.Skia.dll">
-      <publishTime>11/02/2024 02:22:14</publishTime>
+      <publishTime>11/12/2024 19:02:52</publishTime>
     </File>
     <File Include="DevExpress.ExpressApp.AspNetCore.v24.1.dll">
-      <publishTime>11/02/2024 02:22:28</publishTime>
+      <publishTime>11/12/2024 19:03:07</publishTime>
     </File>
     <File Include="DevExpress.ExpressApp.Blazor.v24.1.dll">
-      <publishTime>11/02/2024 02:22:28</publishTime>
+      <publishTime>11/12/2024 19:03:07</publishTime>
     </File>
     <File Include="DevExpress.ExpressApp.CloneObject.Xpo.v24.1.dll">
-      <publishTime>11/02/2024 02:22:28</publishTime>
+      <publishTime>11/12/2024 19:03:07</publishTime>
     </File>
     <File Include="DevExpress.ExpressApp.ConditionalAppearance.v24.1.dll">
-      <publishTime>11/02/2024 02:22:28</publishTime>
+      <publishTime>11/12/2024 19:03:07</publishTime>
     </File>
     <File Include="DevExpress.ExpressApp.Dashboards.Blazor.v24.1.dll">
-      <publishTime>11/02/2024 02:22:28</publishTime>
+      <publishTime>11/12/2024 19:03:07</publishTime>
     </File>
     <File Include="DevExpress.ExpressApp.Dashboards.v24.1.dll">
-      <publishTime>11/02/2024 02:22:28</publishTime>
+      <publishTime>11/12/2024 19:03:07</publishTime>
     </File>
     <File Include="DevExpress.ExpressApp.FileAttachment.Blazor.v24.1.dll">
-      <publishTime>11/02/2024 02:22:28</publishTime>
+      <publishTime>11/12/2024 19:03:07</publishTime>
     </File>
     <File Include="DevExpress.ExpressApp.Notifications.Blazor.v24.1.dll">
-      <publishTime>11/02/2024 02:22:28</publishTime>
+      <publishTime>11/12/2024 19:03:07</publishTime>
     </File>
     <File Include="DevExpress.ExpressApp.Notifications.v24.1.dll">
-      <publishTime>11/02/2024 02:22:28</publishTime>
+      <publishTime>11/12/2024 19:03:07</publishTime>
     </File>
     <File Include="DevExpress.ExpressApp.Objects.v24.1.dll">
-      <publishTime>11/02/2024 02:22:28</publishTime>
+      <publishTime>11/12/2024 19:03:07</publishTime>
     </File>
     <File Include="DevExpress.ExpressApp.Office.Blazor.v24.1.dll">
-      <publishTime>11/02/2024 02:22:28</publishTime>
+      <publishTime>11/12/2024 19:03:07</publishTime>
     </File>
     <File Include="DevExpress.ExpressApp.Office.v24.1.dll">
-      <publishTime>11/02/2024 02:22:28</publishTime>
+      <publishTime>11/12/2024 19:03:07</publishTime>
     </File>
     <File Include="DevExpress.ExpressApp.ReportsV2.Blazor.v24.1.dll">
-      <publishTime>11/02/2024 02:22:28</publishTime>
+      <publishTime>11/12/2024 19:03:08</publishTime>
     </File>
     <File Include="DevExpress.ExpressApp.ReportsV2.v24.1.dll">
-      <publishTime>11/02/2024 02:22:28</publishTime>
+      <publishTime>11/12/2024 19:03:08</publishTime>
     </File>
     <File Include="DevExpress.ExpressApp.Scheduler.Blazor.v24.1.dll">
-      <publishTime>11/02/2024 02:22:28</publishTime>
+      <publishTime>11/12/2024 19:03:08</publishTime>
     </File>
     <File Include="DevExpress.ExpressApp.Scheduler.v24.1.dll">
-      <publishTime>11/02/2024 02:22:28</publishTime>
+      <publishTime>11/12/2024 19:03:08</publishTime>
     </File>
     <File Include="DevExpress.ExpressApp.Security.AspNetCore.v24.1.dll">
-      <publishTime>11/02/2024 02:22:28</publishTime>
+      <publishTime>11/12/2024 19:03:08</publishTime>
     </File>
     <File Include="DevExpress.ExpressApp.Security.v24.1.dll">
-      <publishTime>11/02/2024 02:22:28</publishTime>
+      <publishTime>11/12/2024 19:03:08</publishTime>
     </File>
     <File Include="DevExpress.ExpressApp.Security.Xpo.v24.1.dll">
-      <publishTime>11/02/2024 02:22:28</publishTime>
+      <publishTime>11/12/2024 19:03:08</publishTime>
     </File>
     <File Include="DevExpress.ExpressApp.v24.1.dll">
-      <publishTime>11/02/2024 02:22:28</publishTime>
+      <publishTime>11/12/2024 19:03:08</publishTime>
     </File>
     <File Include="DevExpress.ExpressApp.Validation.Blazor.v24.1.dll">
-      <publishTime>11/02/2024 02:22:28</publishTime>
+      <publishTime>11/12/2024 19:03:08</publishTime>
     </File>
     <File Include="DevExpress.ExpressApp.Validation.v24.1.dll">
-      <publishTime>11/02/2024 02:22:28</publishTime>
+      <publishTime>11/12/2024 19:03:08</publishTime>
     </File>
     <File Include="DevExpress.ExpressApp.Xpo.v24.1.dll">
-      <publishTime>11/02/2024 02:22:28</publishTime>
+      <publishTime>11/12/2024 19:03:08</publishTime>
     </File>
     <File Include="DevExpress.Images.v24.1.dll">
-      <publishTime>11/02/2024 02:22:14</publishTime>
+      <publishTime>11/12/2024 19:02:52</publishTime>
     </File>
     <File Include="DevExpress.Map.v24.1.Core.dll">
-      <publishTime>11/02/2024 02:22:14</publishTime>
+      <publishTime>11/12/2024 19:02:52</publishTime>
     </File>
     <File Include="DevExpress.Office.v24.1.Core.dll">
-      <publishTime>11/02/2024 02:22:14</publishTime>
+      <publishTime>11/12/2024 19:02:52</publishTime>
     </File>
     <File Include="DevExpress.Pdf.v24.1.Core.dll">
-      <publishTime>11/02/2024 02:22:16</publishTime>
+      <publishTime>11/12/2024 19:02:53</publishTime>
     </File>
     <File Include="DevExpress.Pdf.v24.1.Drawing.dll">
-      <publishTime>11/02/2024 02:22:16</publishTime>
+      <publishTime>11/12/2024 19:02:53</publishTime>
     </File>
     <File Include="DevExpress.Persistent.Base.v24.1.dll">
-      <publishTime>11/02/2024 02:22:17</publishTime>
+      <publishTime>11/12/2024 19:02:56</publishTime>
     </File>
     <File Include="DevExpress.Persistent.BaseImpl.Xpo.v24.1.dll">
-      <publishTime>11/02/2024 02:22:17</publishTime>
+      <publishTime>11/12/2024 19:02:56</publishTime>
     </File>
     <File Include="DevExpress.PivotGrid.v24.1.Core.dll">
-      <publishTime>11/02/2024 02:22:16</publishTime>
+      <publishTime>11/12/2024 19:02:53</publishTime>
     </File>
     <File Include="DevExpress.Printing.v24.1.Core.dll">
-      <publishTime>11/02/2024 02:22:16</publishTime>
+      <publishTime>11/12/2024 19:02:53</publishTime>
     </File>
     <File Include="DevExpress.RichEdit.v24.1.Core.dll">
-      <publishTime>11/02/2024 02:22:16</publishTime>
+      <publishTime>11/12/2024 19:02:53</publishTime>
     </File>
     <File Include="DevExpress.RichEdit.v24.1.Export.dll">
-      <publishTime>11/02/2024 02:22:16</publishTime>
+      <publishTime>11/12/2024 19:02:53</publishTime>
     </File>
     <File Include="DevExpress.Sparkline.v24.1.Core.dll">
-      <publishTime>11/02/2024 02:22:16</publishTime>
+      <publishTime>11/12/2024 19:02:53</publishTime>
     </File>
     <File Include="DevExpress.SpellChecker.v24.1.Core.dll">
-      <publishTime>11/02/2024 02:22:16</publishTime>
+      <publishTime>11/12/2024 19:02:53</publishTime>
     </File>
     <File Include="DevExpress.Spreadsheet.v24.1.Core.dll">
-      <publishTime>11/02/2024 02:22:16</publishTime>
+      <publishTime>11/12/2024 19:02:53</publishTime>
     </File>
     <File Include="DevExpress.TreeMap.v24.1.Core.dll">
-      <publishTime>11/02/2024 02:22:16</publishTime>
+      <publishTime>11/12/2024 19:02:53</publishTime>
     </File>
     <File Include="DevExpress.Web.Reporting.v24.1.Common.Services.dll">
-      <publishTime>11/02/2024 02:22:16</publishTime>
+      <publishTime>11/12/2024 19:02:53</publishTime>
     </File>
     <File Include="DevExpress.Web.Resources.v24.1.dll">
-      <publishTime>11/02/2024 02:22:16</publishTime>
+      <publishTime>11/12/2024 19:02:53</publishTime>
     </File>
     <File Include="DevExpress.Xpo.v24.1.dll">
-      <publishTime>11/02/2024 02:22:16</publishTime>
+      <publishTime>11/12/2024 19:02:53</publishTime>
     </File>
     <File Include="DevExpress.XtraCharts.v24.1.dll">
-      <publishTime>11/02/2024 02:22:16</publishTime>
+      <publishTime>11/12/2024 19:02:53</publishTime>
     </File>
     <File Include="DevExpress.XtraGauges.v24.1.Core.dll">
-      <publishTime>11/02/2024 02:22:16</publishTime>
+      <publishTime>11/12/2024 19:02:53</publishTime>
     </File>
     <File Include="DevExpress.XtraReports.v24.1.dll">
-      <publishTime>11/02/2024 02:22:16</publishTime>
+      <publishTime>11/12/2024 19:02:54</publishTime>
     </File>
     <File Include="DevExpress.XtraReports.v24.1.Web.dll">
-      <publishTime>11/02/2024 02:22:16</publishTime>
+      <publishTime>11/12/2024 19:02:54</publishTime>
     </File>
     <File Include="DevExpress.XtraScheduler.v24.1.Core.dll">
-      <publishTime>11/02/2024 02:22:16</publishTime>
+      <publishTime>11/12/2024 19:02:54</publishTime>
     </File>
     <File Include="DevExpress.XtraTreeMap.v24.1.dll">
-      <publishTime>11/02/2024 02:22:16</publishTime>
+      <publishTime>11/12/2024 19:02:54</publishTime>
     </File>
     <File Include="DevExtreme.AspNet.Data.dll">
       <publishTime>05/27/2024 17:34:04</publishTime>
@@ -300,25 +300,25 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>01/11/2024 05:47:06</publishTime>
     </File>
     <File Include="IN7.Blazor.Server.deps.json">
-      <publishTime>11/09/2024 20:57:33</publishTime>
+      <publishTime>11/29/2024 21:44:52</publishTime>
     </File>
     <File Include="IN7.Blazor.Server.dll">
-      <publishTime>11/09/2024 20:57:31</publishTime>
+      <publishTime>11/29/2024 21:44:51</publishTime>
     </File>
     <File Include="IN7.Blazor.Server.exe">
-      <publishTime>11/09/2024 20:57:32</publishTime>
+      <publishTime>11/29/2024 21:44:51</publishTime>
     </File>
     <File Include="IN7.Blazor.Server.pdb">
-      <publishTime>11/09/2024 20:57:31</publishTime>
+      <publishTime>11/29/2024 21:44:51</publishTime>
     </File>
     <File Include="IN7.Blazor.Server.runtimeconfig.json">
-      <publishTime>11/02/2024 05:05:27</publishTime>
+      <publishTime>11/29/2024 21:44:52</publishTime>
     </File>
     <File Include="IN7.Module.dll">
-      <publishTime>11/09/2024 05:47:22</publishTime>
+      <publishTime>11/29/2024 21:44:48</publishTime>
     </File>
     <File Include="IN7.Module.pdb">
-      <publishTime>11/09/2024 05:47:22</publishTime>
+      <publishTime>11/29/2024 21:44:48</publishTime>
     </File>
     <File Include="it/Microsoft.CodeAnalysis.CSharp.resources.dll">
       <publishTime>09/13/2019 00:09:00</publishTime>
@@ -426,7 +426,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>10/23/2021 06:40:24</publishTime>
     </File>
     <File Include="Model.xafml">
-      <publishTime>11/02/2024 02:36:39</publishTime>
+      <publishTime>11/29/2024 15:42:21</publishTime>
     </File>
     <File Include="pl/Microsoft.CodeAnalysis.CSharp.resources.dll">
       <publishTime>09/13/2019 00:09:00</publishTime>
@@ -639,7 +639,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>11/07/2023 09:35:52</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>11/09/2024 20:57:43</publishTime>
+      <publishTime>11/29/2024 21:45:01</publishTime>
     </File>
     <File Include="wwwroot/css/site.css">
       <publishTime>11/02/2024 02:36:39</publishTime>

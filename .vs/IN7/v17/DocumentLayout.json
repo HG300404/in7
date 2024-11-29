@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "E:\\cnpm\\IN7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|e:\\cnpm\\in7\\in7.module\\model.designeddiffs.xafml||{4DD02038-D78C-4AD3-8B8D-13FC109B2DCD}",
-      "RelativeMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|solutionrelative:in7.module\\model.designeddiffs.xafml||{4DD02038-D78C-4AD3-8B8D-13FC109B2DCD}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|e:\\cnpm\\in7\\in7.module\\businessobjects\\chungtu\\billdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|solutionrelative:in7.module\\businessobjects\\chungtu\\billdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,20 +38,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Categories.cs",
               "DocumentMoniker": "E:\\cnpm\\IN7\\IN7.Module\\BusinessObjects\\DanhMuc\\Categories.cs",
               "RelativeDocumentMoniker": "IN7.Module\\BusinessObjects\\DanhMuc\\Categories.cs",
               "ToolTip": "E:\\cnpm\\IN7\\IN7.Module\\BusinessObjects\\DanhMuc\\Categories.cs",
               "RelativeToolTip": "IN7.Module\\BusinessObjects\\DanhMuc\\Categories.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwAwAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-29T13:10:18.496Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Products.cs",
               "DocumentMoniker": "E:\\cnpm\\IN7\\IN7.Module\\BusinessObjects\\DanhMuc\\Products.cs",
               "RelativeDocumentMoniker": "IN7.Module\\BusinessObjects\\DanhMuc\\Products.cs",
@@ -68,18 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Model.DesignedDiffs.xafml",
-              "DocumentMoniker": "E:\\cnpm\\IN7\\IN7.Module\\Model.DesignedDiffs.xafml",
-              "RelativeDocumentMoniker": "IN7.Module\\Model.DesignedDiffs.xafml",
-              "ToolTip": "E:\\cnpm\\IN7\\IN7.Module\\Model.DesignedDiffs.xafml",
-              "RelativeToolTip": "IN7.Module\\Model.DesignedDiffs.xafml",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAR9SURBVDhPrVTLbxtFHP5mH17bazt2nNhNk7QlaYSjSn2IAkIVXFohEBL/QA8gzj3DBfWKCioSUo8gDkgcUIEWJESJRCFt2ibpI2nSlrSO07iOvY7f9WPXszszjNOHVOXaT5qdXWn2m2\u002B\u002B3/cbvFQIIZ6\u002BvTyQp/M2nDgxEXp1PDAK1k2BdydAlBaUwB2o\u002BspKurl55swqf7r0BbxAODYY1o6kkqYY8JKfnty1f9\u002Bkfoi49iEwJyUJm9DMRS788zeW7FuffbW2QgOi\u002BeBqtVvKdJ4flaQSJgEhfgiYHx4cjX9x/LUxtr/9BhkqfEDMdooQHiLSmp4czyWwW3o\u002B3w5eue2Pnm3vEJmzJ1cKC\u002BeLDdfhdiVrM9I4dcwntMAhuO5R3bXf9oOmWB\u002BNib22n\u002ByFrg4RQnwE3TqQW2dYrXt8PSA/XzFqxNTzGjMvaV7w79xC6/qX710pEvH10W8EpQfheSNgblQWyhQKNAQ8wuOUeEmKx0kFdxsUjyIEtZgCO6xyZoARQaiiaDVd9W2wjnYnd53\u002BReqfv54Najyhqj0dYqvynFI0pC2WFkIxOYLy\u002BB5kyCbs0fsgQyXoYQZV1QHec0ta0QV1SqRYT6vT6iepvtOKAlWRD0/61HIBq6vjnhjBon4Yt81jSJtHUfKNg\u002BqGrCKHIqgstgdFIaBNoLrmqrkbjpqZaXnk6vEUC/mAaFglTNWQpSaW9ElkRt9FbedboJEREFnD3lB5BbpvHv7IFMI7ZqDpdRSXHWRnXWyusAbx1Dky\u002B9G\u002BtspcQ\u002BpW1n3DmNv5PkqHPwZCUanGAJgmO2ArEZKVyfRQCJaF2/lTxvN7FBYs1HNSLdErfZHYlJyNMuPCZZyjyxXUqIpyrYNum4JwASn6yZDchHhoFgrI3VjGo2sZNC0XtCOtZFx6SuhgLJFT/PHEr4oReCjDYSvcheI0YZcttAtZ2NWibJS2VOVJr0qopm/CWvgHpbuz6FTy8GwXXG6qa0YlGokvDA0MX1LfnNyT7/NrQV144RbXQnkyaBSCo3JxC9yjve3BXVuSLcJauoxq5o48bgnmgC2McJFxG5bfiM1GpDBR1S6o525miu8cSC0ORU3ucJLYYH2D\u002BWhK7UWIu5Q49TJq6/eQm5\u002BSivNbx9P8Cjfjtuc3q7UQ\u002Bs8bAzu\u002BrYCdP3fqgqP2vJ7LWM7oYCwzNjF514qMt9dI8oCQ/8koESFV9oicWqGXUgiZPV1X63t2DVzbNWyeXr64/vP8byv3ctc3XLfjYouw6bjCajr2rWylvGw1rP7UERlwDMgR4p6ruO06Oo2iJGPw6VohEY9NT\u002Bwe\u002BW72wszMg4VHG49LbadH1sMWYQ/WY1ukrUq3VK1WDMNvxeMJ7gsEA13qhrutmuE0NpkZ8N\u002BP9oemDEP8UsmsXpz/d77arLV6/fAczwmfwaOOV/hvLjc8svthJJ70hKJGnXY9CKeRD6rsrO7zfiyX16cv/37OcWl32w29jfAZ1pauVsP98ftjkwdzOqPaQFD5YenyHz/dnp5asdLpbURPAPwPRwFkXZLSwpoAAAAASUVORK5CYII=",
-              "WhenOpened": "2024-11-29T08:42:25.623Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Model.xafml",
               "DocumentMoniker": "E:\\cnpm\\IN7\\IN7.Blazor.Server\\Model.xafml",
               "RelativeDocumentMoniker": "IN7.Blazor.Server\\Model.xafml",
@@ -90,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "BillDetails.cs",
               "DocumentMoniker": "E:\\cnpm\\IN7\\IN7.Module\\BusinessObjects\\ChungTu\\BillDetails.cs",
               "RelativeDocumentMoniker": "IN7.Module\\BusinessObjects\\ChungTu\\BillDetails.cs",
