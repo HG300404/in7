@@ -1,9 +1,137 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Application>
-  <Options UIType="TabbedMDI"
-         RestoreTabbedMdiLayout="False"
-         ShowTabImage="True">
-  </Options>
-  <NavigationItems NavigationStyle="Accordion">
-  </NavigationItems>
+  <NavigationItems NavigationStyle="Accordion" />
+  <Options UIType="TabbedMDI" RestoreTabbedMdiLayout="False" ShowTabImage="True" />
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="24.1.7.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerBlazorModule" Version="24.1.7.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerModuleBase" Version="24.1.7.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="24.1.7.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="BillDetails_ListView" IsFooterVisible="True">
+      <Columns>
+        <ColumnInfo Id="Price">
+          <Summary>
+            <ColumnSummaryItem Id="Summary0" SummaryType="Sum" IsNewNode="True" />
+          </Summary>
+        </ColumnInfo>
+      </Columns>
+    </ListView>
+    <DetailView Id="Bills_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="62.458471760797345">
+            <LayoutGroup Id="Bills" RelativeSize="100" ShowCaption="True" Caption="Đặt Hàng">
+              <LayoutGroup Id="Bills_col1" ShowCaption="False" Index="0" RelativeSize="49.737434358589645" IsNewNode="True" Removed="True">
+                <LayoutGroup Id="Item1" ShowCaption="True" Caption="Thông Tin Chung" CaptionLocation="Top" Index="0" RelativeSize="100" IsNewNode="True">
+                  <LayoutItem Id="Employee" ViewItem="Employee" Index="0" RelativeSize="12.949640287769784" IsNewNode="True" />
+                  <LayoutItem Id="Customer" ViewItem="Customer" Index="1" RelativeSize="9.352517985611511" IsNewNode="True" />
+                  <LayoutItem Id="ProductPrice" ViewItem="ProductPrice" Index="2" RelativeSize="9.352517985611511" IsNewNode="True" />
+                  <LayoutItem Id="TotalAmount" ViewItem="TotalAmount" Index="3" RelativeSize="9.352517985611511" IsNewNode="True" />
+                  <LayoutItem Id="CreatedAt" ViewItem="CreatedAt" Index="4" RelativeSize="9.352517985611511" IsNewNode="True" />
+                  <LayoutItem Id="Status" ViewItem="Status" Index="5" RelativeSize="49.64028776978417" IsNewNode="True" />
+                </LayoutGroup>
+              </LayoutGroup>
+              <LayoutGroup Id="Bills_col2" RelativeSize="50.262565641410355">
+                <LayoutGroup Id="Item3" ShowCaption="True" Caption="Thanh Toán" CaptionLocation="Top" Index="0" RelativeSize="42.073170731707314" IsNewNode="True">
+                  <LayoutItem Id="PaymentMethod" ViewItem="PaymentMethod" Index="0" RelativeSize="36.734693877551024" IsNewNode="True" />
+                  <LayoutItem Id="Tax" ViewItem="Tax" Index="1" RelativeSize="26.53061224489796" IsNewNode="True" />
+                  <LayoutItem Id="Type" ViewItem="Type" Index="2" RelativeSize="36.734693877551024" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutGroup Id="Item2" ShowCaption="True" CaptionLocation="Top" Index="1" RelativeSize="57.926829268292686" Caption="Đặt Cọc" IsNewNode="True">
+                  <LayoutItem Id="Option" ViewItem="Option" Index="0" RelativeSize="24" IsNewNode="True" />
+                  <LayoutItem Id="Minimum" ViewItem="Minimum" Index="1" RelativeSize="17.333333333333332" IsNewNode="True" />
+                  <LayoutItem Id="Deposit" ViewItem="Deposit" Index="2" RelativeSize="17.333333333333332" IsNewNode="True" />
+                  <LayoutItem Id="MoneyMonth" ViewItem="MoneyMonth" Index="3" RelativeSize="17.333333333333332" IsNewNode="True" />
+                  <LayoutItem Id="Time" ViewItem="Time" Index="4" RelativeSize="24" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutItem Id="Time" RelativeSize="9.62962962962963" Index="2" Removed="True" />
+                <LayoutItem Id="Type" RelativeSize="14.814814814814815" Index="2" Removed="True" />
+                <LayoutItem Id="Status" RelativeSize="14.814814814814815" Index="3" Removed="True" />
+                <LayoutItem Id="CreatedAt" RelativeSize="24.770642201834864" Removed="True" />
+                <LayoutItem Id="Deposit" RelativeSize="12.592592592592593" Removed="True" />
+                <LayoutItem Id="MoneyMonth" RelativeSize="9.62962962962963" Removed="True" />
+                <LayoutItem Id="PaymentMethod" RelativeSize="9.62962962962963" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs" RelativeSize="37.541528239202655">
+            <LayoutGroup Id="InstallmentBills" Caption="LS Trả Góp" RelativeSize="100">
+              <LayoutItem Id="InstallmentBills" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="BillDetails" RelativeSize="100" Caption="Chi Tiết">
+              <LayoutItem Id="BillDetails" RelativeSize="100" />
+            </LayoutGroup>
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="ImportProductDetails_ListView" IsFooterVisible="True">
+      <Columns>
+        <ColumnInfo Id="Price">
+          <Summary>
+            <ColumnSummaryItem Id="Summary0" SummaryType="Sum" IsNewNode="True" />
+          </Summary>
+        </ColumnInfo>
+      </Columns>
+    </ListView>
+    <DetailView Id="ImportProducts_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="69.29460580912863">
+            <LayoutGroup Id="ImportProducts" RelativeSize="100" Caption="Nhập Hàng">
+              <LayoutGroup Id="ImportProducts_col1" RelativeSize="49.859154929577464">
+                <LayoutGroup Id="Item1" ShowCaption="True" CaptionLocation="Top" Index="0" RelativeSize="54.48275862068966" Caption="Thông Tin Chung" IsNewNode="True">
+                  <LayoutItem Id="Employee" ViewItem="Employee" Index="0" RelativeSize="28.333333333333332" IsNewNode="True" />
+                  <LayoutItem Id="Supplier" ViewItem="Supplier" Index="1" RelativeSize="21.666666666666668" IsNewNode="True" />
+                  <LayoutItem Id="Total" ViewItem="Total" Index="2" RelativeSize="21.666666666666668" IsNewNode="True" />
+                  <LayoutItem Id="CreatedAt" ViewItem="CreatedAt" Index="3" RelativeSize="28.333333333333332" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutItem Id="ContactName" RelativeSize="9.62962962962963" Index="1" Removed="True" />
+                <LayoutGroup Id="Item2" ShowCaption="True" CaptionLocation="Top" Index="1" RelativeSize="45.51724137931034" Caption="Thông Tin Người Liên Hệ" IsNewNode="True">
+                  <LayoutItem Id="ContactName" ViewItem="ContactName" Index="0" RelativeSize="36.170212765957444" IsNewNode="True" />
+                  <LayoutItem Id="ContactEmail" ViewItem="ContactEmail" Index="1" RelativeSize="27.659574468085108" IsNewNode="True" />
+                  <LayoutItem Id="Phone" ViewItem="Phone" Index="2" RelativeSize="36.170212765957444" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutItem Id="ContactEmail" RelativeSize="8.227848101265822" Index="2" Removed="True" />
+                <LayoutItem Id="Phone" RelativeSize="8.227848101265822" Index="2" Removed="True" />
+                <LayoutItem Id="Type" RelativeSize="10.759493670886076" Index="2" Removed="True" />
+                <LayoutItem Id="Total" RelativeSize="10.655737704918034" Index="4" Removed="True" />
+                <LayoutItem Id="Employee" RelativeSize="17.171717171717173" Removed="True" />
+                <LayoutItem Id="Supplier" RelativeSize="10.655737704918034" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="ImportProducts_col2" RelativeSize="50.140845070422536">
+                <LayoutGroup Id="Item4" ShowCaption="True" CaptionLocation="Top" Index="0" RelativeSize="45.51724137931034" Caption="Thanh Toán" IsNewNode="True">
+                  <LayoutItem Id="PaymentMethod" ViewItem="PaymentMethod" Index="0" RelativeSize="36.170212765957444" IsNewNode="True" />
+                  <LayoutItem Id="Type" ViewItem="Type" Index="1" RelativeSize="27.659574468085108" IsNewNode="True" />
+                  <LayoutItem Id="TrangThai" ViewItem="TrangThai" Index="2" RelativeSize="36.170212765957444" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutGroup Id="Item3" ShowCaption="True" CaptionLocation="Top" Index="1" RelativeSize="54.48275862068966" Caption="Đặt Cọc" IsNewNode="True">
+                  <LayoutItem Id="Deposit" ViewItem="Deposit" Index="0" RelativeSize="28.333333333333332" IsNewNode="True" />
+                  <LayoutItem Id="MoneyMonth" ViewItem="MoneyMonth" Index="1" RelativeSize="21.666666666666668" IsNewNode="True" />
+                  <LayoutItem Id="Time" ViewItem="Time" Index="2" RelativeSize="50" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutItem Id="Time" RelativeSize="8.227848101265822" Index="2" Removed="True" />
+                <LayoutItem Id="TrangThai" RelativeSize="20.689655172413794" Index="2" Removed="True" />
+                <LayoutItem Id="CreatedAt" RelativeSize="10.655737704918034" Removed="True" />
+                <LayoutItem Id="Deposit" RelativeSize="8.227848101265822" Removed="True" />
+                <LayoutItem Id="MoneyMonth" RelativeSize="8.227848101265822" Removed="True" />
+                <LayoutItem Id="PaymentMethod" RelativeSize="10.759493670886076" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs" RelativeSize="30.70539419087137">
+            <LayoutGroup Id="Installment_Imports" Caption="LS Trả Góp" RelativeSize="100">
+              <LayoutItem Id="Installment_Imports" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="ImportProductDetails" RelativeSize="100" Caption="Chi Tiết">
+              <LayoutItem Id="ImportProductDetails" RelativeSize="100" />
+            </LayoutGroup>
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="ImportProducts_ListView" IsFooterVisible="False" />
+  </Views>
 </Application>

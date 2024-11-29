@@ -84,8 +84,8 @@ namespace IN7.Module.BusinessObjects.ChungTu
 
         private decimal _UnitPrice;
         [XafDisplayName("Đơn giá")]
-        [ModelDefault("DisplayFormat", "{0:### ### ###}")]
-        [ModelDefault("EditMask", "{0:### ### ###}")]
+        [ModelDefault("DisplayFormat", "{0:#,##0.00 ₫}")]
+        [ModelDefault("EditMask", "n2")]
         public decimal UnitPrice
         {
             get { return _UnitPrice; }
