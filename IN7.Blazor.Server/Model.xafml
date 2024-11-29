@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <NavigationItems NavigationStyle="Accordion" />
+  <Options UIType="TabbedMDI" RestoreTabbedMdiLayout="False" ShowTabImage="True" />
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="24.1.5.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerBlazorModule" Version="24.1.5.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerModuleBase" Version="24.1.5.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="24.1.5.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="Employees_ListView">
+      <Columns>
+        <ColumnInfo Id="FullName" SortOrder="None" SortIndex="-1" />
+        <ColumnInfo Id="Photo" Index="1" />
+        <ColumnInfo Id="Gender" Index="2" />
+        <ColumnInfo Id="Address" Index="4" />
+        <ColumnInfo Id="Phone" Index="4" />
+        <ColumnInfo Id="Salary" SortIndex="0" SortOrder="Ascending" Index="5" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>
