@@ -88,6 +88,14 @@ public sealed class IN7Module : ModuleBase {
         {
             e.Objects = GetBaocao.GetDoanhthu(objectSpace);
         }
+        if (e.ObjectType == typeof(DoanhThuRpt))
+        {
+            e.Objects = Chung.getDoanhThu(objectSpace); 
+        }
+        if (e.ObjectType == typeof(DoanhThuSanPhamRpt))
+        {
+            e.Objects = Chung.getDoanhThuSanPham(objectSpace);
+        }
     }
 
     private void ObjectSpace_ObjectGetting(object sender, ObjectGettingEventArgs e)
