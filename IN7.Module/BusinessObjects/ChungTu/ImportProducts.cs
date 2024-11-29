@@ -30,7 +30,6 @@ namespace IN7.Module.BusinessObjects.ChungTu
         {
             base.AfterConstruction();
             // Khởi tạo giá trị mặc định
-            TrangThai = TrangThaiNhapHang.DaDatHang;
             // Place your initialization code here (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument112834.aspx).
             if (Session.IsNewObject(this))
             {
