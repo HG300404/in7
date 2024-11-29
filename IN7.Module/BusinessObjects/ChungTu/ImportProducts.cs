@@ -31,10 +31,11 @@ namespace IN7.Module.BusinessObjects.ChungTu
             base.AfterConstruction();
             // Khởi tạo giá trị mặc định
             // Place your initialization code here (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument112834.aspx).
+            TrangThai = TrangThaiNhapHang.DaDatHang;
             if (Session.IsNewObject(this))
             {
                 CreatedAt = DateTime.Now;
-        }
+            }
         }
 
 
@@ -53,9 +54,6 @@ namespace IN7.Module.BusinessObjects.ChungTu
             get { return _Employee; }
             set { SetPropertyValue<Employees>(nameof(Employee), ref _Employee, value); }
         }
-
-
-
 
         private Suppliers _Supplier;
         [XafDisplayName("Nhà Cung Cấp")]

@@ -24,7 +24,7 @@ namespace IN7.Module.BusinessObjects.DanhMuc
     [NavigationItem("Danh mục")]
     //[Persistent("DatabaseTableName")]
     // Specify more UI options using a declarative approach (https://documentation.devexpress.com/#eXpressAppFramework/CustomDocument112701).
-    public class Customers(Session session) : BaseObject(session)
+    public class Customers(Session session) : ApplicationUser(session)
     { // Inherit from a different class to provide a custom primary key, concurrency and deletion behavior, etc. (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument113146.aspx).
         public override void AfterConstruction()
         {
@@ -41,31 +41,31 @@ namespace IN7.Module.BusinessObjects.DanhMuc
 
 
 
-        private string _FullName;
-        [XafDisplayName("Tên khách hàng"), Size(100)]
-        public string FullName
-        {
-            get { return _FullName; }
-            set { SetPropertyValue<string>(nameof(FullName), ref _FullName, value); }
-        }
+        //private string _FullName;
+        //[XafDisplayName("Tên khách hàng"), Size(100)]
+        //public string FullName
+        //{
+        //    get { return _FullName; }
+        //    set { SetPropertyValue<string>(nameof(FullName), ref _FullName, value); }
+        //}
 
 
-        private string _Address;
-        [XafDisplayName("Địa chỉ"), Size(255)]
+        //private string _Address;
+        //[XafDisplayName("Địa chỉ"), Size(255)]
 
-        public string Address
-        {
-            get { return _Address; }
-            set { SetPropertyValue<string>(nameof(Address), ref _Address, value); }
-        }
+        //public string Address
+        //{
+        //    get { return _Address; }
+        //    set { SetPropertyValue<string>(nameof(Address), ref _Address, value); }
+        //}
 
 
-        private string _Phone;
-        [XafDisplayName("Số điện thoại"), Size(20)]
-        public string Phone
-        {
-            get { return _Phone; }
-            set { SetPropertyValue<string>(nameof(Phone), ref _Phone, value); }
-        }
+        //private string _Phone;
+        //[XafDisplayName("Số điện thoại"), Size(20)]
+        //public string Phone
+        //{
+        //    get { return _Phone; }
+        //    set { SetPropertyValue<string>(nameof(Phone), ref _Phone, value); }
+        //}
     }
 }

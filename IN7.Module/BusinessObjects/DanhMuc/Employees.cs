@@ -19,12 +19,12 @@ namespace IN7.Module.BusinessObjects.DanhMuc
     [DefaultClassOptions]
     [System.ComponentModel.DisplayName("Nhân Viên")]
     //[ImageName("BO_Contact")]
-    [DefaultProperty("Name")]
+    [DefaultProperty("FullName")]
     [DefaultListViewOptions(MasterDetailMode.ListViewOnly, true, NewItemRowPosition.Top)]
     [NavigationItem("Danh mục")]
     //[Persistent("DatabaseTableName")]
     // Specify more UI options using a declarative approach (https://documentation.devexpress.com/#eXpressAppFramework/CustomDocument112701).
-    public class Employees(Session session) : BaseObject(session)
+    public class Employees(Session session) : ApplicationUser(session)
     { // Inherit from a different class to provide a custom primary key, concurrency and deletion behavior, etc. (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument113146.aspx).
         public override void AfterConstruction()
         {
@@ -47,61 +47,59 @@ namespace IN7.Module.BusinessObjects.DanhMuc
         }
 
 
+        //private string _FullName;
+        //[XafDisplayName("Tên khách hàng"), Size(100)]
+        //public string FullName
+        //{
+        //    get { return _FullName; }
+        //    set { SetPropertyValue<string>(nameof(FullName), ref _FullName, value); }
+        //}
 
 
-        private string _Name;
-        [XafDisplayName("Tên nhân viên"), Size(100)]
-        public string Name
+        //private string _Address;
+        //[XafDisplayName("Địa chỉ"), Size(255)]
+
+        //public string Address
+        //{
+        //    get { return _Address; }
+        //    set { SetPropertyValue<string>(nameof(Address), ref _Address, value); }
+        //}
+
+
+        //private string _Phone;
+        //[XafDisplayName("Số điện thoại"), Size(20)]
+        //public string Phone
+        //{
+        //    get { return _Phone; }
+        //    set { SetPropertyValue<string>(nameof(Phone), ref _Phone, value); }
+        //}
+
+        public enum EmployeeRole
         {
-            get { return _Name; }
-            set { SetPropertyValue<string>(nameof(Name), ref _Name, value); }
+            [XafDisplayName("Nhân viên quản lý kho")]
+            WarehouseManager,
+            [XafDisplayName("Nhân viên bán hàng")]
+            Sales,
+            [XafDisplayName("Quản lý")]
+            Manager
         }
 
-
-        private string _Gender;
-        [XafDisplayName("Gender"), Size(100)]
-        public string Gender
-        {
-            get { return _Gender; }
-            set { SetPropertyValue<string>(nameof(Gender), ref _Gender, value); }
-        }
-
-
-        private string _Role;
-        [XafDisplayName("Vai trò"), Size(40)]
-        public string Role
+        private EmployeeRole _Role;
+        [XafDisplayName("Vai trò")]
+        public EmployeeRole Role
         {
             get { return _Role; }
-            set { SetPropertyValue<string>(nameof(Role), ref _Role, value); }
-        }
-
-
-
-        private string _Phone;
-        [XafDisplayName("Số điện thoại"), Size(20)]
-        public string Phone
-        {
-            get { return _Phone; }
-            set { SetPropertyValue<string>(nameof(Phone), ref _Phone, value); }
-        }
-
-
-        private string _Address;
-        [XafDisplayName("Địa chỉ"), Size(255)]
-        public string Address
-        {
-            get { return _Address; }
-            set { SetPropertyValue<string>(nameof(Address), ref _Address, value); }
+            set { SetPropertyValue(nameof(Role), ref _Role, value); }
         }
 
 
 
         private int _Salary;
-        [XafDisplayName("Lương"), Size(12)]
-        public int Salary
-        {
-            get { return _Salary; }
-            set { SetPropertyValue<int>(nameof(Salary), ref _Salary, value); }
-        }
+            [XafDisplayName("Lương"), Size(12)]
+            public int Salary
+            {
+                get { return _Salary; }
+                set { SetPropertyValue<int>(nameof(Salary), ref _Salary, value); }
+            }
     }
 }

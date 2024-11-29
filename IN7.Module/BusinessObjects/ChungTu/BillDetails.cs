@@ -70,14 +70,7 @@ namespace IN7.Module.BusinessObjects.ChungTu
         public int Quantity
         {
             get { return _Quantity; }
-            set {
-                if (Product != null && value > Product.Quantity && value < 0)
-                {
-                    // Giới hạn số lượng không vượt quá số lượng tồn kho
-                    throw new InvalidOperationException($"Số lượng không thể vượt quá {Product.Quantity}");
-                }
-                SetPropertyValue<int>(nameof(Quantity), ref _Quantity, value); 
-            }
+set { SetPropertyValue<int>(nameof(Quantity), ref _Quantity, value); }
         }
 
 
@@ -100,6 +93,11 @@ namespace IN7.Module.BusinessObjects.ChungTu
             set { SetPropertyValue<decimal>(nameof(UnitPrice), ref _UnitPrice, value); }
         }
 
+
+
+        //[XafDisplayName("Tổng Giá")]
+        //[ModelDefault("DisplayFormat", "{0:### ### ###}")]
+        //[ModelDefault("EditMask", "{0:### ### ###}")]
         public decimal Price
         {
             get

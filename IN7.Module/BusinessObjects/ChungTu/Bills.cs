@@ -68,6 +68,7 @@ namespace IN7.Module.BusinessObjects.ChungTu
         private Employees _Employee;
         [XafDisplayName("Nhân Viên")]
         [DevExpress.Xpo.Association]
+        [DataSourceCriteria("Role = 1")] 
         public Employees Employee
         {
             get { return _Employee; }
@@ -327,6 +328,20 @@ namespace IN7.Module.BusinessObjects.ChungTu
             set
             {
                 SetPropertyValue(nameof(Type), ref _Type, value);
+                //if (SetPropertyValue(nameof(Type), ref _Type, value)
+                //       && !IsLoading && !IsSaving && !Session.IsObjectsLoading)
+                //{
+                //    if (value == PaymentType.OneTime)
+                //    {
+                //        // Nếu loại hình trả là "Trả hết"
+                //        _TotalAmount = ProductPrice;
+                //    }
+                //    else
+                //    {
+                //        // Nếu loại hình trả là "Trả góp"
+                //        _TotalAmount = Deposit + (MoneyMonth * (int)Option);
+                //    }
+                //}
             }
         }
 

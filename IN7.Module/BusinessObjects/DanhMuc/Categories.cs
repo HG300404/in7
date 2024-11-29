@@ -49,9 +49,7 @@ namespace IN7.Module.BusinessObjects.DanhMuc
 
 
         private string _Description;
-        [Size(SizeAttribute.Unlimited)]
         [XafDisplayName("Mô tả")]
-      //  [EditorAlias(EditorAliases.MultilineStringEditor)] // Sử dụng MemoEdit cho trường này
         public string Description
         {
             get { return _Description; }
