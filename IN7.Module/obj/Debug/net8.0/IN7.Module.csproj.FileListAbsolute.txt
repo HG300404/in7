@@ -1,0 +1,13 @@
+C:\Năm3_HK1\CNPM\in7\IN7.Module\bin\Debug\net8.0\IN7.Module.deps.json
+C:\Năm3_HK1\CNPM\in7\IN7.Module\bin\Debug\net8.0\IN7.Module.dll
+C:\Năm3_HK1\CNPM\in7\IN7.Module\bin\Debug\net8.0\IN7.Module.pdb
+C:\Năm3_HK1\CNPM\in7\IN7.Module\obj\Debug\net8.0\IN7.Module.csproj.AssemblyReference.cache
+C:\Năm3_HK1\CNPM\in7\IN7.Module\obj\Debug\net8.0\IN7.Module.GeneratedMSBuildEditorConfig.editorconfig
+C:\Năm3_HK1\CNPM\in7\IN7.Module\obj\Debug\net8.0\IN7.Module.AssemblyInfoInputs.cache
+C:\Năm3_HK1\CNPM\in7\IN7.Module\obj\Debug\net8.0\IN7.Module.AssemblyInfo.cs
+C:\Năm3_HK1\CNPM\in7\IN7.Module\obj\Debug\net8.0\IN7.Module.csproj.CoreCompileInputs.cache
+C:\Năm3_HK1\CNPM\in7\IN7.Module\obj\Debug\net8.0\IN7.Module.sourcelink.json
+C:\Năm3_HK1\CNPM\in7\IN7.Module\obj\Debug\net8.0\IN7.Module.dll
+C:\Năm3_HK1\CNPM\in7\IN7.Module\obj\Debug\net8.0\refint\IN7.Module.dll
+C:\Năm3_HK1\CNPM\in7\IN7.Module\obj\Debug\net8.0\IN7.Module.pdb
+C:\Năm3_HK1\CNPM\in7\IN7.Module\obj\Debug\net8.0\ref\IN7.Module.dll

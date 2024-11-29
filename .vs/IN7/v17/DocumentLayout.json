@@ -3,12 +3,46 @@
   "WorkspaceRootPath": "C:\\N\u0103m3_HK1\\CNPM\\in7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0524114B-AF75-45A6-9060-5334618BF4E5}|IN7.Blazor.Server\\IN7.Blazor.Server.csproj|c:\\n\u0103m3_hk1\\cnpm\\in7\\in7.blazor.server\\blazorapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0524114B-AF75-45A6-9060-5334618BF4E5}|IN7.Blazor.Server\\IN7.Blazor.Server.csproj|solutionrelative:in7.blazor.server\\blazorapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0524114B-AF75-45A6-9060-5334618BF4E5}|IN7.Blazor.Server\\IN7.Blazor.Server.csproj|c:\\n\u0103m3_hk1\\cnpm\\in7\\in7.blazor.server\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{0524114B-AF75-45A6-9060-5334618BF4E5}|IN7.Blazor.Server\\IN7.Blazor.Server.csproj|solutionrelative:in7.blazor.server\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0524114B-AF75-45A6-9060-5334618BF4E5}|IN7.Blazor.Server\\IN7.Blazor.Server.csproj|c:\\n\u0103m3_hk1\\cnpm\\in7\\in7.blazor.server\\wwwroot\\favicon1.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{0524114B-AF75-45A6-9060-5334618BF4E5}|IN7.Blazor.Server\\IN7.Blazor.Server.csproj|solutionrelative:in7.blazor.server\\wwwroot\\favicon1.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0524114B-AF75-45A6-9060-5334618BF4E5}|IN7.Blazor.Server\\IN7.Blazor.Server.csproj|c:\\n\u0103m3_hk1\\cnpm\\in7\\in7.blazor.server\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0524114B-AF75-45A6-9060-5334618BF4E5}|IN7.Blazor.Server\\IN7.Blazor.Server.csproj|solutionrelative:in7.blazor.server\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0524114B-AF75-45A6-9060-5334618BF4E5}|IN7.Blazor.Server\\IN7.Blazor.Server.csproj|c:\\n\u0103m3_hk1\\cnpm\\in7\\in7.blazor.server\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0524114B-AF75-45A6-9060-5334618BF4E5}|IN7.Blazor.Server\\IN7.Blazor.Server.csproj|solutionrelative:in7.blazor.server\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\AppData\\Local\\SourceServer\\04dde5a2ebfb913c3a566f57078e0b48a7df208212cae470d882b2484d044b76\\IN7.Blazor.Server\\_Imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0524114B-AF75-45A6-9060-5334618BF4E5}|IN7.Blazor.Server\\IN7.Blazor.Server.csproj|c:\\n\u0103m3_hk1\\cnpm\\in7\\in7.blazor.server\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0524114B-AF75-45A6-9060-5334618BF4E5}|IN7.Blazor.Server\\IN7.Blazor.Server.csproj|solutionrelative:in7.blazor.server\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0524114B-AF75-45A6-9060-5334618BF4E5}|IN7.Blazor.Server\\IN7.Blazor.Server.csproj|c:\\n\u0103m3_hk1\\cnpm\\in7\\in7.blazor.server\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0524114B-AF75-45A6-9060-5334618BF4E5}|IN7.Blazor.Server\\IN7.Blazor.Server.csproj|solutionrelative:in7.blazor.server\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\AppData\\Local\\SourceServer\\91af5d51d8aef356e493f36cf66cf9630330323725fde1c232a311a3192773db\\IN7.Blazor.Server\\App.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|c:\\n\u0103m3_hk1\\cnpm\\in7\\in7.module\\businessobjects\\chungtu\\billdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|solutionrelative:in7.module\\businessobjects\\chungtu\\billdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0524114B-AF75-45A6-9060-5334618BF4E5}|IN7.Blazor.Server\\IN7.Blazor.Server.csproj|c:\\n\u0103m3_hk1\\cnpm\\in7\\in7.blazor.server\\blazorapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0524114B-AF75-45A6-9060-5334618BF4E5}|IN7.Blazor.Server\\IN7.Blazor.Server.csproj|solutionrelative:in7.blazor.server\\blazorapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|c:\\n\u0103m3_hk1\\cnpm\\in7\\in7.module\\module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|solutionrelative:in7.module\\module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|c:\\n\u0103m3_hk1\\cnpm\\in7\\in7.module\\businessobjects\\chungtu\\bills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,10 +67,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|c:\\n\u0103m3_hk1\\cnpm\\in7\\in7.module\\businessobjects\\chungtu\\importproductdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|solutionrelative:in7.module\\businessobjects\\chungtu\\importproductdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|c:\\n\u0103m3_hk1\\cnpm\\in7\\in7.module\\module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|solutionrelative:in7.module\\module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|c:\\n\u0103m3_hk1\\cnpm\\in7\\in7.module\\businessobjects\\chungtu\\importproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,31 +117,134 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "favicon.ico - Icon [50x50, 32 bit, BMP]",
+              "DocumentMoniker": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Blazor.Server\\wwwroot\\favicon.ico",
+              "RelativeDocumentMoniker": "IN7.Blazor.Server\\wwwroot\\favicon.ico",
+              "ToolTip": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Blazor.Server\\wwwroot\\favicon.ico - Icon [50x50, 32 bit, BMP]",
+              "RelativeToolTip": "IN7.Blazor.Server\\wwwroot\\favicon.ico - Icon [50x50, 32 bit, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2024-11-29T18:50:47.144Z",
+              "EditorCaption": " - Icon [50x50, 32 bit, BMP]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "favicon1.ico - Icon [16x16, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Blazor.Server\\wwwroot\\favicon1.ico",
+              "RelativeDocumentMoniker": "IN7.Blazor.Server\\wwwroot\\favicon1.ico",
+              "ToolTip": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Blazor.Server\\wwwroot\\favicon1.ico - Icon [16x16, 32 bit, PNG]",
+              "RelativeToolTip": "IN7.Blazor.Server\\wwwroot\\favicon1.ico - Icon [16x16, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2024-11-29T18:50:44.735Z",
+              "EditorCaption": " - Icon [16x16, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Blazor.Server\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "IN7.Blazor.Server\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Blazor.Server\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "IN7.Blazor.Server\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-29T17:55:11.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\HP\\AppData\\Local\\SourceServer\\04dde5a2ebfb913c3a566f57078e0b48a7df208212cae470d882b2484d044b76\\IN7.Blazor.Server\\_Imports.razor",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\HP\\AppData\\Local\\SourceServer\\04dde5a2ebfb913c3a566f57078e0b48a7df208212cae470d882b2484d044b76\\IN7.Blazor.Server\\_Imports.razor",
+              "ToolTip": "C:\\Users\\HP\\AppData\\Local\\SourceServer\\04dde5a2ebfb913c3a566f57078e0b48a7df208212cae470d882b2484d044b76\\IN7.Blazor.Server\\_Imports.razor",
+              "RelativeToolTip": "..\\..\\..\\Users\\HP\\AppData\\Local\\SourceServer\\04dde5a2ebfb913c3a566f57078e0b48a7df208212cae470d882b2484d044b76\\IN7.Blazor.Server\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T17:46:09.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Blazor.Server\\_Imports.razor",
+              "RelativeDocumentMoniker": "IN7.Blazor.Server\\_Imports.razor",
+              "ToolTip": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Blazor.Server\\_Imports.razor",
+              "RelativeToolTip": "IN7.Blazor.Server\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T17:46:05.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Blazor.Server\\App.razor",
+              "RelativeDocumentMoniker": "IN7.Blazor.Server\\App.razor",
+              "ToolTip": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Blazor.Server\\App.razor",
+              "RelativeToolTip": "IN7.Blazor.Server\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T17:45:37.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\HP\\AppData\\Local\\SourceServer\\91af5d51d8aef356e493f36cf66cf9630330323725fde1c232a311a3192773db\\IN7.Blazor.Server\\App.razor",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\HP\\AppData\\Local\\SourceServer\\91af5d51d8aef356e493f36cf66cf9630330323725fde1c232a311a3192773db\\IN7.Blazor.Server\\App.razor",
+              "ToolTip": "C:\\Users\\HP\\AppData\\Local\\SourceServer\\91af5d51d8aef356e493f36cf66cf9630330323725fde1c232a311a3192773db\\IN7.Blazor.Server\\App.razor",
+              "RelativeToolTip": "..\\..\\..\\Users\\HP\\AppData\\Local\\SourceServer\\91af5d51d8aef356e493f36cf66cf9630330323725fde1c232a311a3192773db\\IN7.Blazor.Server\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T17:45:29.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Host.cshtml",
+              "DocumentMoniker": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Blazor.Server\\Pages\\_Host.cshtml",
+              "RelativeDocumentMoniker": "IN7.Blazor.Server\\Pages\\_Host.cshtml",
+              "ToolTip": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Blazor.Server\\Pages\\_Host.cshtml",
+              "RelativeToolTip": "IN7.Blazor.Server\\Pages\\_Host.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAmwCMAAACDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T17:39:38.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "BlazorApplication.cs",
               "DocumentMoniker": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Blazor.Server\\BlazorApplication.cs",
               "RelativeDocumentMoniker": "IN7.Blazor.Server\\BlazorApplication.cs",
               "ToolTip": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Blazor.Server\\BlazorApplication.cs",
               "RelativeToolTip": "IN7.Blazor.Server\\BlazorApplication.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowCMAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-29T11:53:01.983Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Module.cs",
               "DocumentMoniker": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\Module.cs",
               "RelativeDocumentMoniker": "IN7.Module\\Module.cs",
               "ToolTip": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\Module.cs",
               "RelativeToolTip": "IN7.Module\\Module.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAcwCwAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAgwCwAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T11:08:13.471Z"
+              "WhenOpened": "2024-11-29T11:08:13.471Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "Model.xafml",
               "DocumentMoniker": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Blazor.Server\\Model.xafml",
               "RelativeDocumentMoniker": "IN7.Blazor.Server\\Model.xafml",
@@ -122,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "ReadMe.txt",
               "DocumentMoniker": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\BusinessObjects\\ReadMe.txt",
               "RelativeDocumentMoniker": "IN7.Module\\BusinessObjects\\ReadMe.txt",
@@ -134,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "Suppliers.cs",
               "DocumentMoniker": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\BusinessObjects\\DanhMuc\\Suppliers.cs",
               "RelativeDocumentMoniker": "IN7.Module\\BusinessObjects\\DanhMuc\\Suppliers.cs",
@@ -146,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 15,
               "Title": "Products.cs",
               "DocumentMoniker": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\BusinessObjects\\DanhMuc\\Products.cs",
               "RelativeDocumentMoniker": "IN7.Module\\BusinessObjects\\DanhMuc\\Products.cs",
@@ -158,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "Employees.cs",
               "DocumentMoniker": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\BusinessObjects\\DanhMuc\\Employees.cs",
               "RelativeDocumentMoniker": "IN7.Module\\BusinessObjects\\DanhMuc\\Employees.cs",
@@ -170,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "Customers.cs",
               "DocumentMoniker": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\BusinessObjects\\DanhMuc\\Customers.cs",
               "RelativeDocumentMoniker": "IN7.Module\\BusinessObjects\\DanhMuc\\Customers.cs",
@@ -182,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "Categories.cs",
               "DocumentMoniker": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\BusinessObjects\\DanhMuc\\Categories.cs",
               "RelativeDocumentMoniker": "IN7.Module\\BusinessObjects\\DanhMuc\\Categories.cs",
@@ -194,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "ImportProducts.cs",
               "DocumentMoniker": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\BusinessObjects\\ChungTu\\ImportProducts.cs",
               "RelativeDocumentMoniker": "IN7.Module\\BusinessObjects\\ChungTu\\ImportProducts.cs",
@@ -206,7 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "ImportProductDetails.cs",
               "DocumentMoniker": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\BusinessObjects\\ChungTu\\ImportProductDetails.cs",
               "RelativeDocumentMoniker": "IN7.Module\\BusinessObjects\\ChungTu\\ImportProductDetails.cs",
@@ -218,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "Bills.cs",
               "DocumentMoniker": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\BusinessObjects\\ChungTu\\Bills.cs",
               "RelativeDocumentMoniker": "IN7.Module\\BusinessObjects\\ChungTu\\Bills.cs",
@@ -230,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "chiTietBanHang.svg",
               "DocumentMoniker": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\Images\\chiTietBanHang.svg",
               "RelativeDocumentMoniker": "IN7.Module\\Images\\chiTietBanHang.svg",
@@ -242,15 +375,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "BillDetails.cs",
               "DocumentMoniker": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\BusinessObjects\\ChungTu\\BillDetails.cs",
               "RelativeDocumentMoniker": "IN7.Module\\BusinessObjects\\ChungTu\\BillDetails.cs",
               "ToolTip": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\BusinessObjects\\ChungTu\\BillDetails.cs",
               "RelativeToolTip": "IN7.Module\\BusinessObjects\\ChungTu\\BillDetails.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowBIAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T17:57:02.778Z"
+              "WhenOpened": "2024-11-28T17:57:02.778Z",
+              "EditorCaption": ""
             }
           ]
         },
