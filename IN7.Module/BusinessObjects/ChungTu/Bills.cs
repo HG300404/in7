@@ -20,7 +20,7 @@ namespace IN7.Module.BusinessObjects.ChungTu
 {
     [DefaultClassOptions]
     [System.ComponentModel.DisplayName("Bán Hàng")]
-    //[ImageName("BO_Contact")]
+    [ImageName("banHang")]
     //[DefaultProperty("DisplayMemberNameForLookupEditorsOfThisType")]
     [DefaultListViewOptions(MasterDetailMode.ListViewOnly, true, NewItemRowPosition.Top)]
     [NavigationItem("Chứng Từ")]
@@ -40,6 +40,7 @@ namespace IN7.Module.BusinessObjects.ChungTu
 
 
         [DevExpress.Xpo.Aggregated, DevExpress.Xpo.Association]
+        [XafDisplayName("Chi Tiết Bán Hàng")]
         public XPCollection<BillDetails> BillDetails
         {
             get { return GetCollection<BillDetails>(nameof(BillDetails)); }

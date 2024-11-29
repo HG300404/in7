@@ -1,22 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\cnpm\\IN7\\",
+  "WorkspaceRootPath": "C:\\N\u0103m3_HK1\\CNPM\\in7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|e:\\cnpm\\in7\\in7.module\\businessobjects\\chungtu\\importproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|solutionrelative:in7.module\\businessobjects\\chungtu\\importproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0524114B-AF75-45A6-9060-5334618BF4E5}|IN7.Blazor.Server\\IN7.Blazor.Server.csproj|c:\\n\u0103m3_hk1\\cnpm\\in7\\in7.blazor.server\\blazorapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0524114B-AF75-45A6-9060-5334618BF4E5}|IN7.Blazor.Server\\IN7.Blazor.Server.csproj|solutionrelative:in7.blazor.server\\blazorapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|e:\\cnpm\\in7\\in7.module\\businessobjects\\chungtu\\bills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|solutionrelative:in7.module\\businessobjects\\chungtu\\bills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|e:\\cnpm\\in7\\in7.module\\businessobjects\\chungtu\\billdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|c:\\n\u0103m3_hk1\\cnpm\\in7\\in7.module\\businessobjects\\chungtu\\billdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|solutionrelative:in7.module\\businessobjects\\chungtu\\billdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|e:\\cnpm\\in7\\in7.module\\businessobjects\\chungtu\\importproductdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|c:\\n\u0103m3_hk1\\cnpm\\in7\\in7.module\\businessobjects\\chungtu\\bills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|solutionrelative:in7.module\\businessobjects\\chungtu\\bills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|c:\\n\u0103m3_hk1\\cnpm\\in7\\in7.module\\images\\chitietbanhang.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|solutionrelative:in7.module\\images\\chitietbanhang.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|c:\\n\u0103m3_hk1\\cnpm\\in7\\in7.module\\businessobjects\\danhmuc\\suppliers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|solutionrelative:in7.module\\businessobjects\\danhmuc\\suppliers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|c:\\n\u0103m3_hk1\\cnpm\\in7\\in7.module\\businessobjects\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|solutionrelative:in7.module\\businessobjects\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|c:\\n\u0103m3_hk1\\cnpm\\in7\\in7.module\\businessobjects\\danhmuc\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|solutionrelative:in7.module\\businessobjects\\danhmuc\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|c:\\n\u0103m3_hk1\\cnpm\\in7\\in7.module\\businessobjects\\chungtu\\importproductdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|solutionrelative:in7.module\\businessobjects\\chungtu\\importproductdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|c:\\n\u0103m3_hk1\\cnpm\\in7\\in7.module\\module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|solutionrelative:in7.module\\module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|c:\\n\u0103m3_hk1\\cnpm\\in7\\in7.module\\businessobjects\\chungtu\\importproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|solutionrelative:in7.module\\businessobjects\\chungtu\\importproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|c:\\n\u0103m3_hk1\\cnpm\\in7\\in7.module\\businessobjects\\danhmuc\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|solutionrelative:in7.module\\businessobjects\\danhmuc\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0524114B-AF75-45A6-9060-5334618BF4E5}|IN7.Blazor.Server\\IN7.Blazor.Server.csproj|c:\\n\u0103m3_hk1\\cnpm\\in7\\in7.blazor.server\\model.xafml||{4DD02038-D78C-4AD3-8B8D-13FC109B2DCD}",
+      "RelativeMoniker": "D:0:0:{0524114B-AF75-45A6-9060-5334618BF4E5}|IN7.Blazor.Server\\IN7.Blazor.Server.csproj|solutionrelative:in7.blazor.server\\model.xafml||{4DD02038-D78C-4AD3-8B8D-13FC109B2DCD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|c:\\n\u0103m3_hk1\\cnpm\\in7\\in7.module\\businessobjects\\danhmuc\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|solutionrelative:in7.module\\businessobjects\\danhmuc\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|c:\\n\u0103m3_hk1\\cnpm\\in7\\in7.module\\businessobjects\\danhmuc\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EDEF240-D713-4E0C-84AD-B231598A861C}|IN7.Module\\IN7.Module.csproj|solutionrelative:in7.module\\businessobjects\\danhmuc\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,72 +65,202 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 464,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BlazorApplication.cs",
+              "DocumentMoniker": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Blazor.Server\\BlazorApplication.cs",
+              "RelativeDocumentMoniker": "IN7.Blazor.Server\\BlazorApplication.cs",
+              "ToolTip": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Blazor.Server\\BlazorApplication.cs",
+              "RelativeToolTip": "IN7.Blazor.Server\\BlazorApplication.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T11:53:01.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Module.cs",
+              "DocumentMoniker": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\Module.cs",
+              "RelativeDocumentMoniker": "IN7.Module\\Module.cs",
+              "ToolTip": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\Module.cs",
+              "RelativeToolTip": "IN7.Module\\Module.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAcwCwAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T11:08:13.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Model.xafml",
+              "DocumentMoniker": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Blazor.Server\\Model.xafml",
+              "RelativeDocumentMoniker": "IN7.Blazor.Server\\Model.xafml",
+              "ToolTip": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Blazor.Server\\Model.xafml",
+              "RelativeToolTip": "IN7.Blazor.Server\\Model.xafml",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALTSURBVDhPpZNbSFRRFIb/fS6eOaM52jgy1lhqmdpINyIogih7qB566KGCxMaXQrAeeqoIKhGCgkCQoh6KwoKaqMxCNIioTBCyi6Y1FU05jtNlbI7j3M5tt0eHwOqpPticzd5r/XutxX/wX1BKM7t/h2S\u002BM6B0RzHik9ughT0gYgiS4wwkvosQr5oJ\u002BcUMAXpxb4mxXtlKXL4DnKbOh84q5NkFxyMeyHl4n3Me/VFqvKon7ZHpDCZAWzZJyMqtQVypx2R0rW5L2M0VSVFcIoDMIkh9A4YGVDzTVYSXWie4HOljnlBwRSQWb73c7if09IbHiEXXwtCZHAeYbMGEVjCOH9UC7o/H4V8ugBbL4DUDVKNIT06WrQHZnN1KAo2LaZEzG5yQrtWEHlUwPGbiibwOI2vqEJk9iFnl55DnGIMo57JHRPACRWgwhQFvvJ/07qo07VaOOAstCCopPDLdeOneg4nSmnSL4A22zE\u002BQbedhX9gBSU7C16Vi6G4CZop/QPo81TFeT1nVRAw3XB6EtjRBtvAgiamCpkh3li47EW6DHjsIX2cKECkKC5xXOSJZA4auQ\u002BA5xFUNYd8wzHEFosiGL7A4K9PRo3jffRVv73UjFeXBZQGGqWKuY947zlZWsYfLznsDU4MtGUZyPIixwV4oo37Wq8kEn6P/UhM\u002B99xhM5iEoWnQVQNlrsq2Mlf52SkfDJ/YXWL4X5y5FS3d/KCyARJT5wQJekLBSF8HqK6BmlY43CHkz3k\u002BkRNZdFxf5Wjxbvcav4w0dqo2\u002B7ZaVXtdXXaWpwaxWKyIjLxmFfSB8AIzpobV6wo7F1QFDzXXXX\u002BZSfvTynWtT/d\u002B//7tpMFJuYmvH/BlqIedEjjy829t2rhy35EGz\u002Bh05DRp18zgcuOac\u002B5ix1Y5ixtKplQQAs1dseBwUbV95\u002B/Jaf76M6XZf6G3PPjB18wrH29eaz12LXP8G8BPoRwphdwLay4AAAAASUVORK5CYII=",
+              "WhenOpened": "2024-11-28T18:30:43.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReadMe.txt",
+              "DocumentMoniker": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\BusinessObjects\\ReadMe.txt",
+              "RelativeDocumentMoniker": "IN7.Module\\BusinessObjects\\ReadMe.txt",
+              "ToolTip": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\BusinessObjects\\ReadMe.txt",
+              "RelativeToolTip": "IN7.Module\\BusinessObjects\\ReadMe.txt",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-11-28T18:05:12.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Suppliers.cs",
+              "DocumentMoniker": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\BusinessObjects\\DanhMuc\\Suppliers.cs",
+              "RelativeDocumentMoniker": "IN7.Module\\BusinessObjects\\DanhMuc\\Suppliers.cs",
+              "ToolTip": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\BusinessObjects\\DanhMuc\\Suppliers.cs",
+              "RelativeToolTip": "IN7.Module\\BusinessObjects\\DanhMuc\\Suppliers.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T18:00:58.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Products.cs",
+              "DocumentMoniker": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\BusinessObjects\\DanhMuc\\Products.cs",
+              "RelativeDocumentMoniker": "IN7.Module\\BusinessObjects\\DanhMuc\\Products.cs",
+              "ToolTip": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\BusinessObjects\\DanhMuc\\Products.cs",
+              "RelativeToolTip": "IN7.Module\\BusinessObjects\\DanhMuc\\Products.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAuwI0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T18:00:48.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Employees.cs",
+              "DocumentMoniker": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\BusinessObjects\\DanhMuc\\Employees.cs",
+              "RelativeDocumentMoniker": "IN7.Module\\BusinessObjects\\DanhMuc\\Employees.cs",
+              "ToolTip": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\BusinessObjects\\DanhMuc\\Employees.cs",
+              "RelativeToolTip": "IN7.Module\\BusinessObjects\\DanhMuc\\Employees.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T18:00:35.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Customers.cs",
+              "DocumentMoniker": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\BusinessObjects\\DanhMuc\\Customers.cs",
+              "RelativeDocumentMoniker": "IN7.Module\\BusinessObjects\\DanhMuc\\Customers.cs",
+              "ToolTip": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\BusinessObjects\\DanhMuc\\Customers.cs",
+              "RelativeToolTip": "IN7.Module\\BusinessObjects\\DanhMuc\\Customers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T18:00:21.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Categories.cs",
+              "DocumentMoniker": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\BusinessObjects\\DanhMuc\\Categories.cs",
+              "RelativeDocumentMoniker": "IN7.Module\\BusinessObjects\\DanhMuc\\Categories.cs",
+              "ToolTip": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\BusinessObjects\\DanhMuc\\Categories.cs",
+              "RelativeToolTip": "IN7.Module\\BusinessObjects\\DanhMuc\\Categories.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T17:58:33.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "ImportProducts.cs",
-              "DocumentMoniker": "E:\\cnpm\\IN7\\IN7.Module\\BusinessObjects\\ChungTu\\ImportProducts.cs",
+              "DocumentMoniker": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\BusinessObjects\\ChungTu\\ImportProducts.cs",
               "RelativeDocumentMoniker": "IN7.Module\\BusinessObjects\\ChungTu\\ImportProducts.cs",
-              "ToolTip": "E:\\cnpm\\IN7\\IN7.Module\\BusinessObjects\\ChungTu\\ImportProducts.cs",
+              "ToolTip": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\BusinessObjects\\ChungTu\\ImportProducts.cs",
               "RelativeToolTip": "IN7.Module\\BusinessObjects\\ChungTu\\ImportProducts.cs",
-              "ViewState": "AgIAAMQAAAAAeGZmZmYgwNUAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAL8AAAAAAAAAAAA0wOQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T14:54:04.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T17:58:15.132Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "ImportProductDetails.cs",
-              "DocumentMoniker": "E:\\cnpm\\IN7\\IN7.Module\\BusinessObjects\\ChungTu\\ImportProductDetails.cs",
+              "DocumentMoniker": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\BusinessObjects\\ChungTu\\ImportProductDetails.cs",
               "RelativeDocumentMoniker": "IN7.Module\\BusinessObjects\\ChungTu\\ImportProductDetails.cs",
-              "ToolTip": "E:\\cnpm\\IN7\\IN7.Module\\BusinessObjects\\ChungTu\\ImportProductDetails.cs",
+              "ToolTip": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\BusinessObjects\\ChungTu\\ImportProductDetails.cs",
               "RelativeToolTip": "IN7.Module\\BusinessObjects\\ChungTu\\ImportProductDetails.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAjwDkAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAQwGQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T14:37:08.45Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Bills.cs",
-              "DocumentMoniker": "E:\\cnpm\\IN7\\IN7.Module\\BusinessObjects\\ChungTu\\Bills.cs",
-              "RelativeDocumentMoniker": "IN7.Module\\BusinessObjects\\ChungTu\\Bills.cs",
-              "ToolTip": "E:\\cnpm\\IN7\\IN7.Module\\BusinessObjects\\ChungTu\\Bills.cs",
-              "RelativeToolTip": "IN7.Module\\BusinessObjects\\ChungTu\\Bills.cs",
-              "ViewState": "AgIAAFoBAAAAAAAAAAAwwGQBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T14:58:55.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T17:57:55.25Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "BillDetails.cs",
-              "DocumentMoniker": "E:\\cnpm\\IN7\\IN7.Module\\BusinessObjects\\ChungTu\\BillDetails.cs",
-              "RelativeDocumentMoniker": "IN7.Module\\BusinessObjects\\ChungTu\\BillDetails.cs",
-              "ToolTip": "E:\\cnpm\\IN7\\IN7.Module\\BusinessObjects\\ChungTu\\BillDetails.cs",
-              "RelativeToolTip": "IN7.Module\\BusinessObjects\\ChungTu\\BillDetails.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAkwCoAAAAAAAAAAAAAAA==",
+              "Title": "Bills.cs",
+              "DocumentMoniker": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\BusinessObjects\\ChungTu\\Bills.cs",
+              "RelativeDocumentMoniker": "IN7.Module\\BusinessObjects\\ChungTu\\Bills.cs",
+              "ToolTip": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\BusinessObjects\\ChungTu\\Bills.cs",
+              "RelativeToolTip": "IN7.Module\\BusinessObjects\\ChungTu\\Bills.cs",
+              "ViewState": "AgIAAGkBAAAAAAAAAAAwwDUAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T14:36:48.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T17:57:40.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "chiTietBanHang.svg",
+              "DocumentMoniker": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\Images\\chiTietBanHang.svg",
+              "RelativeDocumentMoniker": "IN7.Module\\Images\\chiTietBanHang.svg",
+              "ToolTip": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\Images\\chiTietBanHang.svg",
+              "RelativeToolTip": "IN7.Module\\Images\\chiTietBanHang.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKTSURBVDhPjVNLSFRRGP7unTsz9w75uOaMZlMNpo1aFFJRodRGN7UwatMiKgga3JgVRBSNSA8RooUFLRycCCpc9ITIFi0EW\u002BhCW/gONYUcxplsQL13nKv3dM6ZGV\u002BE9N37c\u002B455/\u002B\u002B/7s/5whYA7/fP5L63BSCIDxvbGxsAiEktZQEE6Brm6K1tXWS5TU0NNQyjsiZKQgCBgBChQ2Q\u002BfswpytgDLmg9zihD9XBNJfhcrlstPoeqlVPRS6uCBDy1broLnN29PkxPeaFFmpC79gOdEu9sB8KQRt\u002Bz/NUVbUGAoGpJIfc5j2gZIuv3fam/sCNGrdjGLGwE23hR\u002BiMeBCKAbXlOTgfr0VW9QfqD4iEZ5BIJNAWDI5yB75X0tXqwrc1JZk90MKVUEq/4UplFc4W5UKwiHjaO4tx90NWiYfT5cQuj4dRITLrZfn9104XtOD3\u002BE4z7/BrqIoKZ4YM37E8XNifA4vdiuCIApPzWY9Wmy9h6UfOpd13t89FstEceyF2PJlAfNHkm6y6xSbxcTASpyuMyFT4NoeI6PV6mzEvvIy0oO\u002BXPVGULaMs186jVLVil0zzF\u002BI4ki\u002BnqjP\u002BGgemrp0Z\u002BHn8T0d0nyrOTky\u002B8x0tNoxE0iZrcSqXz5lAcroCcXkeBcGpyzcnowRTDk9xoDuEmbkE5vRlfB6cRcWzIXibv\u002BNTf5ST0y7SEBa6MGIaOFje2VUnZSgPTFECMZM9YCeLde6cdwvuVLlXrVMFWXGAHqRRaUlDezyEic6tlbFBbW/oS8nHbf0RDZIooDDLipPeTJwozIJJH4EIoG/y1/6Fe/5bj6lFousa0WjoWjoWiLYhGNidWHcXDNhOsVGWFSg0ZCUdDigbIo11Zv73Oq8C\u002BAsr5V2IWWNA0gAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-11-28T17:57:14.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BillDetails.cs",
+              "DocumentMoniker": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\BusinessObjects\\ChungTu\\BillDetails.cs",
+              "RelativeDocumentMoniker": "IN7.Module\\BusinessObjects\\ChungTu\\BillDetails.cs",
+              "ToolTip": "C:\\N\u0103m3_HK1\\CNPM\\in7\\IN7.Module\\BusinessObjects\\ChungTu\\BillDetails.cs",
+              "RelativeToolTip": "IN7.Module\\BusinessObjects\\ChungTu\\BillDetails.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowBIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T17:57:02.778Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

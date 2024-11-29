@@ -18,7 +18,7 @@ namespace IN7.Module.BusinessObjects.ChungTu
 {
     [DefaultClassOptions]
     [System.ComponentModel.DisplayName("Nhập Hàng")]
-    //[ImageName("BO_Contact")]
+    [ImageName("nhapHang")]
     //[DefaultProperty("DisplayMemberNameForLookupEditorsOfThisType")]
     [DefaultListViewOptions(MasterDetailMode.ListViewOnly, true, NewItemRowPosition.Top)]
     [NavigationItem("Chứng Từ")]
@@ -30,12 +30,12 @@ namespace IN7.Module.BusinessObjects.ChungTu
         {
             base.AfterConstruction();
             // Khởi tạo giá trị mặc định
-            TrangThai = TrangThaiNhapHang.DaDatHang;
+            //TrangThai = TrangThaiNhapHang.DaDatHang;
             // Place your initialization code here (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument112834.aspx).
             if (Session.IsNewObject(this))
             {
                 CreatedAt = DateTime.Now;
-        }
+            }
         }
 
 
@@ -65,7 +65,7 @@ namespace IN7.Module.BusinessObjects.ChungTu
                     ContactName = value.ContactName;
                     ContactEmail = value.ContactEmail;
                     Phone = value.Phone;
-        }
+                }
             }
         }
 
@@ -73,6 +73,7 @@ namespace IN7.Module.BusinessObjects.ChungTu
 
 
         [DevExpress.Xpo.Aggregated, Association]
+        [XafDisplayName("Chi Tiết Nhập Hàng")]
         public XPCollection<ImportProductDetails> ImportProductDetails
         {
             get { return GetCollection<ImportProductDetails>(nameof(ImportProductDetails)); }
@@ -222,5 +223,6 @@ namespace IN7.Module.BusinessObjects.ChungTu
                 SetPropertyValue<DateTime>(nameof(CreatedAt), ref _CreatedAt, value);
             }
         }
+
     }
 }

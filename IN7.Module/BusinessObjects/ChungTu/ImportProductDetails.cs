@@ -17,7 +17,7 @@ namespace IN7.Module.BusinessObjects.ChungTu
 {
     [DefaultClassOptions]
     [System.ComponentModel.DisplayName("Chi Tiết Nhập Hàng")]
-    //[ImageName("BO_Contact")]
+    [ImageName("chiTietNhapHang")]
     //[DefaultProperty("DisplayMemberNameForLookupEditorsOfThisType")]
     [DefaultListViewOptions(MasterDetailMode.ListViewOnly, true, NewItemRowPosition.Top)]
     [NavigationItem(false)]
@@ -50,8 +50,8 @@ namespace IN7.Module.BusinessObjects.ChungTu
         public Products Product
         {
             get { return _Product; }
-            set 
-            { 
+            set
+            {
                 if (SetPropertyValue<Products>(nameof(Product), ref _Product, value)
                     && !IsLoading && !IsDeleted && value != null)
                 {

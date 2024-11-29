@@ -17,7 +17,7 @@ namespace IN7.Module.BusinessObjects.DanhMuc
 {
     [DefaultClassOptions]
     [System.ComponentModel.DisplayName("Sản Phẩm")]
-    //[ImageName("BO_Contact")]
+    [ImageName("sanPham")]
     [DefaultProperty("Name")]
     [DefaultListViewOptions(MasterDetailMode.ListViewOnly, true, NewItemRowPosition.Top)]
     [NavigationItem("Danh mục")]
@@ -45,6 +45,7 @@ namespace IN7.Module.BusinessObjects.DanhMuc
 
 
         [Association]
+        [XafDisplayName("Chi Tiết Bán Hàng")]
         public XPCollection<BillDetails> BillDetails
         {
             get { return GetCollection<BillDetails>(nameof(BillDetails)); }
@@ -53,6 +54,7 @@ namespace IN7.Module.BusinessObjects.DanhMuc
 
 
         [Association]
+        [XafDisplayName("Chi Tiết Nhập Hàng")]
         public XPCollection<ImportProductDetails> ImportProductDetails
         {
             get { return GetCollection<ImportProductDetails>(nameof(ImportProductDetails)); }

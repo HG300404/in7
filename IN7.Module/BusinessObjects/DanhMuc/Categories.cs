@@ -16,7 +16,7 @@ namespace IN7.Module.BusinessObjects.DanhMuc
 {
     [DefaultClassOptions]
     [System.ComponentModel.DisplayName("Danh Mục")]
-    //[ImageName("BO_Contact")]
+    [ImageName("danhMucc")]
     [DefaultProperty("Name")]
     [DefaultListViewOptions(MasterDetailMode.ListViewOnly, true, NewItemRowPosition.Top)]
     [NavigationItem("Danh mục")]
@@ -33,6 +33,7 @@ namespace IN7.Module.BusinessObjects.DanhMuc
 
 
         [Association]
+        [XafDisplayName("Sản Phẩm")]
         public XPCollection<Products> Products
         {
             get { return GetCollection<Products>(nameof(Products)); }

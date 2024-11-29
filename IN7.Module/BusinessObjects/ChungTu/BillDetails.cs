@@ -17,7 +17,7 @@ namespace IN7.Module.BusinessObjects.ChungTu
 {
     [DefaultClassOptions]
     [System.ComponentModel.DisplayName("Chi Tiết Bán Hàng")]
-    //[ImageName("BO_Contact")]
+    [ImageName("chiTietBanHang")]
     //[DefaultProperty("DisplayMemberNameForLookupEditorsOfThisType")]
     [DefaultListViewOptions(MasterDetailMode.ListViewOnly, true, NewItemRowPosition.Top)]
     [NavigationItem(false)]

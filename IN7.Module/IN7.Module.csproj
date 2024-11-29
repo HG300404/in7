@@ -9,9 +9,31 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="Images\banHang.svg" />
+    <None Remove="Images\chiTietBanHang.svg" />
+    <None Remove="Images\chiTietNhapHang.svg" />
+    <None Remove="Images\danhMuc.svg" />
+    <None Remove="Images\danhMucc.svg" />
+    <None Remove="Images\khachHang.svg" />
+    <None Remove="Images\nhaCC.svg" />
+    <None Remove="Images\nhanVien.svg" />
+    <None Remove="Images\nhapHang.svg" />
+    <None Remove="Images\sanPham.svg" />
     <None Remove="Model.DesignedDiffs.xafml" />
   </ItemGroup>
   <ItemGroup>
+    <ApplicationDefinition Include="Images\danhMuc.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\banHang.svg" />
+    <EmbeddedResource Include="Images\chiTietBanHang.svg" />
+    <EmbeddedResource Include="Images\chiTietNhapHang.svg" />
+    <EmbeddedResource Include="Images\danhMucc.svg" />
+    <EmbeddedResource Include="Images\khachHang.svg" />
+    <EmbeddedResource Include="Images\nhaCC.svg" />
+    <EmbeddedResource Include="Images\nhanVien.svg" />
+    <EmbeddedResource Include="Images\nhapHang.svg" />
+    <EmbeddedResource Include="Images\sanPham.svg" />
     <EmbeddedResource Include="Model.DesignedDiffs.xafml" />
   </ItemGroup>
   <ItemGroup>

@@ -9,21 +9,26 @@ using IN7.Blazor.Server.Services;
 
 namespace IN7.Blazor.Server;
 
-public class IN7BlazorApplication : BlazorApplication {
-    public IN7BlazorApplication() {
+public class IN7BlazorApplication : BlazorApplication
+{
+    public IN7BlazorApplication()
+    {
         ApplicationName = "IN7";
         CheckCompatibilityType = DevExpress.ExpressApp.CheckCompatibilityType.DatabaseSchema;
         DatabaseVersionMismatch += IN7BlazorApplication_DatabaseVersionMismatch;
     }
-    protected override void OnSetupStarted() {
+    protected override void OnSetupStarted()
+    {
         base.OnSetupStarted();
 #if DEBUG
-        if(System.Diagnostics.Debugger.IsAttached && CheckCompatibilityType == CheckCompatibilityType.DatabaseSchema) {
+        if (System.Diagnostics.Debugger.IsAttached && CheckCompatibilityType == CheckCompatibilityType.DatabaseSchema)
+        {
             DatabaseUpdateMode = DatabaseUpdateMode.UpdateDatabaseAlways;
         }
 #endif
     }
-    private void IN7BlazorApplication_DatabaseVersionMismatch(object sender, DatabaseVersionMismatchEventArgs e) {
+    private void IN7BlazorApplication_DatabaseVersionMismatch(object sender, DatabaseVersionMismatchEventArgs e)
+    {
 #if EASYTEST
         e.Updater.Update();
         e.Handled = true;

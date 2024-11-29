@@ -1,9 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Application>
-  <Options UIType="TabbedMDI"
-         RestoreTabbedMdiLayout="False"
-         ShowTabImage="True">
-  </Options>
-  <NavigationItems NavigationStyle="Accordion">
-  </NavigationItems>
+  <NavigationItems NavigationStyle="Accordion" />
+  <Options UIType="SingleWindowSDI" RestoreTabbedMdiLayout="False" ShowTabImage="True" />
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="24.1.7.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerBlazorModule" Version="24.1.7.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerModuleBase" Version="24.1.7.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="24.1.7.0" IsNewNode="True" />
+  </SchemaModules>
 </Application>

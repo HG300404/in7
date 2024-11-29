@@ -56,6 +56,8 @@ public sealed class IN7Module : ModuleBase {
         ApplicationHelper.Instance.Initialize(application);
         application.LoggedOn += Application_LoggedOn;
         application.SetupComplete += Application_SetupComplete;
+        ClsChung.fTungay = DateTime.Now;
+        ClsChung.fDenngay = DateTime.Now;
     }
     private void Application_SetupComplete(object sender, EventArgs e)
     {

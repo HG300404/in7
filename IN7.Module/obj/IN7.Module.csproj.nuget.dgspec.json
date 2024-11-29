@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\cnpm\\IN7\\IN7.Module\\IN7.Module.csproj": {}
+    "C:\\Năm3_HK1\\CNPM\\in7\\IN7.Module\\IN7.Module.csproj": {}
   },
   "projects": {
-    "E:\\cnpm\\IN7\\IN7.Module\\IN7.Module.csproj": {
+    "C:\\Năm3_HK1\\CNPM\\in7\\IN7.Module\\IN7.Module.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\cnpm\\IN7\\IN7.Module\\IN7.Module.csproj",
+        "projectUniqueName": "C:\\Năm3_HK1\\CNPM\\in7\\IN7.Module\\IN7.Module.csproj",
         "projectName": "IN7.Module",
-        "projectPath": "E:\\cnpm\\IN7\\IN7.Module\\IN7.Module.csproj",
-        "packagesPath": "C:\\Users\\MaiHuong\\.nuget\\packages\\",
-        "outputPath": "E:\\cnpm\\IN7\\IN7.Module\\obj\\",
+        "projectPath": "C:\\Năm3_HK1\\CNPM\\in7\\IN7.Module\\IN7.Module.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Năm3_HK1\\CNPM\\in7\\IN7.Module\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
         ],
         "configFilePaths": [
-          "C:\\Users\\MaiHuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
