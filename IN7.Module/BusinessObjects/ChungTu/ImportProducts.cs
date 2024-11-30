@@ -48,11 +48,12 @@ namespace IN7.Module.BusinessObjects.ChungTu
 
         private Employees _Employee;
         [XafDisplayName("Nhân Viên")]
-        [Association]
+        [DevExpress.Xpo.Association]
+        [DataSourceCriteria("Role = 2")]
         public Employees Employee
         {
             get { return _Employee; }
-            set { SetPropertyValue<Employees>(nameof(Employee), ref _Employee, value); }
+            set { SetPropertyValue(nameof(Employee), ref _Employee, value); }
         }
 
         private Suppliers _Supplier;
@@ -114,15 +115,15 @@ namespace IN7.Module.BusinessObjects.ChungTu
         {
             get
             {
+                if (!IsSaving && !IsLoading)
+                {
+                    Total = CalculateTotal();
+                }
                 return _Total;
             }
             set
             {
-                if (SetPropertyValue(nameof(Total), ref _Total, value)
-                    && !IsLoading && !IsSaving && !IsDeleted && ImportProductDetails != null)
-                {
-                    value = CalculateTotal();
-                }
+                SetPropertyValue(nameof(Total), ref _Total, value);
             }
         }
 
@@ -137,7 +138,6 @@ namespace IN7.Module.BusinessObjects.ChungTu
                     price += item.Price;
                 }
             }
-            // Tính toán giá trị sau khi thêm thuế
             return price;
         }
 

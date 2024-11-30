@@ -18,6 +18,7 @@ namespace IN7.Module.BusinessObjects.ChungTu
 {
     [DefaultClassOptions]
     [System.ComponentModel.DisplayName("LS Trả góp")]
+    [NavigationItem(false)]
     //[ImageName("BO_Contact")]
     //[DefaultProperty("DisplayMemberNameForLookupEditorsOfThisType")]
     [DefaultListViewOptions(MasterDetailMode.ListViewOnly, true, NewItemRowPosition.Top)]

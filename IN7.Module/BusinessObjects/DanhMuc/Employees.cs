@@ -76,12 +76,12 @@ namespace IN7.Module.BusinessObjects.DanhMuc
 
         public enum EmployeeRole
         {
-            [XafDisplayName("Nhân viên quản lý kho")]
-            WarehouseManager,
+            [XafDisplayName("Quản lý")]
+            Manager,
             [XafDisplayName("Nhân viên bán hàng")]
             Sales,
-            [XafDisplayName("Quản lý")]
-            Manager
+            [XafDisplayName("Nhân viên quản lý kho")]
+            WarehouseManager
         }
 
         private EmployeeRole _Role;

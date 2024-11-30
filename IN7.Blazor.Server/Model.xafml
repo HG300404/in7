@@ -67,6 +67,22 @@
         </LayoutGroup>
       </Layout>
     </DetailView>
+    <ListView Id="Bills_ListView">
+      <Columns>
+        <ColumnInfo Id="Tax" SortIndex="0" SortOrder="Ascending" Index="-1" />
+        <ColumnInfo Id="ProductPrice" Index="2" />
+        <ColumnInfo Id="TotalAmount" Index="3" />
+        <ColumnInfo Id="Option" Index="4" />
+        <ColumnInfo Id="Minimum" Index="5" />
+        <ColumnInfo Id="Deposit" Index="6" />
+        <ColumnInfo Id="MoneyMonth" Index="7" />
+        <ColumnInfo Id="PaymentMethod" Index="8" />
+        <ColumnInfo Id="Time" Index="9" />
+        <ColumnInfo Id="Type" Index="10" />
+        <ColumnInfo Id="Status" Index="11" />
+        <ColumnInfo Id="CreatedAt" Index="12" />
+      </Columns>
+    </ListView>
     <ListView Id="ImportProductDetails_ListView" IsFooterVisible="True">
       <Columns>
         <ColumnInfo Id="Price">
